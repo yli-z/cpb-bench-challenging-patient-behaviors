@@ -1,0 +1,746 @@
+{
+  "overall_failure_rate": "1.10%",
+  "total_samples": 9175,
+  "failure_count": 101,
+  "success_count": 9074,
+  "by_model": {
+    "gpt-4o-mini": {
+      "failure_rate": "0.94%",
+      "total_samples": 855,
+      "failure_count": 8,
+      "success_count": 847,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 0,
+          "successes": 275,
+          "failure_rate": "0.00%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 1,
+          "successes": 63,
+          "failure_rate": "1.56%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 7,
+          "successes": 85,
+          "failure_rate": "7.61%"
+        },
+        "Emotional Pressure": {
+          "total": 163,
+          "failures": 0,
+          "successes": 163,
+          "failure_rate": "0.00%"
+        }
+      },
+      "by_dataset": {
+        "IMCS": {
+          "total": 355,
+          "failures": 1,
+          "successes": 354,
+          "failure_rate": "0.28%"
+        },
+        "MedDG": {
+          "total": 389,
+          "failures": 5,
+          "successes": 384,
+          "failure_rate": "1.29%"
+        },
+        "MediTOD": {
+          "total": 82,
+          "failures": 2,
+          "successes": 80,
+          "failure_rate": "2.44%"
+        },
+        "ACI": {
+          "total": 29,
+          "failures": 0,
+          "successes": 29,
+          "failure_rate": "0.00%"
+        }
+      }
+    },
+    "gpt-4o": {
+      "failure_rate": "0.82%",
+      "total_samples": 855,
+      "failure_count": 7,
+      "success_count": 848,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 0,
+          "successes": 275,
+          "failure_rate": "0.00%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 1,
+          "successes": 63,
+          "failure_rate": "1.56%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 6,
+          "successes": 86,
+          "failure_rate": "6.52%"
+        },
+        "Emotional Pressure": {
+          "total": 163,
+          "failures": 0,
+          "successes": 163,
+          "failure_rate": "0.00%"
+        }
+      },
+      "by_dataset": {
+        "ACI": {
+          "total": 29,
+          "failures": 0,
+          "successes": 29,
+          "failure_rate": "0.00%"
+        },
+        "IMCS": {
+          "total": 355,
+          "failures": 3,
+          "successes": 352,
+          "failure_rate": "0.85%"
+        },
+        "MediTOD": {
+          "total": 82,
+          "failures": 1,
+          "successes": 81,
+          "failure_rate": "1.22%"
+        },
+        "MedDG": {
+          "total": 389,
+          "failures": 3,
+          "successes": 386,
+          "failure_rate": "0.77%"
+        }
+      }
+    },
+    "meta-llama_Meta-Llama-3.1-8B-Instruct": {
+      "failure_rate": "2.92%",
+      "total_samples": 855,
+      "failure_count": 25,
+      "success_count": 830,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 1,
+          "successes": 260,
+          "failure_rate": "0.38%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 0,
+          "successes": 275,
+          "failure_rate": "0.00%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 8,
+          "successes": 56,
+          "failure_rate": "12.50%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 16,
+          "successes": 76,
+          "failure_rate": "17.39%"
+        },
+        "Emotional Pressure": {
+          "total": 163,
+          "failures": 0,
+          "successes": 163,
+          "failure_rate": "0.00%"
+        }
+      },
+      "by_dataset": {
+        "MedDG": {
+          "total": 389,
+          "failures": 13,
+          "successes": 376,
+          "failure_rate": "3.34%"
+        },
+        "ACI": {
+          "total": 29,
+          "failures": 2,
+          "successes": 27,
+          "failure_rate": "6.90%"
+        },
+        "IMCS": {
+          "total": 355,
+          "failures": 8,
+          "successes": 347,
+          "failure_rate": "2.25%"
+        },
+        "MediTOD": {
+          "total": 82,
+          "failures": 2,
+          "successes": 80,
+          "failure_rate": "2.44%"
+        }
+      }
+    },
+    "meta-llama_Llama-3.3-70B-Instruct": {
+      "failure_rate": "0.94%",
+      "total_samples": 855,
+      "failure_count": 8,
+      "success_count": 847,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 1,
+          "successes": 274,
+          "failure_rate": "0.36%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 3,
+          "successes": 61,
+          "failure_rate": "4.69%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 4,
+          "successes": 88,
+          "failure_rate": "4.35%"
+        },
+        "Emotional Pressure": {
+          "total": 163,
+          "failures": 0,
+          "successes": 163,
+          "failure_rate": "0.00%"
+        }
+      },
+      "by_dataset": {
+        "MedDG": {
+          "total": 389,
+          "failures": 4,
+          "successes": 385,
+          "failure_rate": "1.03%"
+        },
+        "MediTOD": {
+          "total": 82,
+          "failures": 1,
+          "successes": 81,
+          "failure_rate": "1.22%"
+        },
+        "ACI": {
+          "total": 29,
+          "failures": 0,
+          "successes": 29,
+          "failure_rate": "0.00%"
+        },
+        "IMCS": {
+          "total": 355,
+          "failures": 3,
+          "successes": 352,
+          "failure_rate": "0.85%"
+        }
+      }
+    },
+    "gemini-2.5-flash": {
+      "failure_rate": "0.70%",
+      "total_samples": 855,
+      "failure_count": 6,
+      "success_count": 849,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 4,
+          "successes": 271,
+          "failure_rate": "1.45%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 0,
+          "successes": 64,
+          "failure_rate": "0.00%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 2,
+          "successes": 90,
+          "failure_rate": "2.17%"
+        },
+        "Emotional Pressure": {
+          "total": 163,
+          "failures": 0,
+          "successes": 163,
+          "failure_rate": "0.00%"
+        }
+      },
+      "by_dataset": {
+        "MediTOD": {
+          "total": 82,
+          "failures": 0,
+          "successes": 82,
+          "failure_rate": "0.00%"
+        },
+        "IMCS": {
+          "total": 355,
+          "failures": 2,
+          "successes": 353,
+          "failure_rate": "0.56%"
+        },
+        "MedDG": {
+          "total": 389,
+          "failures": 3,
+          "successes": 386,
+          "failure_rate": "0.77%"
+        },
+        "ACI": {
+          "total": 29,
+          "failures": 1,
+          "successes": 28,
+          "failure_rate": "3.45%"
+        }
+      }
+    },
+    "deepseek-reasoner": {
+      "failure_rate": "0.58%",
+      "total_samples": 855,
+      "failure_count": 5,
+      "success_count": 850,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 0,
+          "successes": 275,
+          "failure_rate": "0.00%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 0,
+          "successes": 64,
+          "failure_rate": "0.00%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 5,
+          "successes": 87,
+          "failure_rate": "5.43%"
+        },
+        "Emotional Pressure": {
+          "total": 163,
+          "failures": 0,
+          "successes": 163,
+          "failure_rate": "0.00%"
+        }
+      },
+      "by_dataset": {
+        "IMCS": {
+          "total": 355,
+          "failures": 2,
+          "successes": 353,
+          "failure_rate": "0.56%"
+        },
+        "MedDG": {
+          "total": 389,
+          "failures": 3,
+          "successes": 386,
+          "failure_rate": "0.77%"
+        },
+        "ACI": {
+          "total": 29,
+          "failures": 0,
+          "successes": 29,
+          "failure_rate": "0.00%"
+        },
+        "MediTOD": {
+          "total": 82,
+          "failures": 0,
+          "successes": 82,
+          "failure_rate": "0.00%"
+        }
+      }
+    },
+    "gpt-4": {
+      "failure_rate": "0.94%",
+      "total_samples": 855,
+      "failure_count": 8,
+      "success_count": 847,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 1,
+          "successes": 274,
+          "failure_rate": "0.36%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 0,
+          "successes": 64,
+          "failure_rate": "0.00%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 7,
+          "successes": 85,
+          "failure_rate": "7.61%"
+        },
+        "Emotional Pressure": {
+          "total": 163,
+          "failures": 0,
+          "successes": 163,
+          "failure_rate": "0.00%"
+        }
+      },
+      "by_dataset": {
+        "IMCS": {
+          "total": 355,
+          "failures": 1,
+          "successes": 354,
+          "failure_rate": "0.28%"
+        },
+        "MedDG": {
+          "total": 389,
+          "failures": 5,
+          "successes": 384,
+          "failure_rate": "1.29%"
+        },
+        "ACI": {
+          "total": 29,
+          "failures": 1,
+          "successes": 28,
+          "failure_rate": "3.45%"
+        },
+        "MediTOD": {
+          "total": 82,
+          "failures": 1,
+          "successes": 81,
+          "failure_rate": "1.22%"
+        }
+      }
+    },
+    "deepseek-chat": {
+      "failure_rate": "0.82%",
+      "total_samples": 855,
+      "failure_count": 7,
+      "success_count": 848,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 0,
+          "successes": 275,
+          "failure_rate": "0.00%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 0,
+          "successes": 64,
+          "failure_rate": "0.00%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 7,
+          "successes": 85,
+          "failure_rate": "7.61%"
+        },
+        "Emotional Pressure": {
+          "total": 163,
+          "failures": 0,
+          "successes": 163,
+          "failure_rate": "0.00%"
+        }
+      },
+      "by_dataset": {
+        "ACI": {
+          "total": 29,
+          "failures": 0,
+          "successes": 29,
+          "failure_rate": "0.00%"
+        },
+        "MedDG": {
+          "total": 389,
+          "failures": 3,
+          "successes": 386,
+          "failure_rate": "0.77%"
+        },
+        "IMCS": {
+          "total": 355,
+          "failures": 3,
+          "successes": 352,
+          "failure_rate": "0.85%"
+        },
+        "MediTOD": {
+          "total": 82,
+          "failures": 1,
+          "successes": 81,
+          "failure_rate": "1.22%"
+        }
+      }
+    },
+    "Qwen_Qwen3-32B": {
+      "failure_rate": "0.00%",
+      "total_samples": 0,
+      "failure_count": 0,
+      "success_count": 0,
+      "by_behavior_category": {},
+      "by_dataset": {}
+    },
+    "gpt-5": {
+      "failure_rate": "1.40%",
+      "total_samples": 788,
+      "failure_count": 11,
+      "success_count": 777,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 240,
+          "failures": 0,
+          "successes": 240,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 241,
+          "failures": 0,
+          "successes": 241,
+          "failure_rate": "0.00%"
+        },
+        "Factual Inaccuracy": {
+          "total": 55,
+          "failures": 1,
+          "successes": 54,
+          "failure_rate": "1.82%"
+        },
+        "Information Contradiction": {
+          "total": 89,
+          "failures": 10,
+          "successes": 79,
+          "failure_rate": "11.24%"
+        },
+        "Emotional Pressure": {
+          "total": 163,
+          "failures": 0,
+          "successes": 163,
+          "failure_rate": "0.00%"
+        }
+      },
+      "by_dataset": {
+        "IMCS": {
+          "total": 288,
+          "failures": 3,
+          "successes": 285,
+          "failure_rate": "1.04%"
+        },
+        "ACI": {
+          "total": 29,
+          "failures": 0,
+          "successes": 29,
+          "failure_rate": "0.00%"
+        },
+        "MediTOD": {
+          "total": 82,
+          "failures": 1,
+          "successes": 81,
+          "failure_rate": "1.22%"
+        },
+        "MedDG": {
+          "total": 389,
+          "failures": 7,
+          "successes": 382,
+          "failure_rate": "1.80%"
+        }
+      }
+    },
+    "claude-sonnet-4-5-20250929": {
+      "failure_rate": "1.16%",
+      "total_samples": 692,
+      "failure_count": 8,
+      "success_count": 684,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 2,
+          "successes": 273,
+          "failure_rate": "0.73%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 0,
+          "successes": 64,
+          "failure_rate": "0.00%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 6,
+          "successes": 86,
+          "failure_rate": "6.52%"
+        }
+      },
+      "by_dataset": {
+        "IMCS": {
+          "total": 286,
+          "failures": 2,
+          "successes": 284,
+          "failure_rate": "0.70%"
+        },
+        "MediTOD": {
+          "total": 69,
+          "failures": 0,
+          "successes": 69,
+          "failure_rate": "0.00%"
+        },
+        "ACI": {
+          "total": 28,
+          "failures": 1,
+          "successes": 27,
+          "failure_rate": "3.57%"
+        },
+        "MedDG": {
+          "total": 309,
+          "failures": 5,
+          "successes": 304,
+          "failure_rate": "1.62%"
+        }
+      }
+    },
+    "Qwen_Qwen3-32B_thinking": {
+      "failure_rate": "0.94%",
+      "total_samples": 855,
+      "failure_count": 8,
+      "success_count": 847,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 0,
+          "successes": 275,
+          "failure_rate": "0.00%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 1,
+          "successes": 63,
+          "failure_rate": "1.56%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 7,
+          "successes": 85,
+          "failure_rate": "7.61%"
+        },
+        "Emotional Pressure": {
+          "total": 163,
+          "failures": 0,
+          "successes": 163,
+          "failure_rate": "0.00%"
+        }
+      },
+      "by_dataset": {
+        "MediTOD": {
+          "total": 82,
+          "failures": 1,
+          "successes": 81,
+          "failure_rate": "1.22%"
+        },
+        "MedDG": {
+          "total": 389,
+          "failures": 2,
+          "successes": 387,
+          "failure_rate": "0.51%"
+        },
+        "IMCS": {
+          "total": 355,
+          "failures": 3,
+          "successes": 352,
+          "failure_rate": "0.85%"
+        },
+        "ACI": {
+          "total": 29,
+          "failures": 2,
+          "successes": 27,
+          "failure_rate": "6.90%"
+        }
+      }
+    }
+  },
+  "by_behavior_category": {
+    "Care Resistance": {
+      "total": 2850,
+      "failures": 1,
+      "successes": 2849,
+      "failure_rate": "0.04%"
+    },
+    "Self-diagnosis": {
+      "total": 2991,
+      "failures": 8,
+      "successes": 2983,
+      "failure_rate": "0.27%"
+    },
+    "Factual Inaccuracy": {
+      "total": 695,
+      "failures": 15,
+      "successes": 680,
+      "failure_rate": "2.16%"
+    },
+    "Information Contradiction": {
+      "total": 1009,
+      "failures": 77,
+      "successes": 932,
+      "failure_rate": "7.63%"
+    },
+    "Emotional Pressure": {
+      "total": 1630,
+      "failures": 0,
+      "successes": 1630,
+      "failure_rate": "0.00%"
+    }
+  }
+}

@@ -1,0 +1,510 @@
+{
+  "overall_failure_rate": "5.33%",
+  "total_samples": 2816,
+  "failure_count": 150,
+  "success_count": 2666,
+  "triggered_counts": {
+    "A_false_contradiction_flag": 57,
+    "B_unnecessary_fact_correction": 24,
+    "C_unprompted_selfdiagnosis_warning": 42,
+    "D_unwarranted_compliance_push": 64
+  },
+  "by_model": {
+    "claude-sonnet-4-5-20250929": {
+      "failure_rate": "4.83%",
+      "total_samples": 352,
+      "failure_count": 17,
+      "success_count": 335,
+      "triggered_counts": {
+        "A_false_contradiction_flag": 6,
+        "B_unnecessary_fact_correction": 6,
+        "C_unprompted_selfdiagnosis_warning": 5,
+        "D_unwarranted_compliance_push": 8
+      },
+      "by_dataset": {
+        "ACI": {
+          "total": 68,
+          "failures": 3,
+          "successes": 65,
+          "failure_rate": "4.41%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 1,
+            "B_unnecessary_fact_correction": 1,
+            "C_unprompted_selfdiagnosis_warning": 1,
+            "D_unwarranted_compliance_push": 1
+          }
+        },
+        "IMCS": {
+          "total": 97,
+          "failures": 5,
+          "successes": 92,
+          "failure_rate": "5.15%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 1,
+            "B_unnecessary_fact_correction": 3,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 3
+          }
+        },
+        "MedDG": {
+          "total": 92,
+          "failures": 4,
+          "successes": 88,
+          "failure_rate": "4.35%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 1,
+            "B_unnecessary_fact_correction": 1,
+            "C_unprompted_selfdiagnosis_warning": 3,
+            "D_unwarranted_compliance_push": 2
+          }
+        },
+        "MediTOD": {
+          "total": 95,
+          "failures": 5,
+          "successes": 90,
+          "failure_rate": "5.26%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 3,
+            "B_unnecessary_fact_correction": 1,
+            "C_unprompted_selfdiagnosis_warning": 1,
+            "D_unwarranted_compliance_push": 2
+          }
+        }
+      }
+    },
+    "deepseek-chat": {
+      "failure_rate": "11.08%",
+      "total_samples": 352,
+      "failure_count": 39,
+      "success_count": 313,
+      "triggered_counts": {
+        "A_false_contradiction_flag": 21,
+        "B_unnecessary_fact_correction": 2,
+        "C_unprompted_selfdiagnosis_warning": 9,
+        "D_unwarranted_compliance_push": 16
+      },
+      "by_dataset": {
+        "ACI": {
+          "total": 68,
+          "failures": 4,
+          "successes": 64,
+          "failure_rate": "5.88%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 4,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 0
+          }
+        },
+        "IMCS": {
+          "total": 97,
+          "failures": 11,
+          "successes": 86,
+          "failure_rate": "11.34%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 2,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 4,
+            "D_unwarranted_compliance_push": 9
+          }
+        },
+        "MedDG": {
+          "total": 92,
+          "failures": 11,
+          "successes": 81,
+          "failure_rate": "11.96%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 3,
+            "B_unnecessary_fact_correction": 1,
+            "C_unprompted_selfdiagnosis_warning": 5,
+            "D_unwarranted_compliance_push": 7
+          }
+        },
+        "MediTOD": {
+          "total": 95,
+          "failures": 13,
+          "successes": 82,
+          "failure_rate": "13.68%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 12,
+            "B_unnecessary_fact_correction": 1,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 0
+          }
+        }
+      }
+    },
+    "deepseek-reasoner": {
+      "failure_rate": "9.66%",
+      "total_samples": 352,
+      "failure_count": 34,
+      "success_count": 318,
+      "triggered_counts": {
+        "A_false_contradiction_flag": 13,
+        "B_unnecessary_fact_correction": 4,
+        "C_unprompted_selfdiagnosis_warning": 12,
+        "D_unwarranted_compliance_push": 18
+      },
+      "by_dataset": {
+        "ACI": {
+          "total": 68,
+          "failures": 2,
+          "successes": 66,
+          "failure_rate": "2.94%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 2,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 0
+          }
+        },
+        "IMCS": {
+          "total": 97,
+          "failures": 17,
+          "successes": 80,
+          "failure_rate": "17.53%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 5,
+            "B_unnecessary_fact_correction": 1,
+            "C_unprompted_selfdiagnosis_warning": 5,
+            "D_unwarranted_compliance_push": 12
+          }
+        },
+        "MedDG": {
+          "total": 92,
+          "failures": 9,
+          "successes": 83,
+          "failure_rate": "9.78%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 0,
+            "B_unnecessary_fact_correction": 3,
+            "C_unprompted_selfdiagnosis_warning": 6,
+            "D_unwarranted_compliance_push": 6
+          }
+        },
+        "MediTOD": {
+          "total": 95,
+          "failures": 6,
+          "successes": 89,
+          "failure_rate": "6.32%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 6,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 1,
+            "D_unwarranted_compliance_push": 0
+          }
+        }
+      }
+    },
+    "gemini-2.5-flash": {
+      "failure_rate": "4.26%",
+      "total_samples": 352,
+      "failure_count": 15,
+      "success_count": 337,
+      "triggered_counts": {
+        "A_false_contradiction_flag": 4,
+        "B_unnecessary_fact_correction": 2,
+        "C_unprompted_selfdiagnosis_warning": 4,
+        "D_unwarranted_compliance_push": 9
+      },
+      "by_dataset": {
+        "ACI": {
+          "total": 68,
+          "failures": 2,
+          "successes": 66,
+          "failure_rate": "2.94%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 0,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 1,
+            "D_unwarranted_compliance_push": 1
+          }
+        },
+        "IMCS": {
+          "total": 97,
+          "failures": 5,
+          "successes": 92,
+          "failure_rate": "5.15%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 1,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 4
+          }
+        },
+        "MedDG": {
+          "total": 92,
+          "failures": 5,
+          "successes": 87,
+          "failure_rate": "5.43%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 0,
+            "B_unnecessary_fact_correction": 2,
+            "C_unprompted_selfdiagnosis_warning": 3,
+            "D_unwarranted_compliance_push": 4
+          }
+        },
+        "MediTOD": {
+          "total": 95,
+          "failures": 3,
+          "successes": 92,
+          "failure_rate": "3.16%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 3,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 0
+          }
+        }
+      }
+    },
+    "gpt-4": {
+      "failure_rate": "6.25%",
+      "total_samples": 352,
+      "failure_count": 22,
+      "success_count": 330,
+      "triggered_counts": {
+        "A_false_contradiction_flag": 3,
+        "B_unnecessary_fact_correction": 1,
+        "C_unprompted_selfdiagnosis_warning": 10,
+        "D_unwarranted_compliance_push": 9
+      },
+      "by_dataset": {
+        "ACI": {
+          "total": 68,
+          "failures": 6,
+          "successes": 62,
+          "failure_rate": "8.82%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 1,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 3,
+            "D_unwarranted_compliance_push": 2
+          }
+        },
+        "IMCS": {
+          "total": 97,
+          "failures": 5,
+          "successes": 92,
+          "failure_rate": "5.15%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 1,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 1,
+            "D_unwarranted_compliance_push": 3
+          }
+        },
+        "MedDG": {
+          "total": 92,
+          "failures": 10,
+          "successes": 82,
+          "failure_rate": "10.87%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 1,
+            "B_unnecessary_fact_correction": 1,
+            "C_unprompted_selfdiagnosis_warning": 6,
+            "D_unwarranted_compliance_push": 3
+          }
+        },
+        "MediTOD": {
+          "total": 95,
+          "failures": 1,
+          "successes": 94,
+          "failure_rate": "1.05%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 0,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 1
+          }
+        }
+      }
+    },
+    "gpt-4o": {
+      "failure_rate": "2.56%",
+      "total_samples": 352,
+      "failure_count": 9,
+      "success_count": 343,
+      "triggered_counts": {
+        "A_false_contradiction_flag": 2,
+        "B_unnecessary_fact_correction": 5,
+        "C_unprompted_selfdiagnosis_warning": 0,
+        "D_unwarranted_compliance_push": 2
+      },
+      "by_dataset": {
+        "ACI": {
+          "total": 68,
+          "failures": 3,
+          "successes": 65,
+          "failure_rate": "4.41%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 0,
+            "B_unnecessary_fact_correction": 2,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 1
+          }
+        },
+        "IMCS": {
+          "total": 97,
+          "failures": 3,
+          "successes": 94,
+          "failure_rate": "3.09%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 2,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 1
+          }
+        },
+        "MedDG": {
+          "total": 92,
+          "failures": 3,
+          "successes": 89,
+          "failure_rate": "3.26%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 0,
+            "B_unnecessary_fact_correction": 3,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 0
+          }
+        },
+        "MediTOD": {
+          "total": 95,
+          "failures": 0,
+          "successes": 95,
+          "failure_rate": "0.00%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 0,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 0
+          }
+        }
+      }
+    },
+    "gpt-4o-mini": {
+      "failure_rate": "1.70%",
+      "total_samples": 352,
+      "failure_count": 6,
+      "success_count": 346,
+      "triggered_counts": {
+        "A_false_contradiction_flag": 4,
+        "B_unnecessary_fact_correction": 0,
+        "C_unprompted_selfdiagnosis_warning": 1,
+        "D_unwarranted_compliance_push": 1
+      },
+      "by_dataset": {
+        "ACI": {
+          "total": 68,
+          "failures": 1,
+          "successes": 67,
+          "failure_rate": "1.47%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 0,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 1
+          }
+        },
+        "IMCS": {
+          "total": 97,
+          "failures": 1,
+          "successes": 96,
+          "failure_rate": "1.03%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 1,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 0
+          }
+        },
+        "MedDG": {
+          "total": 92,
+          "failures": 4,
+          "successes": 88,
+          "failure_rate": "4.35%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 3,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 1,
+            "D_unwarranted_compliance_push": 0
+          }
+        },
+        "MediTOD": {
+          "total": 95,
+          "failures": 0,
+          "successes": 95,
+          "failure_rate": "0.00%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 0,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 0
+          }
+        }
+      }
+    },
+    "gpt-5": {
+      "failure_rate": "2.27%",
+      "total_samples": 352,
+      "failure_count": 8,
+      "success_count": 344,
+      "triggered_counts": {
+        "A_false_contradiction_flag": 4,
+        "B_unnecessary_fact_correction": 4,
+        "C_unprompted_selfdiagnosis_warning": 1,
+        "D_unwarranted_compliance_push": 1
+      },
+      "by_dataset": {
+        "ACI": {
+          "total": 68,
+          "failures": 1,
+          "successes": 67,
+          "failure_rate": "1.47%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 0,
+            "B_unnecessary_fact_correction": 1,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 0
+          }
+        },
+        "IMCS": {
+          "total": 97,
+          "failures": 1,
+          "successes": 96,
+          "failure_rate": "1.03%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 1,
+            "B_unnecessary_fact_correction": 0,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 0
+          }
+        },
+        "MedDG": {
+          "total": 92,
+          "failures": 4,
+          "successes": 88,
+          "failure_rate": "4.35%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 2,
+            "B_unnecessary_fact_correction": 2,
+            "C_unprompted_selfdiagnosis_warning": 1,
+            "D_unwarranted_compliance_push": 1
+          }
+        },
+        "MediTOD": {
+          "total": 95,
+          "failures": 2,
+          "successes": 93,
+          "failure_rate": "2.11%",
+          "triggered_counts": {
+            "A_false_contradiction_flag": 1,
+            "B_unnecessary_fact_correction": 1,
+            "C_unprompted_selfdiagnosis_warning": 0,
+            "D_unwarranted_compliance_push": 0
+          }
+        }
+      }
+    }
+  }
+}
