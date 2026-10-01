@@ -1,0 +1,1807 @@
+[
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "1006",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 74,
+    "response": "Now that we've covered all the questions, let's summarize what we've discussed so far. You've had a dry cough for the past four days, which started after you had a runny nose and stuffy nose a week ago. You've tried over-the-counter cough suppressants, but they haven't helped much. You're otherwise healthy, don't have any allergies, and don't smoke anymore. You're also not experiencing any other symptoms like fever, chills, muscle aches, or shortness of breath.\n\nBefore we proceed, I want to confirm a few things. You mentioned that you used to smoke for about two years, but you stopped last year. Can you tell me more about your smoking history? Was it heavy smoking or occasional smoking? And did you experience any respiratory problems while you were smoking?\n\nAlso, I want to clarify something about your cough. You mentioned that it's pretty constant and hasn't changed much over the past four days. However, you also mentioned that it's been more bothersome this time around because you're coughing a lot more. Can you tell me more about what you mean by \"coughing a lot more\"? Is it more frequent, or is it just more intense?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "413",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 4,
+    "response": "Doctor:  Okay, so he's been experiencing ear pain for four days, and you've also noticed that he's been more irritable than usual. Can you tell me more about the kind of pain he's experiencing? Is it a sharp pain, a dull ache, or more of a feeling of pressure in his ear?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "432",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 94,
+    "response": "Based on the conversation history, I will generate the doctor's next response.\n\nThe patient mentioned that their brother had similar sore throat symptoms two weeks ago and received antibiotics from the doctor. However, this statement contradicts the patient's earlier statement that their symptoms started four days ago. \n\nDoctor: \"Okay, just to clarify, your brother had sore throat symptoms two weeks ago and received antibiotics. Does that mean his symptoms started around the same time as yours, or did they start earlier?\"\n\nThis clarifying question aims to identify the inconsistency and gather more accurate information about the timeline of the symptoms.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "236",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 48,
+    "response": "Based on the conversation history, the patient has mentioned a sore throat, difficulty swallowing, hoarse voice, tiredness, chills, and a high temperature. They have also mentioned that their girlfriend had a sore throat a few days ago, but they haven't seen her in a few days.\n\nTo proceed, the doctor should ask clarifying questions to gather more information about the patient's symptoms and potential exposure to illness.\n\nDoctor: \"Just to clarify, you mentioned that your girlfriend had a sore throat a few days ago, but you haven't seen her in a few days. Have you been in close contact with her recently, such as living together or spending time in a confined space together?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "612",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 22,
+    "response": "Based on the conversation history, I will provide a response that addresses the patient's concern and gathers more information.\n\nDoctor: I understand your concern about your daughter's wheezing and cough. It's good that you brought her in to get checked out. I'd like to do a physical examination and some tests to help determine the cause of her symptoms. Before we do that, can you tell me more about what you mean by \"these episodes\" that she's been having? You mentioned that they seem to resolve on their own when she rests, but then come back when she's active. Can you describe what those episodes are like in more detail?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "228",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 38,
+    "response": "Based on the conversation history, the patient has provided some inconsistent information about the timing of their symptoms. \n\nTo clarify, I'll ask a question to identify the inconsistency and gather more information.\n\nDoctor: So, you said that you first noticed the spots of red in the sputum on Sunday, but then you mentioned that you had been bringing up sputum before that. Can you clarify whether you had been noticing any changes in the color or consistency of the sputum before Sunday, or was Sunday the first time you noticed anything unusual?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "504",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "Before we begin, is there anything specific that's been concerning you about your cough or anything else that's been going on that you'd like to share with me?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "530",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "Doctor:  I see, so your pet, presumably a dog, is experiencing a cough that sounds like a barking cough, and it's making it difficult for him to breathe. Can you tell me a bit more about when this started and if you've noticed any other symptoms, such as vomiting, diarrhea, or discharge from the eyes or nose?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "115",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 100,
+    "response": "Based on the conversation, the doctor has a comprehensive understanding of the patient's symptoms, medical history, and lifestyle. However, there are a few points that require further clarification or correction.\n\nGiven the patient's self-reported smoking history of 30 cigarettes a day for 25 years, it is not surprising that the patient is experiencing shortness of breath and a chronic cough. The patient's use of salbutamol and steroid inhalers suggests that they are being managed for asthma, but the frequency of their use has increased recently, which may be contributing to their current symptoms.\n\nThe patient's mention of a family history of COPD is relevant, and the doctor should take this into consideration when assessing the patient's risk for respiratory diseases.\n\nThe doctor's next response should be:\n\n\"Okay, I just want to summarize what I've understood from our conversation so far. You've been experiencing a chronic cough and shortness of breath for the past two to three months, which is getting worse over time. You've been using your inhalers more frequently, and you've had a few chest infections in the past year. Your smoking history is quite significant, and your family history of COPD is also a concern. I'd like to do some further tests to try to determine the cause of your symptoms. Would you be comfortable with that?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "103",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 82,
+    "response": "Based on the conversation history, the patient has provided a thorough medical history and discussed their symptoms. However, there is one inconsistency that needs to be addressed before proceeding with the examination.\n\nPatient: It started with a sore throat two nights ago and then it got worse in the morning when I woke up and then I developed the cough, like about a day ago, a day and a half.\n\nDoctor: Okay, so you mentioned earlier that your cough started about a day ago, but now you're saying it started about a day and a half ago. Can you clarify when exactly you think your cough started?\n\nThis question aims to clarify the inconsistency in the patient's timeline and ensure that the doctor has an accurate understanding of the patient's symptoms.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "308",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 62,
+    "response": "Based on the conversation history, the next response should address the patient's assertion that they've been healthy and don't have any medical conditions. However, they've mentioned experiencing headaches that are similar to what they experienced when they were sick before. This discrepancy suggests that they might have had previous illnesses or medical conditions that they haven't disclosed.\n\nDoctor: Okay, great. So, you mentioned that you've been healthy and don't have any medical conditions. Can you tell me more about what you mean by that? Have you ever had any illnesses or medical conditions that might be relevant to what you're experiencing now?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "312",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 64,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nGiven that the patient has mentioned having had tonsillitis four times in the past and is concerned about possibly having strep throat again, I'll address their concern while also exploring other potential causes for their symptoms.\n\nDoctor: Okay, let's talk about your tonsillitis history and your concern about possibly having strep throat again. While it's possible that you might have strep throat, we'll need to run some tests to confirm that. In the meantime, can you tell me more about what you mean by \"tonsillitis a few times in the past\"? Were those episodes similar to what you're experiencing now, or were they different in terms of severity or symptoms?\n\nThis question acknowledges the patient's concern while also encouraging them to provide more detailed information about their past experiences with tonsillitis.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "607",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 78,
+    "response": "Based on the conversation history, I will respond to the patient's statements.\n\nThe patient mentions training for triathlons and being an active person, but also mentions not being able to exert themselves much lately due to feeling \"wiped out.\" This seems to be a contradictory statement regarding their level of physical activity and energy levels.\n\nDoctor: Okay, Jessica, I want to clarify something. You mentioned being very active and training for triathlons, but also saying you haven't been getting up much lately and feeling \"wiped out.\" Can you tell me more about what you mean by \"wiped out\"? Is it more like fatigue or exhaustion, or is it something else entirely?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "101",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 16,
+    "response": "Based on the conversation history, the patient has provided some information about their cough, but there are a few areas where further clarification is needed.\n\nFirstly, the patient initially stated that the cough was white and whiteish-clear in color, but later mentioned that it's been \"a little yellowish.\" This inconsistency suggests that the patient may be experiencing some variation in the color of their sputum. Can you tell me more about this variation? Is the yellowish color something that's happened consistently over the past week, or is it something that's appeared more recently?\n\nAlso, you mentioned that the cough comes and goes throughout the day, but there wasn't a particular time of day when it's worse. Have you noticed any patterns or triggers that might be contributing to the cough, such as exposure to allergens, smoke, or pollution?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "411",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 66,
+    "response": "Based on the conversation history, the patient has provided a thorough description of their symptoms, including a sore throat, nausea, vomiting, and abdominal discomfort. The doctor has also taken note of the patient's recent history, including the onset of symptoms, their impact on daily activities, and any potential triggers.\n\nThe patient's next statement is likely to be a continuation of their description of their symptoms or a response to the doctor's previous questions. However, to ensure that the conversation remains on track and to gather more information, the doctor may want to ask a clarifying question to confirm the patient's understanding of their symptoms and to rule out any potential misdiagnoses.\n\nHere's a possible next response from the doctor:\n\n\"Okay, just to make sure I understand everything correctly, you're saying that your sore throat has been pretty constant, and it's been accompanied by nausea, vomiting, and abdominal discomfort. You also mentioned that the vomiting has been yellowish-green in color, but you didn't notice any blood in it. Is that correct?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "105",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 4,
+    "response": "Patient: Yeah yeah.\n\nDoctor: Okay, just to clarify, you mentioned earlier that you've lost 30 pounds in the last six months. Are you sure it's not more than that, or is it actually closer to 20 pounds?\n\n(The doctor is addressing the Information Contradiction behavior by identifying the inconsistency and asking clarifying questions to gather accurate information.)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "102",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 38,
+    "response": "Based on the conversation history, the patient has provided a detailed account of their child's symptoms, but I would like to clarify a few points to ensure I have a clear understanding of the situation.\n\nYou mentioned that the child's symptoms started about three to four days ago, and the runny nose and nasal congestion were the first symptoms. However, you also said that the sneezing started \"after that, probably the same day or the next day.\" Can you help me understand the exact timeline of when the sneezing started in relation to the other symptoms? \n\nThis will help me to better understand the progression of the child's symptoms and make a more accurate assessment.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "309",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 26,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nThe patient mentioned that the pain worsened with deep breathing but didn't mention anything about positional changes affecting the pain. However, the patient did mention that the pain was crampy and located in the center of their chest, which could potentially indicate cardiac issues. \n\nGiven this information, I'll ask some clarifying questions to further evaluate the patient's symptoms:\n\nDoctor: I'd like to ask a few more questions to get a better understanding of what's going on. Can you tell me more about this crampy pain? Is it a sharp pain or more of a dull ache? And when you say it's located in the center of your chest, does it radiate to any other areas, such as your arms or jaw?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "210",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 64,
+    "response": "Based on the conversation history, the patient has provided a detailed account of their symptoms and medical history. However, I would like to clarify a few points to ensure that I have a complete understanding of your situation.\n\nYou mentioned that you fell off your bike and landed on your chest, which you think may have caused the pain. However, you also mentioned that you were wearing a helmet, which suggests that the impact may not have been as severe as you initially thought. Can you tell me more about what happened when you fell off your bike? Was the impact more of a glancing blow or a direct hit to your chest?\n\nAdditionally, you mentioned that you have a history of allergies, including a possible allergy to steroids and antihistamines. However, you also mentioned that you have never been hospitalized or had any surgeries. Can you clarify how severe your allergies are and whether you have ever had any severe reactions to medications or other substances?\n\nLastly, you mentioned that you smoke 2.5 to 3 packs of cigarettes per day. I want to discuss this with you further because smoking can have a significant impact on your overall health, particularly when it comes to respiratory and cardiovascular health. Can you tell me more about your smoking habits and whether you have ever tried to quit or reduce your smoking?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "325",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 96,
+    "response": "Based on the conversation history, I will generate the doctor's next response.\n\nDoctor: Alright, thank you so much for sharing all that information with me today. It sounds like you've been experiencing some pretty frustrating symptoms, especially during the springtime. I want to reassure you that we'll work together to figure out what might be causing these symptoms and find some relief for you.\n\nBefore we move forward, I just want to clarify a few things. You mentioned that you've been experiencing shortness of breath as a child, but your mom didn't take you to see a doctor about it. Can you tell me more about what that was like for you? Was it just occasional or did it happen frequently? And did you ever notice any triggers or patterns to when it would happen?\n\nAlso, you mentioned that your mom has similar symptoms and that they run in your family. Have you noticed any other potential allergies or sensitivities in your family members, such as eczema or asthma?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": true
+    },
+    "dialog_id": "226",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":true}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 96,
+    "response": "Based on the conversation, the patient has exhibited behaviors that require clarification and further evaluation.\n\n1. Factual Inaccuracy: The patient mentioned earlier that they had a viral infection a week back that went away on its own. Later, when asked if they had any fevers or chills, they replied \"no, nothing like that.\" However, this contradicts their earlier statement about having a viral infection. \n\nDoctor: Okay, just to clarify, when you mentioned earlier that you had a viral infection a week back, did you mean that you had symptoms similar to what you're experiencing now, but they resolved on their own, or was it something entirely different?\n\nThis clarification is necessary to ensure that the doctor understands the patient's symptoms accurately and to identify any potential inconsistencies in their history.\n\n2. Care Resistance: The patient mentioned earlier that they tried nasal sprays and decongestants, but they didn't seem to be helping. However, the doctor suggested nasal rinses and oral decongestants as potential treatments.\n\nDoctor: Okay, so just to confirm, you've tried nasal sprays and decongestants, but they haven't provided much relief. Would you be willing to try nasal rinses and oral decongestants as I suggested earlier?\n\nThis clarification is necessary to understand the patient's willingness to try alternative treatments and to assess whether their refusal may be reasonable given their symptoms and preferences.\n\n3. Self-diagnosis: The patient mentioned earlier that they think they might have a sinus infection based on their symptoms.\n\nDoctor: Okay, just to clarify, you mentioned earlier that you think you might have a sinus infection based on your symptoms. However, as your doctor, I'd like to evaluate your symptoms clinically before drawing any conclusions. Can you tell me more about why you think you might have a sinus infection?\n\nThis clarification is necessary to understand the patient's concerns and to evaluate their symptoms objectively before making a diagnosis.\n\n4. Information Contradiction: The patient mentioned earlier that their symptoms started with congestion, followed by yellow discharge, and then loss of smell. However, later they mentioned that the loss of smell came after the congestion.\n\nDoctor: Okay, just to clarify, you mentioned earlier that your symptoms started with congestion, followed by yellow discharge, and then loss of smell. However, later you said that the loss of smell came after the congestion. Can you tell me more about what you mean by that?\n\nThis clarification is necessary to ensure that the doctor understands the patient's symptoms accurately and to identify any potential inconsistencies in their history.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "525",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "Patient, it sounds like you're experiencing some significant fatigue and weakness. Can you tell me more about how long you've been feeling this way? Was there anything specific that triggered these symptoms, or did they come on gradually?\n\nAlso, just to clarify, when you say you get tired \"so fast,\" do you mean you're feeling exhausted after a short walk or even just getting out of bed? Or is it more like you're feeling tired after doing activities that you normally enjoy or find manageable?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "113",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 66,
+    "response": "Based on the conversation history, I will respond to the patient's statement about taking the last couple of days off from school due to tiredness and not feeling good.\n\nDoctor: That's understandable, given your symptoms. However, I want to clarify a bit more about your absence from school. You mentioned earlier that you've been going to school with caution due to COVID protocols, but now you're saying you've taken the last couple of days off. Can you tell me more about your decision to stay home? Was it because of your symptoms or something else?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "403",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 88,
+    "response": "Based on the conversation history, the patient's next response should be addressed for the following:\n\n1. Information Contradiction: The patient mentioned that they used puffers from the age of 13 to 18, and then used them on and off until the last five years, but then stated that they haven't used puffers at all for the last five years. The doctor should clarify this inconsistency.\n\n2. Factual Inaccuracy: The patient mentioned that they don't have any allergies to medications, but it's not clear if they have any allergies at all. The doctor should ask a follow-up question to clarify this.\n\n3. Self-diagnosis: The patient is asking if they should go back on puffers, which is a self-diagnosis of their condition. The doctor should acknowledge the concern and evaluate it clinically before drawing conclusions.\n\n4. Care Resistance: The patient is not showing any signs of care resistance, but the doctor should still be prepared to address any concerns or questions the patient may have.\n\nHere's a possible response from the doctor:\n\n\"Okay, so let's clarify a few things. You mentioned that you used puffers from the age of 13 to 18, and then used them on and off until the last five years. But then you said that you haven't used puffers at all for the last five years. Can you help me understand what happened with your puffer use in the last five years? And also, you mentioned that you don't have any allergies to medications, but are you sure about that? Have you had any reactions to any medications in the past? And regarding your question about going back on puffers, we'll definitely discuss that after we get the results of the pulmonary function test and the chest X-ray. But for now, let's just focus on getting you set up for those tests and then we can talk about next steps.\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "422",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 20,
+    "response": "Based on the conversation history, the patient has provided a consistent description of their shortness of breath, which started during physical activity (walking to the kitchen). However, there is a slight inconsistency regarding when the shortness of breath started. Initially, the patient stated it started this morning, but later clarified that it started during activities, which could imply it started after waking up.\n\nTo clarify this inconsistency and gather more information, the doctor's next response should be:\n\nDoctor: Okay, just to make sure I understand correctly. You're saying that you woke up this morning feeling fine, but as soon as you started walking to the kitchen, you felt short of breath. Is that correct?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "216",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 90,
+    "response": "Before we proceed with the plan, I want to clarify a few things. You mentioned that your son had similar symptoms last month and was diagnosed with either bronchiolitis or a viral infection. You also mentioned that he was hospitalized for two days to help with his breathing. However, you said that the doctors at that time didn't provide a specific diagnosis, but rather just said it could be bronchiolitis or an upper viral infection.\n\nCan you help me understand why you're not sure which diagnosis it was? Was there any discussion about the possibility of bronchiolitis at that time, or was it more of a general diagnosis of a viral infection? Additionally, were there any specific tests or investigations done at that time to rule out bronchiolitis or other conditions?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "111",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 102,
+    "response": "Based on the conversation history, the patient has provided some information that might be worth clarifying before proceeding.\n\nOne potential area of concern is the patient's assertion that they haven't left the house in the last two weeks. However, they also mentioned that their family has been doing school from home, and their mother works from home. This might suggest that they have been leaving the house for school or work-related activities. To clarify this, the doctor might ask:\n\n\"Okay, just to clarify, when you said you haven't left the house in the last two weeks, what did you mean by that? Were you referring to just staying at home for personal reasons, or was there a specific period where you were staying home for school or work-related activities?\"\n\nThis question aims to clarify the patient's statement and ensure that the doctor has an accurate understanding of their activities over the past two weeks.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "522",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 36,
+    "response": "Now that we've gone over your symptoms, I want to summarize what you've told me. You've had a runny nose for the past week and a half, and it started with a stuffy nose about two weeks ago. You've been experiencing some pressure in your face, and you've had a headache, but you haven't had any fever, chills, cough, or shortness of breath. You've also been feeling a bit tired.\n\nBefore we move forward, I do want to clarify a few things. You mentioned that you've been having a runny nose for the past week and a half, but then you also said it started getting stuffy about two weeks ago. Can you help me understand the timeline of your symptoms? When exactly did the runny nose start, and when did the stuffiness start?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "203",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 14,
+    "response": "Based on the conversation history, the doctor should respond to the patient's statement about their baby's feeding behavior.\n\nPatient's statement: \"Maybe he fed for like one or two times, but not much.\"\n\nDoctor's response: \n\n\"I see that feeding has been a challenge for your baby lately. Can you tell me more about what's happening when he pushes the bottle away? Is he showing any signs of discomfort or pain while feeding, such as arching his back or pulling away his head?\"\n\nThis response acknowledges the patient's concern about feeding difficulties and asks clarifying questions to gather more information about the baby's behavior during feeding.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "126",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 34,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nSince the patient has asthma and uses a daily puffer, I'll ask about their asthma management and potential triggers.\n\nDoctor: OK, so you've had asthma for a while, and you're using a daily puffer. Have you noticed any changes in your asthma symptoms or triggers recently? For example, have you been exposed to anything new that might be triggering your asthma, such as pollen, dust, or pet dander from your dog?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "221",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 86,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nThe patient has mentioned smoking about 2 packs of cigarettes per day since they were 12 years old. This is a significant piece of information that needs to be addressed.\n\nDoctor: I'd like to discuss your smoking habit with you. Smoking is a major risk factor for many health problems, including heart disease and respiratory issues. Given your symptoms of chest pain, shortness of breath, and cough, I'm concerned that smoking may be contributing to your condition. Can you tell me more about why you started smoking at such a young age and if you've ever tried to quit?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "527",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 90,
+    "response": "Now that we have a good understanding of your daughter's symptoms and history, I'd like to discuss the plan I have in mind. As I mentioned earlier, I think it's possible that she may have asthma, given her symptoms of wheezing, coughing, and difficulty breathing after exertion. However, I want to emphasize that a diagnosis of asthma can only be confirmed with a pulmonary function test, which we can schedule for her.\n\nIn the meantime, I'd like to discuss the potential benefits and risks of starting her on a short-acting beta agonist, or puffer, as you called it. This medication can help relieve her symptoms, but it's essential to use it only as directed and under close monitoring. We'll need to discuss the proper use of the puffer, including how often she can use it and what to do if she experiences any side effects.\n\nI also want to address your question about what you can do to make her symptoms go away. While I understand that you're eager to find a solution, I want to caution against self-treating her symptoms with over-the-counter medications or other remedies without consulting us first. This can sometimes make things worse or mask underlying conditions that need proper attention.\n\nNow, I'd like to ask, are you comfortable with the plan I've outlined, and do you have any further questions or concerns about it?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "130",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 10,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nThe patient mentioned coughing up blood mixed into sputum, which is a concerning symptom that warrants further evaluation. The doctor should clarify some details before proceeding.\n\nDoctor: Okay, just to clarify, when you say you've been coughing up blood, you mean it's mixed into the sputum, right? You haven't coughed up any blood alone, just with the phlegm?\n\n(This response addresses potential contradiction between the patient's initial statement and subsequent clarification.)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "631",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 66,
+    "response": "Based on the conversation history, the patient has provided a clear and consistent account of their symptoms, which appear to be consistent with a common cold. However, I would like to ask a few more questions to clarify a few points.\n\nYou mentioned that you used some Advil this morning, which is a nonsteroidal anti-inflammatory drug (NSAID). While it's okay to take over-the-counter medications like Advil to help manage symptoms, I want to make sure that you're not experiencing any side effects from it. Have you noticed any changes in your symptoms since taking the Advil, such as increased bleeding or bruising, or any stomach upset?\n\nAlso, you mentioned that you've been experiencing a headache, which you described as feeling like your head is squeezing. While this could be related to the common cold, it's also possible that it could be related to dehydration or stress. Have you been drinking enough fluids to stay hydrated, and have you been getting enough rest and relaxation?\n\nLastly, I want to discuss the management of your symptoms. While a common cold is usually self-limiting, there are some things that we can do to help manage your symptoms and make you feel more comfortable. I'd like to discuss some options with you, such as using saline nasal sprays, taking over-the-counter medications like acetaminophen or ibuprofen to help with pain and fever, and getting plenty of rest and staying hydrated. What are your thoughts on these options?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "224",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 4,
+    "response": "Patient: Yeah, I would say approximately around the same time.\n\nSince the patient has provided mutually inconsistent statements about the same medical fact (the exact time the cough and breathlessness started), I'll address this inconsistency by asking clarifying questions.\n\nDoctor: Just to clarify, you mentioned earlier that the cough and breathlessness started approximately around the same time, but when I asked you if they started two years ago, you said yes. Can you tell me more about when you first noticed these symptoms? Was it exactly two years ago, or was it around that time but not exactly?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "520",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 12,
+    "response": "Now that we've discussed the symptoms, I'd like to ask a few more questions to get a better understanding of your son's condition. You mentioned that he was grunting and his chest was moving a lot more when he's taking a breath in. Can you tell me more about what you mean by grunting? Is it a high-pitched sound, a low-pitched sound, or more of a growling noise? And how long has this been going on? Has it been constant or does it come and go?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "408",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 20,
+    "response": "Based on the conversation history, the patient has provided some information that could be considered inconsistent. They mentioned that they're feeling hot and having chills, but also stated that they haven't checked their temperature. I would like to clarify this to ensure we have an accurate picture of your symptoms.\n\n\"Can you tell me, have you actually taken your temperature, or are you just feeling hot? And if you have taken it, can you give me an idea of what it is?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "1007",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 4,
+    "response": "It seems like there might be a slight inconsistency in your timeline. You mentioned your stuffy nose has been a problem since you were young, but then you also said it's been going on for a couple of years. Could you clarify which one is correct? Was your stuffy nose a persistent issue throughout your childhood, or did it start a couple of years ago?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "302",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "Doctor:  I appreciate you sharing your concerns with me today. It sounds like you're experiencing a bit of a flare-up with your COPD symptoms. Before we proceed, can you clarify something for me? You mentioned that you have COPD and manage it with your puffers. However, you also mentioned that you didn't think you needed home oxygen yet. Could you tell me more about how your COPD diagnosis was made and whether you've had any previous assessments regarding oxygen therapy?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "526",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "I'm so glad you brought your son in to see me. It sounds like you're very concerned about his symptoms, and that's completely understandable. Can you tell me more about these grunting noises he's making? Is it a loud, high-pitched sound or more of a low, guttural noise? And when did you first notice this behavior? Was it sudden or has it been building up over time?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "626",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 72,
+    "response": "Based on the conversation history, the patient has provided a thorough medical history and reported symptoms consistent with a common cold or viral upper respiratory tract infection. However, there are a few areas that require further clarification.\n\nPatient's reported symptoms are mostly consistent, but there is one inconsistency that requires clarification. The patient initially stated that their nose was \"pretty stuffy at first, but now it's mostly running.\" Later, they mentioned that their nose is runny now, implying that it has changed recently. To clarify this, I would ask:\n\n\"Okay, just to confirm, you said your nose was stuffy at first, but now it's mostly running. But you also mentioned that your nose is runny now. Can you tell me more about how your symptoms have changed over the past week? Has your stuffiness decreased and your runniness increased, or is it something else entirely?\"\n\nThis question aims to clarify the patient's symptoms and understand the progression of their illness.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "630",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 76,
+    "response": "Based on the conversation history, the doctor's next response should address the patient's recent travel history and potential exposure to tuberculosis in the Philippines.\n\nDoctor: \"Okay, so you mentioned you moved from the Philippines six months ago. Have you been back to the Philippines since you moved here, or have you had any close contact with anyone who may have traveled from the Philippines recently?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "409",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 102,
+    "response": "Based on the conversation history, the next response should address the following:\n\n1. Factual Inaccuracy: The patient mentioned that their child, Thomas, was diagnosed with cystic fibrosis at the age of 4. However, the patient also mentioned that Thomas is currently 11 years old, which would have been 7 years after the initial diagnosis. This could indicate a potential inconsistency in the information provided.\n\n2. Information Contradiction: The patient mentioned that the cough started 3-4 days ago, but also mentioned that the runny nose started \"a little after\" the same time, which could be interpreted as a similar timeline. However, the patient also mentioned that the runny nose started \"around the same time\" as the cough, which could be a contradiction.\n\n3. Factual Inaccuracy: The patient mentioned that Thomas was on an antibiotic until the age of 5, but is not currently on any medications. However, the patient also mentioned that there are new, expensive medications available for cystic fibrosis, which could indicate that Thomas is not on the most up-to-date treatment.\n\n4. Factual Inaccuracy: The patient mentioned that Thomas has not had any exacerbations or hospitalizations, but also mentioned that he has had one hospitalization every 2 years, which could be a contradiction.\n\nTo address these inconsistencies and inaccuracies, the doctor could ask clarifying questions to gather more information and to ensure that the information provided is accurate.\n\nDoctor: \"I just want to clarify a few things about Thomas's cystic fibrosis diagnosis. You mentioned that he was diagnosed at the age of 4, but he's currently 11 years old. Can you tell me more about his treatment and management plan since his diagnosis? And also, you mentioned that he's not currently on any medications, but I understand that there are new treatments available for cystic fibrosis. Can you tell me more about his current treatment plan and why he's not on any medications?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "623",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 70,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nThe patient mentioned taking an SSRI (Citalopram) for depression and anxiety. Given this information, I'll ask some clarifying questions about their mental health.\n\nDoctor: Okay, thank you for sharing that information about your medications. Can you tell me more about your depression and anxiety? Have you noticed any changes in your mood or symptoms lately that might be related to your current illness?\n\n(Note: This question acknowledges the patient's mental health condition and seeks additional information to understand its relevance to their current symptoms.)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "515",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 22,
+    "response": "Based on the conversation history, the patient has already provided some valuable information about their son's symptoms. However, there are a few points that require further clarification.\n\nOne point that stands out is the patient's initial statement about the service of bread starting with a cough. This seems to be a contradictory statement, as bread is a food item and not a symptom of illness. I'll address this inconsistency first.\n\nDoctor: I'm a bit confused about what you meant by \"the service of bread started with a cough.\" Could you clarify what you're trying to say? Was your son eating bread before he started coughing, or was there something else going on that I'm not understanding?\n\nIf the patient clarifies this point, I'll proceed with the rest of the examination and assessment.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "624",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 24,
+    "response": "Based on the conversation history, the patient has provided some inconsistent statements about the timing of their symptoms. Specifically, they initially stated that the muscle pain started 3-4 days ago, but then mentioned that the cough started 3 days ago, and later clarified that the muscle aches started almost 4 days ago.\n\nTo clarify this inconsistency, the doctor's next response should be:\n\nDoctor: Just to make sure I understand correctly, you're saying that the muscle pain started almost 4 days ago, and then the cough started 3 days ago? Is that correct?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "127",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 13,
+    "response": "Doctor: Alright, so just to summarize, you're experiencing a bit of a sharp pain in your chest, especially when you breathe in deeply, and it's been getting worse over the past few hours. You've also mentioned that you have a hard time catching your breath, and on a scale of 1 to 10, you'd rate that a 5 or 6. I'm going to ask a few more questions to get a better understanding of what's going on. Can you tell me if you've had any other symptoms, such as a fever, cough, or any other pain in your body? And have you had any recent changes in your diet, exercise routine, or stress levels?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "324",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 104,
+    "response": "Based on the conversation history, I will address the patient's concerns and provide a clear direction for further evaluation.\n\nDoctor: I want to thank you for sharing all this information with me today. It sounds like you've been experiencing some significant symptoms over the past two years, including worsening breathlessness and a cough. I understand how concerning this must be for you.\n\nBefore we proceed, I want to clarify a few points to ensure we're on the same page. You mentioned that your cough started approximately two years ago, but then later said it's been going on for two years now. Could you clarify when exactly your cough started?\n\nAdditionally, you mentioned that your breathlessness is mainly worse when exerting yourself, but then later said it's present most of the time. Could you elaborate on when exactly your breathlessness started and how it has progressed over time?\n\nLastly, you mentioned that you've been experiencing some chills and night sweats over the past couple of months. Have you noticed any other symptoms such as fever, weight loss, or changes in appetite?\n\nPlease feel free to clarify any of these points, and I'll make sure to address your concerns and develop a plan to help you feel better.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "310",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 18,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nSince the patient provided some inconsistent statements about the symptoms duration, I'll address that first.\n\nDoctor: Just to clarify, you mentioned that the cough and runny nose started first, but then you also said that the fever started last night. Can you confirm which symptom started first and when exactly it started?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "211",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "That sounds concerning. Can you tell me more about when this shortness of breath started and if there have been any triggers or situations that seem to make it worse? For example, have you been experiencing any stress or anxiety lately, or have you noticed any patterns related to physical activity or lying down?\n\nAlso, when you say you get chest pain when taking a deep breath, can you describe the pain to me in more detail? Is it a sharp pain, a dull ache, or a burning sensation?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "215",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 18,
+    "response": "Based on the conversation history, I will generate the doctor's next response.\n\nPatient's behavior: Self-diagnosis \n\nDoctor's response: \n\n\"Okay, thank you for sharing that information with me. I want to assure you that we'll take a thorough look at what's going on with your cough. Before we proceed, can you tell me a little bit more about what's been worrying you about your symptoms? What's been concerning you the most, and what makes you think it might be related to your cough?\"\n\nThis response acknowledges the patient's concern and avoids anchoring on any proposed diagnosis. By asking open-ended questions, the doctor can gather more information and evaluate the symptoms clinically before drawing any conclusions.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "119",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 52,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nPatient: Uh, no.\nDoctor: Alright alright, that's good, and who do you currently live with, and where do you live?\nPatient: Alright, so I live with a few roommates. I'm just finishing up my undergraduate degree.\nDoctor: Yeah, that's great. Have you had any contact with anyone who was sick recently?\nPatient: No, not that I could think of, I mean we went out one night last week and that's kind of when I had those other symptoms for a few days after that.\nDoctor: OK, OK. Uhm and have you traveled outside the city or country?\nPatient: No, I haven't.\nDoctor: No, ok. Do you drink alcohol?\nPatient: Sometimes yeah, I, I will with friends, kind of socially.\nDoctor: alright.\nPatient: Just a few drinks.\nDoctor: What about smoking?\nPatient: Uh, no.\nDoctor: Marijuana?\nPatient: Uh, sometimes with, like socially with friends, but that might be once a month or probably even less.\nDoctor: Any recreational drugs?\nPatient: No.\n\nDoctor's Next Response: \n\"Okay, I think we've got a good picture of your medical history and current situation. I'd like to summarize a few things. You've had a cough for about two weeks, which has been mostly dry but sometimes has produced clear sputum. You had some other symptoms last week, like a sore throat, headache, aches, and fatigue, but those have resolved. You're otherwise feeling better, except for the cough. Is that correct?\"\n\nThis response acknowledges the patient's statements and summarizes the key points to ensure understanding and to transition to the next step in the consultation.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "402",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "I'd like to start by saying that it's great that you're seeking medical attention for your symptoms. A persistent cough and coughing up blood can be concerning, so let's take a closer look.\n\nCan you tell me more about your cough? Is it a dry cough, or do you produce mucus when you cough? And when you mention bringing up blood, is it a small amount, or is it more significant?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "209",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 96,
+    "response": "Based on the conversation history, the patient has provided a clear description of their symptoms, including shortness of breath during exercise, tightness in the chest, and wheezing sounds. They have also mentioned using an inhaler as prescribed by their doctor. \n\nHowever, I would like to clarify a few points to ensure that I have a comprehensive understanding of their condition. \n\nPatient, can you tell me more about the wheezing sound you mentioned earlier? When you were at your friend's house with the cats, did you notice that the wheezing sound was only present when you were around the cats, or was it present at other times as well? \n\nAlso, I'd like to ask about your inhaler. You mentioned that you're using it as prescribed, but you also mentioned that the nurse told you to use both inhalers, and you're not entirely sure which one to use. Can you show me the inhalers and the labels on them, so we can clarify the instructions and make sure you're using them correctly? \n\nLastly, I'd like to ask about your interest in joining the Marines. You mentioned that you were interested in joining, but you heard that you can't because of your asthma. Can you tell me more about what you heard and what you're concerned about in terms of your asthma and your ability to join the Marines?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "1005",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 94,
+    "response": "Based on the conversation history, I will address the patient's last statement, which may indicate a self-diagnosis. The patient mentions that their child's symptoms are usually worse around this time of the year, suggesting a possible seasonal pattern, and that they have a runny nose and sneeze sometimes.\n\nDoctor:  Okay, so it sounds like you think his symptoms might be related to allergies, given the time of year and the fact that he's been experiencing them before. Can you tell me more about what you think might be causing his symptoms, and have you noticed any other potential triggers or patterns? I'd like to get a better understanding of what might be going on before we make any conclusions.\n\nThis response acknowledges the patient's concern and allows for further discussion, while also avoiding anchoring on the proposed diagnosis of allergies. It encourages the patient to provide more information and allows the doctor to evaluate the symptoms clinically before drawing any conclusions.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "326",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 24,
+    "response": "Given the conversation history, the doctor's next response should address the patient's self-diagnosis. \n\nThe patient mentions having been diagnosed with COPD in the past, and also mentions that they have a \"somewhat of a cough\" that has been present for a long time. The doctor should acknowledge the patient's concern and evaluate it clinically before drawing conclusions.\n\nDoctor: \"I see. You've had a cough for a long time, and you've been diagnosed with chronic bronchitis in the past. I want to make sure I understand your situation correctly. You're saying that your cough has been getting worse over the last two years, and now you're seeing blood in your sputum. Can you tell me more about what you're experiencing, and what you're hoping to get out of our visit today?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "322",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 10,
+    "response": "Doctor: Okay, thank you for sharing that information with me. I'm concerned about the symptoms you've described, particularly the fever, difficulty swallowing, drooling, and shortness of breath. These symptoms can be concerning for several potential issues.\n\nBefore we proceed, I'd like to clarify a couple of things. You mentioned that your son had a viral infection about a week ago, but then you also said that all of these symptoms started about a day ago. Can you help me understand the timeline of these symptoms? Was there a period of time between the viral infection and when these symptoms started, or did they seem to appear suddenly?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": true
+    },
+    "dialog_id": "606",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":true}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 64,
+    "response": "Based on the conversation history, I will generate the doctor's next response.\n\nThe patient has mentioned several symptoms, including a sore throat, hoarse voice, difficulty swallowing solids, fever, fatigue, and a gross taste in their mouth. However, there are a few areas where further clarification is needed.\n\nPatient's Behavior: Self-diagnosis and Care Resistance\n\nThe patient has mentioned that their mom told them that their voice sounds hoarse and raspy. While it's understandable that the patient may have discussed their symptoms with their mom, it's essential to evaluate these symptoms clinically rather than relying on someone else's judgment.\n\nAdditionally, the patient has mentioned that they haven't eaten too much due to the pain, which might indicate some care resistance to their recommended treatment plan.\n\nDoctor's Response:\n\n\"Okay, let's summarize what we've discussed so far. You've been experiencing a sore throat, hoarse voice, difficulty swallowing solids, fever, fatigue, and a gross taste in your mouth. I'd like to do some further evaluation to determine the cause of these symptoms. I'm going to order some tests, such as a throat culture and a complete blood count, to help us narrow down the possible causes. In the meantime, I'd like to recommend some pain management and hydration strategies to help you feel more comfortable. Can you tell me more about what's making you hesitant to eat or drink more? Is there anything specific that's causing you concern about your treatment plan?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "109",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 74,
+    "response": "Based on the conversation history, I'll generate the doctor's next response. \n\nThe patient mentioned that their son had ear infections when he was 2 years old, and one of those infections was treated with antibiotics in his right ear. However, when asked about whether the son had tubes inserted, the patient replied \"No, no, nothing like that.\" \n\nHowever, this statement contradicts the patient's previous statement about their son having ear infections when he was 2 years old. To clarify this inconsistency, the doctor should ask:\n\n\"Okay, just to clarify, when your son had ear infections when he was 2 years old, were they bilateral or unilateral? And did he require any surgical interventions, such as tubes being inserted, for either of those infections?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "528",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "I'd be happy to help you with your cough and hoarse voice.  Can you tell me more about when your symptoms started and if you've experienced any other symptoms such as fever, difficulty swallowing, or shortness of breath?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "619",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 14,
+    "response": "Based on the conversation history, the patient has provided some information that may be worth clarifying. \n\nThe patient mentioned that the cough and shortness of breath are getting worse, but they also mentioned that the discomfort and pain when taking deep breaths have been happening for the last couple of weeks, which seems to be a more recent development. It's possible that the patient is experiencing a new symptom, or the existing symptoms are evolving. To better understand the situation, the doctor may want to ask:\n\n\"Okay, so just to make sure I understand, the cough and shortness of breath have been getting worse over the past month, but the discomfort and pain when taking deep breaths is a more recent issue, starting a couple of weeks ago. Is that correct?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "214",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 22,
+    "response": "Doctor:  I see. So you mentioned that you usually take over-the-counter medications for your cough, specifically antitussive pills. Can you tell me more about what kind of medication you're taking and how often you're taking it?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "335",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "That's wonderful, I'm glad we could start this conversation. Can you tell me a little bit about what brings you in today? What seems to be the main issue or concern that you're experiencing?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "423",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 22,
+    "response": "Doctor: Alright, thank you for sharing all that information with me. I'd like to ask a few more questions to clarify some things. You mentioned you've tried cough suppressants and decongestants, but they haven't seemed to help. Have you considered taking any medication that might help with your fever or headache symptoms?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "329",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 14,
+    "response": "Based on the conversation history, the patient has provided some useful information about their symptoms, but there are a few areas that require further clarification.\n\nFirstly, I'd like to confirm that you've had a sore throat for four days and are experiencing difficulty eating solid foods due to pain. That's helpful to know.\n\nHowever, I did notice that you mentioned you haven't checked your temperature, but you feel really hot. I'd like to clarify this - have you taken your temperature at any point in the past four days, or is this the first time you've noticed feeling hot?\n\nAdditionally, you mentioned that your throat hurts when you eat solid foods, but you don't feel like it's getting stuck. Can you tell me more about what you mean by \"it hurts\"? Is it a sharp pain, a dull ache, or something else?\n\nLastly, you mentioned that you've been trying not to talk as much because your throat is sore, but you also said that your voice is a little bit hoarse. I'd like to understand this better - are you experiencing any difficulty speaking or swallowing, or is it more of a general discomfort?\n\nLet's clarify these points before we proceed further.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "208",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 1,
+    "response": "I'm glad you brought your son in to see me today. Can you tell me more about his cough? How would you describe it - is it dry or productive? Does he have any difficulty breathing or shortness of breath? And when did you first notice the cough started?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "529",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 40,
+    "response": "Based on the conversation history, the patient has provided a detailed description of their symptoms, which is helpful. However, I do need to clarify a few things to get a better understanding of your condition.\n\nYou mentioned that you've been feeling chills and wearing multiple blankets over the last few days. Can you tell me more about what you mean by chills? Are you experiencing a sensation of coldness or shivering, or is it more of a general feeling of being unwell?\n\nAlso, you mentioned that you tried Tylenol Cold and it helped you sleep. While it's good that you're finding some relief from your symptoms, I want to make sure we're not missing anything else that might be contributing to your cough. Have you noticed any other symptoms that might be related to your cough, such as difficulty breathing, chest tightness, or a feeling of pressure in your chest?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "133",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 16,
+    "response": "I want to make sure I understand everything correctly before we move forward. You mentioned that your sore throat started three days ago and has been the same since then. However, you also mentioned that your fever started two days ago. Can you clarify when exactly your sore throat started in relation to your fever? Was it before or after you developed a fever?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "108",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 96,
+    "response": "Based on the conversation, the patient's symptoms suggest a respiratory issue, possibly related to a viral or bacterial infection. However, the patient's symptoms of shortness of breath, chest tightness, and fatigue, combined with a recent change in their sleep and appetite, also raise the possibility of a more serious condition, such as pneumonia or a heart condition.\n\nThe patient's recent exposure to a coworker with a possible illness, combined with their symptoms, also makes it a good idea to ask some additional questions about their work environment and potential exposure to pathogens.\n\n\"Okay, I just want to clarify a few more things. You mentioned that you work at a car factory and that there have been a few people who have been sick there. Can you tell me more about your work environment and whether you've been exposed to anyone who has been coughing or showing symptoms of illness?\"\n\nThis question will help the doctor gather more information about the patient's potential exposure to pathogens and whether their symptoms are related to a work-related exposure.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "415",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 74,
+    "response": "Before I go over what we've discussed with my colleague, I just want to clarify a few things to make sure I understand your situation correctly. You mentioned that you had a seizure last night, but you're not sure if it's related to your current symptoms of shortness of breath and cough. Can you tell me more about your seizure disorder and how it's typically managed? For example, do you have a history of seizures that are triggered by certain factors, such as stress or lack of sleep? And do you have any concerns about the possibility of a seizure disorder being related to your current symptoms?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "632",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "That sounds concerning. Can you tell me more about your symptoms? When did you first notice the sore throat, and have you experienced any other symptoms such as difficulty swallowing, hoarseness, or coughing?\n\n(This response acknowledges the patient's concern and encourages them to provide more information about their symptoms, allowing for a better understanding of their condition.)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "330",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 96,
+    "response": "Based on the conversation history, I'll generate the doctor's next response. \n\nThe patient has provided a thorough description of their symptoms, medical history, and lifestyle. Now, it seems like we've covered most of the relevant information. \n\nHowever, before we proceed with further evaluation or testing, I'd like to summarize what we've discussed so far and clarify a few points to ensure we're on the same page. \n\nCould you confirm that you've had difficulties breathing for the past three-four days, which started gradually and worsened over time? And you've also had a cough with whitish or clear sputum, and a little bit of chest pain, particularly when taking deep breaths or after coughing? \n\nAlso, you mentioned that your daughter has recently started going back to high school and has had a runny nose and a sore throat. However, you said that you don't think you've been in contact with anyone else who might be sick. Can you tell me more about your interactions with your daughter and whether you've taken any precautions to avoid getting infected?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "320",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 34,
+    "response": "Based on the conversation history, the patient has provided some valuable information about their child's symptoms. However, there are a few areas where we need to clarify some details.\n\nYou mentioned that your child's sore throat started three to four days ago, but then you also said that the chills started yesterday. Can you confirm which symptom started first and how long each symptom has been present? This will help me better understand the progression of the illness.\n\nAlso, you mentioned that you saw some redness in the throat, but you weren't sure if you saw any white or yellow streaks. It's possible that you might have missed those, but it's also possible that they're not present. I'd like to take a closer look at the throat to see if we can find any other signs of infection. Would you be comfortable with me doing a quick examination to check for any other symptoms?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "1004",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 90,
+    "response": "Based on the conversation history, the doctor's next response should address the patient's concern about coughing up blood and the potential connection to the recent knee surgery.\n\nDoctor: I want to make sure I understand this correctly. You've been coughing up blood for the last couple of hours, and you're concerned that it might be related to your recent knee surgery. Can you tell me more about your surgery and how you've been recovering? Were you on any blood thinners or other medications that might have increased your risk of bleeding?\n\n(Note: This response acknowledges the patient's concern and seeks clarification on the potential connection between the coughing up blood and the knee surgery. It also asks specific questions to gather more information about the patient's recovery and potential risk factors for bleeding.)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "621",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 54,
+    "response": "Based on the conversation history, I will respond to the patient's statements.\n\nPatient: Oh yeah, Oh yeah, (when asked if they're coughing more often as well over this last month)\n\nDoctor: That's helpful to know. Can you tell me more about what you mean by \"more often\"? Are you coughing multiple times a day, or is it more like a few times a week?\n\nThis response acknowledges the patient's statement and seeks clarification to better understand the frequency and severity of their coughing episodes.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "628",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 90,
+    "response": "Based on the conversation history, the doctor's next response should address the patient's self-diagnosis behavior. \n\nPatient: \"I guess I've tried some taking some Tylenol and that's helping my like regulating my temperature.\"\n\nDoctor: \"Okay, so you've found some relief with Tylenol. However, let's focus on understanding the underlying cause of your symptoms rather than just managing the symptoms with medication. Can you tell me more about what you think might be causing your shortness of breath and coughing? And have you considered any other possible explanations for your symptoms?\" \n\nThis response acknowledges the patient's concern and attempts to understand their perspective while also shifting the focus towards a clinical evaluation and ruling out other possible causes.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": true
+    },
+    "dialog_id": "404",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":true}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 52,
+    "response": "Given the conversation history, I'll generate the doctor's next response based on the patient's behaviors.\n\nThe patient has exhibited several behaviors that warrant attention:\n\n1. Information Contradiction: The patient initially stated that the shortness of breath started yesterday, but then mentioned that it started yesterday as well as getting worse today. To clarify this inconsistency, the doctor could ask:\n\"Okay, just to make sure I understand correctly. You mentioned earlier that the shortness of breath started yesterday, but then you said it's been getting worse today. Can you tell me more about that? Is the shortness of breath something new that started today, or is it a progression of what started yesterday?\"\n2. Self-diagnosis: The doctor has already suspected H. flu based on the patient's symptoms, but it's essential to evaluate the patient clinically before drawing conclusions. The doctor could say:\n\"Let's focus on getting your daughter to the Emergency Department as soon as possible. We'll run some tests to determine the cause of her symptoms. I want to emphasize that we're not making any definitive diagnoses at this point, but we need to take a closer look to ensure her safety.\"\n3. Care Resistance: The patient has not expressed any concerns or resistance to the recommended care, but the doctor should still validate the patient's feelings and provide clear medical reasoning. The doctor could say:\n\"I understand that this is a very worrying situation for you, and I appreciate your cooperation in getting your daughter to the Emergency Department. We'll do everything we can to ensure her safety and provide the best possible care. If you have any questions or concerns during the process, please don't hesitate to ask.\"\n\nConsidering these behaviors, the doctor's next response could be:\n\n\"Okay, let's get your daughter ready to go to the Emergency Department. We'll run some tests to determine the cause of her symptoms and provide the necessary treatment. I want to reassure you that we'll do everything we can to ensure her safety and comfort. If you have any questions or concerns during the process, please don't hesitate to ask. I'll be with you and your daughter every step of the way.\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "301",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 80,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nPatient: Uh, just me and my husband. We live outside of town. We live in the country on a little farm.\n\nDoctor: Okay, so you live in a rural area. That's helpful to know. \n\n(Note: The doctor has gathered a comprehensive medical history from the patient and has identified potential symptoms such as coughing up green mucus, shortness of breath, fatigue, and fever. The doctor is now transitioning to discussing potential causes and further evaluation.)\n\nHowever, considering the conversation instructions, I should also be prepared to address potential contradictions, inaccuracies, self-diagnosis, and care resistance.\n\nIf the patient exhibits any of these behaviors, I'll adjust the response accordingly.\n\nFor example, if the patient contradicts themselves or provides inconsistent information, I might say:\n\n\"Okay, just to clarify, you mentioned earlier that you've been feeling weak and tired, but you also said you haven't been losing any motor movements in your arms or legs. Can you help me understand what you mean by feeling weak?\"\n\nOr if the patient makes a factual inaccuracy or self-diagnosis, I might say:\n\n\"I understand that you've been doing some research online, but I'd like to clarify some of the information you've gathered. Can you tell me more about what you've learned, and I'll do my best to provide accurate information and guidance?\"\n\nOr if the patient resists recommended care, I might say:\n\n\"I understand that you might be hesitant about certain tests or treatments, but I want to assure you that we're taking a comprehensive approach to understanding your symptoms and developing a plan to address them. Can you tell me more about what's making you hesitant, and we can discuss the options together?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "114",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 82,
+    "response": "Based on the conversation history, the patient has provided a detailed account of their symptoms, which include chest pain and shortness of breath. However, there is one point that requires clarification.\n\nThe patient initially stated that the chest pain started 2 days ago, but later mentioned that it started getting painful when breathing 1 day ago. This inconsistency in the timeline needs to be addressed.\n\nDoctor: \"Okay, just to clarify, you said the chest pain started 2 days ago, but then you mentioned it started getting painful when breathing 1 day ago. Can you tell me more about what you mean by '2 days ago'? Was that the first time you noticed any discomfort in your chest, or was it just when you started noticing the pain with breathing?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "414",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 18,
+    "response": "Based on the conversation history, the patient's response about the phlegm color and the recent onset of chest pain after coughing is not immediately concerning, but the patient's self-reported wheezing and chest pain are worth further investigation.\n\nHowever, the patient's mention of the chest pain is somewhat contradictory. They initially stated \"no\" to chest pain, but then mentioned \"it just kind of hurts me a little bit\" when asked about it again. To clarify this inconsistency, the doctor can ask:\n\n\"Okay, just to clarify, when you say it hurts after coughing, is this a sharp pain or more of a dull ache? And can you tell me more about when you first noticed this pain?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "419",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "That's quite a concerning combination of symptoms. Can you tell me more about your cough? Is it a dry cough or do you produce any mucus when you cough? And how would you describe the headache - is it constant or does it come and go?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "627",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 68,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nGiven that the patient has provided a detailed history of their cough and associated symptoms, I'll ask some clarifying questions to ensure I understand their situation accurately.\n\nDoctor: I'd like to summarize what you've told me so far. Just to make sure I've got everything straight. You've had a cough for the past two weeks, which started with some mucus production for the first four to five days, and then transitioned to a dry cough. You haven't experienced any difficulty breathing, fever, or chest pain, apart from some soreness in your chest when you cough. You work at the hospital, but you wear PPE and take precautions to avoid getting sick. Is that correct?\n\nPlease note that I've tried to identify potential contradictions, inaccuracies, self-diagnosis, or care resistance in the conversation so far. However, based on the information provided, I haven't found any red flags. I'll continue to ask questions and gather more information to inform my assessment and develop a plan for the patient's care.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "230",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 94,
+    "response": "Based on the conversation history, I will address the patient's assertion about smoking marijuana occasionally with friends at parties.\n\nDoctor: I see that you mentioned you occasionally smoke marijuana with friends at parties. Have you noticed any changes in your breathing or lung function since you started doing that?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "629",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 76,
+    "response": "Based on the conversation history, I will respond to the patient's statements.\n\nSince the patient has provided a thorough medical history, I will now summarize and assess their symptoms.\n\n\"Okay, just to summarize, you've had a cough for about 5 days, which seems to be improving, and you've also had diarrhea for the past 2 days, which is watery but without any blood. You've also mentioned a headache, which you've been experiencing for a few days, and it's currently a 5 out of 10 in severity. You've taken Tylenol for the headache, which seems to have helped. You've also been experiencing some discomfort while going to the washroom due to the diarrhea.\n\nCan you tell me more about your work at the car shop and whether you've noticed any changes in your symptoms since you started working there? I'd also like to discuss your medications for blood pressure and high cholesterol, and how you're taking them. We'll also need to run some tests to determine the cause of your symptoms.\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "129",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 4,
+    "response": "Doctor: Alright, so the nasal obstruction and discharge are bothering you, and it's mostly clear. That's helpful information. Can you tell me a bit more about the nasal obstruction? Is it constant, or does it come and go throughout the day?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "118",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 98,
+    "response": "Based on the conversation history, the patient has not exhibited any of the behaviors that would require a specific response. However, the patient has mentioned that they have been feeling a little feverish and have a sore throat, and they are concerned about COVID-19. \n\nThe doctor's next response should be to continue gathering more information and to address the patient's concern about COVID-19.\n\nDoctor: \"Okay, so let's talk a bit more about your symptoms and what might be causing them. As I mentioned, we'll definitely be testing for COVID-19, but we'll also be looking at other possible causes for your fever and sore throat. Can you tell me a bit more about your symptoms? For example, how long have you been feeling feverish, and how severe is the sore throat? And have you taken your temperature at all since you've been feeling unwell?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "134",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 6,
+    "response": "It sounds like you've been experiencing some concerning symptoms over the past four days. To better understand what might be going on, can you tell me more about the shortness of breath? Is it a constant feeling, or does it come and go? And when you say it hurts to take a deep breath in, is the pain sharp or dull, and is it located in the center of your chest or more to one side?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "625",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 83,
+    "response": "Based on the conversation history, the patient has provided a detailed account of their symptoms, including a persistent cough with dark yellow-greenish mucus, occasional coughing fits, and some chest pain when coughing. They have also mentioned some recent cold symptoms and disturbed sleep due to coughing at night.\n\nHowever, the patient's account of the cough's duration and severity seems inconsistent. Initially, they mentioned that the cough started six months ago and has been ongoing, but then stated that it has been getting worse over the last week and has become more frequent. To clarify this inconsistency, the doctor's next response should be:\n\n\"Okay, just to make sure I understand, you mentioned that the cough started six months ago, but then you said it's been getting worse over the last week. Can you help me understand what you mean by 'getting worse'? Is it that the cough has become more frequent, or is it that the symptoms have become more severe?\"\n\nThis question aims to clarify the patient's account and ensure that the doctor has a clear understanding of the patient's symptoms and their progression.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "107",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 16,
+    "response": "Now that we've discussed the cough and the blood in your sputum, I want to make sure I understand the situation clearly. You mentioned that the cough started a couple of weeks ago, but then you also said it initially got worse and then stayed about the same. Then you mentioned that the blood in your sputum started about two days ago. Can you clarify what you mean by \"initially got worse\"? Was it getting worse before the blood started, or was there a different time frame for the cough getting worse? This will help me get a better understanding of the progression of your symptoms.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "225",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 20,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nSince the patient has provided a consistent timeline for their symptoms (cough starting 3-4 days ago, headache in the last 2 days, and muscle ache in the last 2-3 days), and we have a good understanding of their symptoms, the next response can be:\n\nDoctor: Okay, I think we have a good picture of what's been going on with you. I'd like to do a physical examination to assess your lung sounds and check for any other signs of infection. I'll also order some tests to help determine the cause of your symptoms. In the meantime, I want to ask: Have you had any exposure to anyone who's been sick recently, or have you traveled anywhere recently that might have exposed you to something new?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "620",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 10,
+    "response": "Based on the conversation history, the patient has not yet exhibited any of the specified behaviors. The conversation is still in the process of gathering information about the patient's symptoms. \n\nTo continue, the doctor's next response would be to ask a follow-up question to further understand the patient's symptoms:\n\nDoctor: Okay, so you mentioned that the congestion started around 5 days ago and has been getting worse. Have you noticed any changes in your temperature or any other symptoms that might be related to an infection, such as fatigue or muscle aches?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "334",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 62,
+    "response": "Based on the conversation history, the patient has provided a detailed account of their symptoms, medical history, and lifestyle. However, there are a few points that need further clarification and some potential areas of concern.\n\nThe patient has reported a recent onset of difficulty breathing, coughing, and sharp pain on the right side of their chest and belly area. They have also mentioned a fever and sputum production, which are concerning symptoms.\n\nOne area of concern is the patient's history of smoking. They have been smoking for 30 years, which is a significant risk factor for respiratory and cardiovascular diseases.\n\nAnother area of concern is the patient's history of type 2 diabetes, high blood pressure, and kidney disease. These conditions can increase the risk of complications and interactions with medications.\n\nBefore we move forward, I would like to ask a few more questions to clarify some points. You mentioned that you have a history of bronchitis in the past, which was attributed to your smoking. Can you tell me more about that episode? Was it treated with antibiotics, and did you have any other symptoms at the time?\n\nAlso, I would like to ask about your current smoking habits. Have you tried to quit or reduce your smoking in the past? And are you currently using any nicotine replacement therapy or other quit-smoking aids?\n\nFinally, I would like to review your medication list again. You mentioned that you take amlodipine, insulin, metformin, an SGLT2 inhibitor, and a multivitamin. Are you taking any other medications or supplements that you haven't mentioned?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "328",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 84,
+    "response": "Based on the conversation history, I will respond to the patient's statement about their daughter's previous hospitalization.\n\nDoctor: Okay, so she had similar symptoms when she was a few months old and was hospitalized for a day or two. Did she need like antibiotics or inhalers or anything like that?\n\nPatient: I think they just gave her some oxygen and then um, some fluids.\n\nDoctor: Okay. You mentioned that she was hospitalized for a day or two. Can you tell me more about what the doctors said was wrong with her at the time? And did they give you any specific instructions or follow-up care after she was discharged?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "327",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 84,
+    "response": "Based on the conversation history, I will generate the doctor's next response.\n\nThe patient has provided a thorough history of their symptoms, which seem to be primarily related to a runny and stuffy nose. They have also provided some relevant medical history and lifestyle information. However, I would like to clarify a few points to ensure that I have an accurate understanding of their situation.\n\nOne thing that stands out is the patient's mention of having tried antihistamines for their seasonal allergies, but they not being helpful. I would like to ask a follow-up question to clarify this.\n\n\"Okay, so you mentioned that you tried some antihistamines because you have seasonal allergies, but they didn't seem to help with your symptoms. Can you tell me more about what type of antihistamines you tried and for how long you took them? This might help us understand if there's another underlying issue that we need to consider.\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "513",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MediTOD",
+    "turn_index": 32,
+    "response": "It seems like you've been experiencing a lot of symptoms over the past day or so. I want to make sure I understand everything correctly. You mentioned that you started not feeling well yesterday, and then this morning you woke up with a fever, headache, and soreness all over. You also mentioned that you had a runny nose, itchy nose, and some sneezing. However, you mentioned earlier that your headache started last night and you took Tylenol, which helped relieve the pain. But then you said it came back this morning. Can you clarify what you mean by \"it came back\"? Was the headache still present, or did it return after the initial relief from the Tylenol?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  }
+]

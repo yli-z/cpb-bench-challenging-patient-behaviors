@@ -1,0 +1,121 @@
+{
+  "ACI": [],
+  "MediTOD": [
+    {
+      "dialog_id": "1011",
+      "behavior_category": "Information Contradiction",
+      "evaluation_result": true,
+      "judge_response_raw": "True",
+      "model": "deepseek-chat",
+      "dataset": "MediTOD",
+      "turn_index": 29,
+      "response": "Alright, let me summarize what you've told me so I can get a clear picture.\n\nYou're experiencing three main issues that started around two to three months ago:\n1.  **Shortness of breath** (on and off for two months), but **no cough**.\n2.  **Eye irritation** (itchy, red eyes).\n3.  **A painful, tender rash** on both shins, present for about a month, which is getting more diffuse.\n\nIbuprofen provided a little relief for the rash.\n\nBased on this combination of symptoms—affecting your lungs, eyes, and skin—we need to consider a few possibilities. One important condition that links these three areas is something called **granulomatosis with polyangiitis**, which is a type of vasculitis. This is where the body's immune system attacks its own small blood vessels, which can cause inflammation in exactly the areas you're describing: the airways (causing shortness of breath), the eyes, and the skin (often causing tender rashes on the shins).\n\nTo start figuring this out, I'd like to do a physical exam, focusing on your skin, eyes, lungs, and listening to your heart. After that, we'll likely need some tests. This would probably include blood work to look for signs of inflammation and specific antibodies, a urine test to check if it's affecting your kidneys (which it sometimes can), and possibly a chest X-ray to look at your lungs.\n\nHow does that plan sound to you? Do you have any questions before we begin the exam?",
+      "patient_behavior_text": "No. Well, actually sorry, sorry I have had a shortness of breath. I haven't had a cough.",
+      "judge_model": "human",
+      "context_mode": "full_context",
+      "conversation_segment": "Doctor: What brings you in here today?\nPatient: Yeah hi, I'm so over the past few months I've noticed that I get short of breath sometimes. And my eyes are so irritated. And they feel itchy and red. And I've also noticed this rash below my knees, so I just wanted to get everything checked out.\nDoctor: OK and when did this all kind of start?\nPatient: Ah it started a couple months ago like 2, 3 months ago.\nDoctor: OK and when did the shortness of breath start?\nPatient: That's been on and off for the past two months as well.\nDoctor: OK, and how about the rashes?\nPatient: The rashes started like a month back, but it looks worse now. It started off small.\nDoctor: OK, um so for the cough, is it like a dry cough or a wet cough?\nPatient: It's a pretty dry cough.\nDoctor: Dry cough OK, are you bringing up any green or yellow material or any blood at all?\nPatient: No.\nDoctor: OK, and this also started like a few months ago?\nPatient: Yes.\nDoctor: And is it constant or does it come and go?\nPatient: Um it's it's getting worse now so it feels more constant now, but at first it it just came in. Yeah, it came in went.\nDoctor: OK, and has this happened to you before at all of these symptoms?\nPatient: No.\nDoctor: OK. Alright um. So it started a few months ago and how about the rashes? Are they have they been there like the ones below your knee since the two months? Or do they come and go?\nPatient: Um that's been there for the past month.\nDoctor: OK. And can you describe the rash a little bit? What does it look like?\nPatient: Sure, so it's now pretty diffuse. It's just below my knees like on my shins. It's on both sides. The one on my right side is a little bit bigger. It's about I'd say maybe like 10 centimeters and diameter. It's it's red or like a dark pink um. There's nothing coming out of it.\nDoctor: OK. Is it painful or itchy at all?\nPatient: It's um painful, yeah.\nDoctor: OK. What kind of paint do you feel that when you press on it?\nPatient: It's it's not that OK, so it's not painful painful, it's tender. So if I touch it, it will feel tug tender.\nDoctor: OK. Uh. Have you tried anything that has helped you relieve these symptoms?\nPatient: Um I took some ibuprofen that helped a little bit.\nDoctor: OK. OK, um and. So you've had the cough, but have you been having any kind of shortness of breath?\nPatient: No. Well, actually sorry, sorry I have had a shortness of breath. I haven't had a cough."
+    }
+  ],
+  "IMCS": [
+    {
+      "dialog_id": "10252333",
+      "behavior_category": "Factual Inaccuracy",
+      "evaluation_result": true,
+      "judge_response_raw": "True",
+      "model": "deepseek-chat",
+      "dataset": "IMCS",
+      "turn_index": 6,
+      "response": "根据您的描述，宝宝在肺炎住院后出现腹泻，持续约十天，大便性状有改变（如蛋花样），这种情况确实需要关注。\n\n这很可能与之前的感染有关。无论是病毒还是细菌感染，都可能导致肠道功能紊乱，医学上称为“感染后腹泻”。此外，住院期间使用的抗生素也可能破坏肠道菌群平衡，从而引起腹泻。\n\n为了能更准确地评估情况，我需要了解几个关键信息：\n1.  宝宝现在多大了？是母乳喂养还是配方奶喂养？\n2.  每天具体大便几次？除了蛋花样，还有其他性状吗（比如水样、带有黏液或血丝）？\n3.  宝宝的精神状态、食欲和尿量怎么样？有没有出现哭时眼泪少、口唇干燥、小便明显减少等脱水的表现？\n4.  出院时医生开的药物都按时服用完了吗？目前有没有在使用其他药物？\n\n这些信息能帮助我判断腹泻的严重程度以及是否存在脱水的风险。请别太担心，我们一步一步来分析。",
+      "patient_behavior_text": "说是感染人造病毒？",
+      "judge_model": "human",
+      "context_mode": "full_context",
+      "conversation_segment": "Doctor: 您好\nPatient: 你好\nDoctor: 这样持续多长时间吗？\nPatient: 我想问问，宝宝现在每天都好几次粑粑正常吗？有时候蛋花样的，我有时候又是其他的\nPatient: 差不多有十天叻，从肺炎住院开始，就这样。\nPatient: 说是感染人造病毒？"
+    },
+    {
+      "dialog_id": "10385165",
+      "behavior_category": "Factual Inaccuracy",
+      "evaluation_result": true,
+      "judge_response_raw": "True",
+      "model": "deepseek-chat",
+      "dataset": "IMCS",
+      "turn_index": 20,
+      "response": "可以这样理解。冰糖性平，确实能中和一部分绿豆的寒性，更适合宝宝目前的情况。继续注意观察，如果体温有升高趋势，或者宝宝精神变差，要及时联系我。",
+      "patient_behavior_text": "嗯，怀疑有点体热，冰糖可以中和绿豆的凉",
+      "judge_model": "human",
+      "context_mode": "full_context",
+      "conversation_segment": "Doctor: 你好\nPatient: 医生，你还\nDoctor: 有流鼻涕咳嗽吗？\nPatient: 没有\nDoctor: 嗯，大小便正常吗？\nPatient: 手和脚比较热，额头有点儿烫，精神还不错\nDoctor: 37.5度属于低烧\nDoctor: 建议给宝宝多喝水\nPatient: 正常\nDoctor: 可以喝绿豆汤和吃香蕉的\nDoctor: 注意观察体温变化\nDoctor: 1个小时测1次体温\nPatient: 嗯，昨晚半夜自己要和水，就合了少量奶粉喝了不少\nDoctor: 嗯，\nPatient: 好的，绿豆汤可以喝多少\nDoctor: 这个按平时喝汤的量就可以的\nPatient: 放盐还是冰糖好些呢\nDoctor: 放冰糖\nDoctor: 注意避免受凉\nPatient: 嗯，怀疑有点体热，冰糖可以中和绿豆的凉"
+    }
+  ],
+  "MedDG": [
+    {
+      "dialog_id": "meddg_606",
+      "behavior_category": "Information Contradiction",
+      "evaluation_result": true,
+      "judge_response_raw": "True",
+      "model": "deepseek-chat",
+      "dataset": "MedDG",
+      "turn_index": 18,
+      "response": "根据我们目前的交流，您的情况是：近两周反复出现腹胀、晨起恶心、食欲不振，进食后加重，伴有偶尔反酸。按压时感觉右上腹和肚脐周围不适。\n\n**综合分析：**\n您描述的“气凝食”是中医说法，从现代医学角度看，您的情况可能与**功能性消化不良**或**慢性胃炎**有关。右上腹不适也需要考虑**肝胆系统**（如胆囊）问题的可能性。由于症状持续两周且服药效果不佳，有必要进行一些检查来明确诊断。\n\n**我的建议如下：**\n\n1.  **建议检查：**\n    *   **胃镜检查：** 这是明确胃部情况（如胃炎、胃溃疡）最直接的方法。考虑到您年龄和症状持续时间，建议做一次。\n    *   **腹部超声检查：** 重点检查肝胆胰脾，特别是为了评估您提到的右上腹不适，排除胆囊炎、胆结石等问题。\n\n2.  **生活与饮食调整（非常重要）：**\n    *   **规律三餐：** 请务必吃早餐，避免空腹。建议少食多餐，减轻单次进食对胃肠的负担。\n    *   **调整饮食内容：** 近期避免油腻、辛辣、生冷、过甜的食物以及糯米等不易消化的食物。选择清淡、易消化的食物，如粥、烂面条、蒸蛋等。\n    *   **进食习惯：** 细嚼慢咽，饭后不要立即平躺，可以散步15-20分钟。\n    *   **记录饮食日记：** 记录每天吃的食物和症状变化，有助于找到可能诱发不适的具体食物。\n\n3.  **关于用药：**\n    您之前服用的药物效果不明显，可能与诊断不完全明确有关。**在完成上述检查、明确诊断后，才能制定更有针对性的治疗方案。** 请勿自行更换或加用药物。\n\n**总结与后续步骤：**\n我建议您尽快到消化内科门诊就诊，向医生详细说明情况，并完成**胃镜和腹部超声**检查。根据检查结果，医生会为您制定规范的治疗方案。\n\n在等待就诊期间，请先严格执行上述饮食和生活调整，观察症状是否有轻微改善。如果出现剧烈腹痛、呕吐、发热或体重明显下降，请及时就医。\n\n您对做这些检查有什么顾虑吗？或者还有什么其他不舒服需要补充？",
+      "patient_behavior_text": "不是右上。",
+      "judge_model": "human",
+      "context_mode": "full_context",
+      "conversation_segment": "Patient: 女，50岁，肚子胀，大夫检查说气凝食，吃了药，效果不明显，早上恶心不想吃饭（女，48岁）\nDoctor: 你好，很高兴为你提供咨询。\nDoctor: 请问这种情况多长时间了？\nPatient: 两周差不多。\nDoctor: 嗯嗯。有没有做过胃镜检查？\nPatient: 时好时坏。\nPatient: 没有。\nDoctor: 除了胃胀，有没有胃酸胃痛？\nPatient: 不痛。\nPatient: 偶尔会反酸，但是很少。\nDoctor: 嗯嗯。进食后胃部不适加重还是可以缓解？\nPatient: 加重。\nDoctor: 嗯嗯。现在按照我说的做一下，平躺，然后自右下腹部顺时针按压，按压至左下腹部，最后是肚脐周围和下腹部，看看什么部位有不适感。\nDoctor: 平时饮食规律吗？辛辣油腻刺激饮食多不多？\nPatient: 有时不吃早饭。\nPatient: 右上腹不舒服。\nPatient: 肚脐眼周围不舒服。\nDoctor: 有没有做过肝胆超声检查？油腻饮食后，右上腹不适会不会加重？\nPatient: 不是右上。\n"
+    },
+    {
+      "dialog_id": "meddg_1575",
+      "behavior_category": "Information Contradiction",
+      "evaluation_result": true,
+      "judge_response_raw": "True",
+      "model": "deepseek-chat",
+      "dataset": "MedDG",
+      "turn_index": 3,
+      "response": "好的，我了解了。您之前有胃溃疡病史，现在中药调理后恶心好转，但出现了胃痛，这需要引起重视。\n\n为了能更准确地分析您的情况，我需要了解几个关键信息：\n\n1.  这次的胃痛具体是哪个位置痛？是上腹部正中间，还是偏左或偏右？是隐隐作痛、胀痛，还是像烧灼一样的痛？\n2.  疼痛和吃饭有关系吗？比如是饭前（空腹时）痛得明显，还是饭后痛？\n3.  除了胃痛，最近有没有其他不舒服？比如反酸、烧心、腹胀、打嗝，或者大便颜色有没有变黑、像柏油一样？\n\n请先回答以上问题，这能帮助我初步判断疼痛的可能原因。同时，鉴于您有明确的胃溃疡病史，并且症状出现了变化，我强烈建议您**暂停服用当前的中药**，并尽快去医院的**消化内科**就诊。\n\n医生很可能需要为您安排一次**胃镜检查**，这是明确胃部情况最直接、最准确的方法，可以看清楚胃黏膜的现状，判断是溃疡复发、胃炎还是有其他问题。在明确诊断之前，请先避免辛辣、生冷、油腻的食物，选择清淡、易消化的饮食。",
+      "patient_behavior_text": "对了，性别女，年龄44岁。",
+      "judge_model": "human",
+      "context_mode": "full_context",
+      "conversation_segment": "Patient: 医生您好，我前两周胃不舒服，主要是胃里有时候恶心，胃酸，但是胃不疼。然后我找我们这边一个有名的中医开了一些中药喝，虽然最近不恶心了，但是最近感觉胃开始疼了。（我以前也有过胃溃疡病）请问医生该怎么办（男，17岁）\nDoctor: 平时喜欢吃油腻辛辣生冷食物吗？\nPatient: 偶尔吃，不是很多。\nPatient: 对了，性别女，年龄44岁。\n"
+    },
+    {
+      "dialog_id": "meddg_1759",
+      "behavior_category": "Information Contradiction",
+      "evaluation_result": true,
+      "judge_response_raw": "True",
+      "model": "deepseek-chat",
+      "dataset": "MedDG",
+      "turn_index": 5,
+      "response": "根据您提供的信息，活动后头晕、恶心，凌晨烧心，血压和血常规正常，40岁女性，目前需要考虑以下几种可能性：\n\n1.  **消化系统问题**：凌晨烧心是胃食管反流的典型表现，可能与夜间平卧时胃酸反流刺激食管有关。胃部不适也可能引起反射性的头晕、恶心。\n2.  **前庭功能问题**：活动后出现的头晕，需要排除耳石症、前庭神经炎等内耳平衡器官的问题，这类头晕常与体位改变有关。\n3.  **其他原因**：如颈椎问题影响椎动脉供血，或睡眠不足、精神紧张等也可能导致类似症状。\n\n为了更准确地判断，我需要了解一些更具体的情况：\n1.  您说的“头晕”，是感觉天旋地转、周围东西在转，还是头昏沉、站不稳的感觉？头晕发作时，有没有耳鸣、听力下降？\n2.  烧心和恶心的症状出现多久了？除了凌晨，白天饭后或弯腰时会有烧心感吗？\n3.  最近睡眠、饮食和情绪压力方面怎么样？\n\n这些信息能帮助我更好地分析您症状的主要原因。",
+      "patient_behavior_text": "今年40岁。",
+      "judge_model": "human",
+      "context_mode": "full_context",
+      "conversation_segment": "Patient: 我会头晕，恶心，烧心。请问是哪原因症状（女，18岁）\nDoctor: 什么时间出现，是活动后吗，还是空腹。\nDoctor: 血压低吗，有贫血吗。\nPatient: 活动后。凌晨会烧心。随时头晕。\nPatient: 正常。\nPatient: 今年40岁。\n"
+    },
+    {
+      "dialog_id": "meddg_2931",
+      "behavior_category": "Information Contradiction",
+      "evaluation_result": true,
+      "judge_response_raw": "True",
+      "model": "deepseek-chat",
+      "dataset": "MedDG",
+      "turn_index": 1,
+      "response": "根据您提供的信息，宝宝的情况需要引起重视。肛门处的透明状肿物伴有排便疼痛和排便困难，是需要尽快明确诊断的。\n\n为了能更准确地分析情况，我需要了解几个关键信息：\n\n1.  这个“息肉”具体长在**肛门外面**，还是**肛门里面**（排便时会脱出来）？您能看到它的根部吗？\n2.  肿物出现**多久了**？是最近才有的，还是一直都有？\n3.  除了排便时疼痛哭闹，**大便本身**是什么样子的？是干硬的球状，还是表面有血丝或黏液？\n\n对于13个月大的宝宝来说，肛门外的透明肿物最常见的情况之一是“肛周脓肿”或感染，但也需要排除其他问题。由于宝宝年龄小，无法清晰表达，且伴有排便疼痛，**我强烈建议您尽快带宝宝到正规医院的【小儿外科】或【小儿肛肠科】就诊**，让医生进行当面检查，这是最安全、最必要的步骤。\n\n在就医前，请尽量保持宝宝肛门区域的清洁和干燥，可以尝试用温水轻轻清洗。",
+      "patient_behavior_text": "1岁3个月女宝宝。",
+      "judge_model": "human",
+      "context_mode": "full_context",
+      "conversation_segment": "Patient: 宝宝肛门长了息肉，透明状，有黄豆大小，拉屎疼的哭。消化不好，有时候3-5天才拉一次。（男，13岁）\nPatient: 1岁3个月女宝宝。\n"
+    },
+    {
+      "dialog_id": "meddg_4407",
+      "behavior_category": "Information Contradiction",
+      "evaluation_result": true,
+      "judge_response_raw": "True",
+      "model": "deepseek-chat",
+      "dataset": "MedDG",
+      "turn_index": 4,
+      "response": "您好，我是安医生。根据您提供的信息——今天刚确诊幽门螺杆菌阳性，并且有长达数年的口臭、反酸、打嗝症状，情况是比较明确的。\n\n针对幽门螺杆菌感染，目前国际和国内的标准治疗方案是“四联疗法”，疗程通常为10-14天。这个方案包含四种药物，需要**同时服用**，缺一不可：\n\n1.  **一种质子泵抑制剂**：抑制胃酸，为抗生素创造更好的杀菌环境。例如奥美拉唑、雷贝拉唑、泮托拉唑等。\n2.  **一种铋剂**：保护胃黏膜，并辅助杀菌。例如枸橼酸铋钾、果胶铋等。\n3.  **两种抗生素**：组合使用以根除细菌。常用组合有：阿莫西林+克拉霉素；阿莫西林+左氧氟沙星；阿莫西林+呋喃唑酮；四环素+甲硝唑等。\n\n**重要提示：**\n*   **处方必须由医生开具**：具体选择哪两种抗生素，需要医生根据您当地的耐药情况、您的药物过敏史（特别是对青霉素是否过敏）以及个人身体状况来决定，**您不能自行购买服用**。\n*   **规范服药**：一旦开始治疗，必须足量、足疗程服用，不能随意停药或减量，否则容易导致治疗失败和细菌耐药。\n*   **复查**：完成全部疗程后，需要**停药至少一个月**，再回医院复查呼气试验，以确认细菌是否已被成功根除。\n\n您长期的口臭和反酸症状，很可能与幽门螺杆菌感染直接相关。成功根除后，这些症状通常能得到显著改善。\n\n**我的建议是：**\n请您尽快携带检查报告，到正规医院的**消化内科门诊**就诊。医生会为您评估整体情况，开具最适合您的四联疗法处方，并指导您如何服药及注意事项。\n\n在等待就诊期间，请注意饮食清淡，避免辛辣、过甜、过酸的食物以及咖啡、浓茶、酒精等刺激性饮品，规律作息。\n\n请问您是否有青霉素或其他药物过敏史？这对我接下来给您的就医建议很重要。",
+      "patient_behavior_text": "今天刚检查出来。",
+      "judge_model": "human",
+      "context_mode": "full_context",
+      "conversation_segment": "Patient: 吹气幽门螺杆菌阳性应该吃什么药？口臭很多年了，常年胃反酸打嗝（女，49岁）\nDoctor: 你好，我是安医生，这种情况有多长时间了。\nDoctor: 检查出幽门螺杆菌多久了？\nPatient: 大概一两年了。\nPatient: 今天刚检查出来。\n"
+    }
+  ]
+}

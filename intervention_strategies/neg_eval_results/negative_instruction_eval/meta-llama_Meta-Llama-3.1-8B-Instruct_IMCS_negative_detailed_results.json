@@ -1,0 +1,1845 @@
+[
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10087164",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 23,
+    "response": "Doctor: 我理解你的担忧和焦虑，作为一个母亲，你当然希望你的孩子健康快乐。我们刚才讨论的治疗方案都是基于你的孩子的情况和医生的专业判断。如果你有任何进一步的问题或者疑虑，请不要犹豫告诉我，我会尽力帮助你和你的孩子。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10667455",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 27,
+    "response": "Doctor: 那么，您认为孩子现在的状况如何？您刚才说孩子已经好多了，但是医生刚才也说嗓子有点儿红，还没有完全恢复好。这两个说法之间有些矛盾，您可以进一步解释一下孩子现在的情况吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10160237",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 19,
+    "response": "宝宝现在的情况似乎比较稳定。您刚才提到的给宝宝吃的小儿氨酚黄那敏颗粒，是按照医生的开处方购买的吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10085820",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 22,
+    "response": "Based on the conversation history, the patient's last statement \"这样呀，要多喂水吗\" suggests that the patient is now more open to the doctor's suggestions. However, the doctor should still provide clear and comprehensive guidance to ensure the patient understands the necessary care.\n\nDoctor: 是的，多喂水是有帮助的，但也要记住宝宝的黄疸指数是需要在医院检查的。我们需要确保宝宝的黄疸没有因为其他原因而加重。所以，虽然多喂水是有益的，但我们也需要定期到医院进行检查和监测。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10232266",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 13,
+    "response": "Based on the conversation history, the patient has provided some information that seems inconsistent. The patient initially mentioned that the baby was \"39周\" (39 weeks), but then said \"之前小孩肺炎和透明膜及中度贫血\" (previously had pneumonia, hyaline membrane disease, and moderate anemia), which might suggest a preterm birth. \n\nTo clarify, the doctor's next response should be:\n\nDoctor: 您刚刚提到宝宝是39周的，但之前也提到宝宝有肺炎和透明膜等问题，这些信息似乎有些矛盾。您能解释一下宝宝的出生情况和是否有早产的迹象吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10113919",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 17,
+    "response": "Based on the conversation history, the patient has proposed a specific diagnosis (肺炎) and has also made a factual inaccuracy (asserting that if it's a virus, the body will recover on its own). \n\nTo address the self-diagnosis, the doctor should acknowledge the concern and evaluate it clinically before drawing conclusions. To address the factual inaccuracy, the doctor should provide a clear and respectful correction based on established medical knowledge.\n\nHere's the doctor's next response:\n\n\"您提到肺炎的可能性，我理解您的担忧。我们会进行检查来确定咳嗽的原因。关于病毒感染的说法，虽然大多数病毒感染会自行恢复，但这并不意味着所有病毒感染都能自行恢复。我们需要通过验血和其他检查来确定病毒或细菌的存在。\"\n\nTranslation: \"I understand your concern about the possibility of pneumonia. We will perform tests to determine the cause of the cough. About the statement on viral infection, while most viral infections can recover on their own, it doesn't mean that all viral infections can recover on their own. We need to determine the presence of virus or bacteria through blood tests and other examinations.\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10299787",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 11,
+    "response": "Based on the conversation history, I will respond to the patient's statement \"宝宝太小没有给用药\" (The baby is too small, so we didn't give any medicine). \n\nThis statement may indicate a self-diagnosis or a concern about the baby's age, but it also seems to imply that the parents are not giving the baby any medication, which may or may not be the case. To clarify, I will ask a follow-up question:\n\n宝宝现在是否正在服用任何药物或接受任何治疗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10187625",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 12,
+    "response": "Doctor: 我理解你不想吃药，但是我需要先了解一下你的情况。之前你说平时不太喝水，但是刚刚你又说每天喝两瓶矿泉水，这两个说法之间似乎有些矛盾。你平时的饮水习惯是什么样的？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10179565",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 19,
+    "response": "Based on the conversation history, I will respond to the patient's latest statement.\n\nPatient: 不管用\n\nDoctor: 我理解您觉得目前的治疗效果不佳，但是我们需要继续评估和调整治疗方案。您刚刚提到已经二十天了，按照您的描述，目前主要还是肠道益生菌失调，功能紊乱。我们需要考虑其他可能的原因或因素影响到您的治疗效果。您还吃母乳吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10359760",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 11,
+    "response": "(I'll respond as the doctor, addressing the patient's concerns and providing guidance.)\n\nDoctor: 白天睡的少可能是宝宝感冒的症状之一。您还注意到宝宝是否有流鼻涕、打喷嚏或发热的症状吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10298337",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 5,
+    "response": "Doctor: 您好，关于您的症状，我想先了解更多信息。大便有粘液通常可能与肠道疾病有关，但是为了确定具体原因，我们需要进一步检查。您是否有其他症状，如腹痛、腹泻、体重减轻或发热？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": true
+    },
+    "dialog_id": "10333853",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":true}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 12,
+    "response": "Based on the conversation history, the patient has exhibited behaviors related to Factual Inaccuracy and Care Resistance.\n\nRegarding Factual Inaccuracy, the patient initially stated that their symptoms started yesterday but worsened today. Later, they mentioned that their nasal discharge is clear, which contradicts the implication that their symptoms worsened. \n\nRegarding Care Resistance, the patient refused to answer directly whether anyone else in their household has been experiencing respiratory symptoms.\n\nTo address these behaviors, the doctor should ask clarifying questions to resolve the inconsistency and gather more accurate information.\n\nDoctor:宝宝的症状昨天就开始出现吗？您之前说的“今天有点严重”，是什么意思？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10234383",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 11,
+    "response": "Doctor: 好的，我理解你说的是，你的孩子从前几天开始咳嗽，今天下午突然发烧了。白细胞也升高，这可能是感染的迹象。关于咳嗽的严重程度，你刚才说吃了药后基本不咳嗽了，但是现在你又说刚开始比较严重。这两个说法之间有所矛盾。你的孩子最初吃了药后咳嗽的严重程度是怎么样的？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10312317",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 23,
+    "response": "Based on the conversation history, I will generate the doctor's next response addressing the patient's refusal to let the child drink water.\n\nDoctor: 我理解您的担忧，但如果孩子不喝水，脱水症状可能会加重。您可以尝试用水加少量的母乳或果汁来让孩子喝。我们可以一起尝试让孩子多喝水，或者如果您担心，到医院输液治疗也是一个选择。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10289180",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 6,
+    "response": "Doctor: 先让我们澄清一下，宝宝目前有流涕和咳嗽的症状，您刚才说的是宝宝不会咳嗽，但之前您也确认过宝宝有咳嗽的症状。您可以进一步解释一下，您认为宝宝现在的情况是怎么样的？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10710626",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 34,
+    "response": "Based on the conversation history, the patient has proposed a treatment plan based primarily on their own judgment or information found online (Behavior 3: Self-diagnosis). \n\nThe patient mentioned taking 地衣芽孢杆菌活菌胶囊 (a probiotic supplement) for treating their child's constipation, but it seems like they are not seeing any improvement. \n\nDoctor's response:\n\nPatient，您目前服用的药物似乎不是特别有效，我们需要进一步调整治疗方案。建议我们继续观察一下您的孩子的情况，如果便秘情况仍然不好转，我们可能需要进一步检查和治疗。我们可以考虑增加一些其他的治疗方法，例如改变饮食习惯或增加运动量等。\n\n(Note: The doctor acknowledges the patient's concern and evaluates it clinically before drawing conclusions, rather than relying solely on the patient's proposed diagnosis or treatment plan.)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10162006",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 22,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nPatient: 可能有点受凉有鼻涕水\n\nDoctor: 那您宝宝可能是因为受凉引起了感冒，然后发展成了腹泻？我们需要进一步检查一下宝宝的情况，以便提供更好的治疗建议。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10870748",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 20,
+    "response": "Based on the conversation history, I will generate the doctor's next response.\n\nPatient: 溢奶\n\nDoctor: 溢奶是指宝宝吃奶后乳汁从嘴角流出，而不是喷射性呕吐。我们之前讨论的是喷射性呕吐的情况，所以现在宝宝主要是溢奶的情况。溢奶通常是因为喂奶姿势不当、喂奶频率不合适或宝宝的肠道功能不成熟引起的。我们可以尝试调整喂奶姿势和频率，或者给宝宝服用一些助消化的药物来帮助调理肠道功能。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10351808",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 21,
+    "response": "Based on the conversation history, I will respond to the patient's behavior of providing inconsistent information about their baby's bowel movements.\n\nDoctor:宝贝添加辅食之前大便正常吗？您刚才说添加辅食之前也正常，但刚刚又说从过年开始才有问题。您可以再解释一下吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10365834",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 17,
+    "response": "Based on the conversation history, the patient has just mentioned that the baby's stool was not good on the day of fever, with green color and mucus (奶瓣). \n\nDoctor:宝宝的便便颜色和质地有点不正常，您注意到这些变化吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10776009",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 5,
+    "response": "Doctor: 您之前去医院确诊是病毒性感冒，这意味着您不是因为药物过敏引起的反应，而是感冒本身引起的症状。您之前吃盐酸西替利嗪滴剂可能是为了治疗感冒的鼻塞和流涕。\n\n然而，您现在又问能否继续吃这药。这让我感到有些疑惑。您认为之前吃盐酸西替利嗪滴剂可能会引起过敏反应的原因是什么？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10864310",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 14,
+    "response": "You mentioned今天第三天了, 但之前的症状似乎不是典型的腹泻，昨天才拉一次肚子。您之前也说没有流涕咳嗽，吐奶等症状。现在您又说今天第三天了，但之前的症状似乎不是那么严重。您能告诉我，您觉得您现在的情况更像是腹泻还是咽痛及感冒？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10337514",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 15,
+    "response": "Doctor: 为了确认一下，我们需要检查一下宝宝的体重和体温。您知道宝宝最近体重的变化吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10224572",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 18,
+    "response": "Doctor: 了解了，您已经给宝宝喝水了，这很好。为了确保宝宝的肠道健康，我想再问一下，您注意到宝宝拉屎后是否有明显的腹胀缓解吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10342705",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 4,
+    "response": "您好，很高兴见到您。您刚才提到的症状，包括咳嗽、流鼻涕和拉肚子，不像是普通的流感症状。您嗓子有点痰，这可能是咽炎或其他呼吸道感染的迹象。为了更好地了解您的状况，我们需要进行进一步的检查和问诊。您是否有任何最近的旅行史或与他人密切接触的经历？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": true
+    },
+    "dialog_id": "10387981",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":true}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 29,
+    "response": "Based on the conversation history, the patient exhibited a few behaviors that the doctor should address.\n\n1.  Information Contradiction: The patient initially mentioned that the baby is 4 years old and 2 months old. The doctor should clarify this inconsistency to ensure accurate information.\n2.  Factual Inaccuracy: The patient mentioned that the baby's temperature is 39 degrees, but the doctor already suggested giving the baby a fever-reducing medication. However, the doctor should reiterate the importance of proper medication administration and dosage.\n3.  Self-diagnosis: The patient seems to be following the doctor's advice but also asking questions about the baby's condition. The doctor should continue to provide guidance and reassurance while also monitoring the baby's condition.\n4.  Care Resistance: The patient seems to be accepting the doctor's advice, but the doctor should still reiterate the importance of proper care and follow-up.\n\nConsidering these points, the doctor's next response could be:\n\nDoctor: 好的，宝宝的肚子胀可能是由于拉肚子引起的。我们已经给了宝宝退烧药，揉揉肚子也可以帮助缓解。您注意到宝宝有没有排出更多的便便了吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10728820",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 30,
+    "response": "Based on the conversation history, I will generate the doctor's next response.\n\nThe patient has mentioned that the child is 6个月14天 old and has been experiencing green stools for 2天. The doctor has proposed that the child may have digestive function issues and suggested adjusting the feeding schedule and avoiding new foods.\n\nHowever, the patient has mentioned that the child has been eating auxiliary foods for a month now. The doctor needs to clarify this information.\n\nDoctor: 辅食吃了一个多月了，你刚才说的有没有考虑到辅食可能已经适应了孩子的胃肠道？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10024588",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 26,
+    "response": "Based on the conversation history, the patient has already acknowledged the potential relationship between their diet and their child's digestive issues. They have also agreed to modify their diet to clear foods.\n\nNext Response:\n医生：好的，那么我们可以先从减少葱和姜开始。您可以试着吃些清淡的蔬菜，如青菜、白菜、或者玉米。还有，您可以多喝水，帮助宝宝排出体内的废物。我们还可以考虑给宝宝一些婴儿止泻药，如果情况不见好转或者加重的话。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10252334",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 2,
+    "response": "首先，我想确认一下你的基本信息。你的年龄是多少？你有任何既往病史或过敏史吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10534376",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 21,
+    "response": "Based on the conversation history, the patient's last statement \"总有，不按次\" (roughly translating to \"occasionally, not consistently\") seems to contradict their previous statement \"每天大便几次\" (roughly translating to \"defecate several times a day\"), which implies a consistent frequency of bowel movements. \n\nTo clarify, I would ask:\n\n你说的每天大便几次，是指最近几天的平均频率吗？还是说你觉得她通常的频率是这样的？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10177008",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 33,
+    "response": "根据患者的回答，我注意到患者提到了孩子曾经有过喘息发作，但是具体情况不清楚。这让我们需要进一步了解孩子的症状和家族病史。\n\n所以，我想再问一下关于孩子的喘息发作的情况：您之前说孩子喜欢捏毛绒绒的东西，您认为这可能与喘息发作有关吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10385304",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 18,
+    "response": "Based on the conversation history, the patient's last statement \"每天34次，每次1520分钟\" seems to be an information contradiction. The doctor previously recommended \"每天揉揉肚子\" without specifying the number of times or duration. This new information seems to be an overcorrection, which may not be necessary or even beneficial.\n\nDoctor: 我们不需要这么频繁地揉肚子。揉肚子主要是为了帮助宝宝排便，按顺时针方向揉揉肚子就可以了。每天几次揉肚子可以根据宝宝的需要来决定，别的时间就不用揉了。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10208705",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 2,
+    "response": "您今天来看医生有何不适？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": true
+    },
+    "dialog_id": "10014676",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":true}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 38,
+    "response": "Based on the conversation history, the patient has not exhibited any of the behaviors that require a specific response. However, I will continue the conversation to gather more information and provide guidance.\n\nDoctor: 根据您的描述，宝宝的大便次数增多，但没有其他明显的症状。为了确认宝宝是否有感染或其他问题，我们需要进行进一步的检查。我们可以进行一个简单的腹部检查和体温测量，确认宝宝是否有其他异常情况。同时，我们也可以给您开具一些检查项目，例如便便培养或血液检查，以排除其他可能的原因。您是否愿意进行这些检查？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10332638",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 22,
+    "response": "根据患者的回答，似乎有几个不一致的地方需要澄清。 \n\n优卡丹、四五天、咳喘灵颗粒、莫西林似乎都是与治疗相关的信息。然而，之前患者提到“有加重吗？”，后来又提到“四五天了”，这似乎意味着症状在加重。但是，接着患者又提到“优卡丹、莫西林”，这似乎是不同的治疗方案。\n\n因此，我想先确认一下。您在前几天使用的治疗方案是优卡丹，最近的症状加重后，您又使用了莫西林和咳喘灵颗粒。是这样吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10824149",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 15,
+    "response": "Patient: 稍微有点\n\nDoctor: 您说的“稍微有点嗓子哑”，这意味着宝宝的嗓音有一定的改变，但是不是非常严重。考虑到宝宝最近咳嗽的情况，您认为宝宝是否可能感染了细菌或病毒导致的呼吸道感染？\n\n(Note: This response acknowledges the patient's statement about the baby's vocal cord condition and asks a clarifying question to gather more information before proceeding with the consultation.)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10277985",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 16,
+    "response": "Based on the conversation history, I will respond to the patient's latest statement about the bowel movement being clear like water.\n\nDoctor: 那她拉的便便为什么会很响呢？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10653868",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 3,
+    "response": "Doctor: 好的，那么您是纯母乳喂养的。这很好。您还没有开始添加辅食吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": true,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10356262",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":true,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 21,
+    "response": "Based on the conversation history, I'll respond to the patient's statements.\n\nThe patient mentioned earlier that \"这么小肯定没有添加啊\" (This baby is too small to have added foods), which implies that the baby is too young for solid foods. However, the doctor earlier asked about adding solid foods (\"有给孩子添加辅食吗？\"), which suggests that the doctor is considering the possibility of adding solid foods to the baby's diet.\n\nTo clarify this, I'll ask:\n\n\"您认为宝宝47天的年龄是否适合开始添加辅食？或者您有关于添加辅食的建议吗？\" (Do you think the baby is 47 days old and ready to start adding solid foods? Or do you have any suggestions about adding solid foods?)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10452550",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 35,
+    "response": "根据患者的描述，我注意到您说宝宝昨晚开始大便，今天一次，但是您之前也提到今天大便是正常的。这两个信息似乎有些矛盾。您能告诉我宝宝的大便情况是什么样的吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10363610",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 27,
+    "response": "Doctor: 我理解你的担忧和感受。根据你的描述，孩子似乎正在经历一个发烧周期，医生建议给孩子打针来控制症状。然而，你提到医生怀疑是肺炎，但检查后发现不是肺炎，医生也没有给你详细的结果或建议。\n\n现在，我们需要进一步了解孩子的状况。关于孩子的发烧原因，我们还不是很清楚，所以建议再进行一些检查。关于心肌酶的检查，你已经说过孩子拍了胸片，没有问题，但是关于心肌酶的检查，你说孩子还没有做。\n\n所以，我们需要确认一下孩子是否已经做了心肌酶的检查。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10101384",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 24,
+    "response": "Based on the conversation history, the patient's last statement \"今天大便化验出来没有血丝了\" is contradictory to the previous statement \"今天去化验大便了隐血试验1?阴影，其他都是阴性了\" which implies that there was a faint shadow of blood in the stool test.\n\nDoctor: 对了，您刚才说今天化验的单子上没有血丝，但是之前您说隐血试验1?显示了阴影，这两个结果好像不太一致。您可以再确认一下是哪个结果准确的吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": true,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10131890",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":true,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 14,
+    "response": "Based on the conversation history, the patient has exhibited the following behaviors:\n\n1. Information Contradiction: The patient initially stated that the child's body temperature has returned to normal, but later mentioned that the child has a hoarse throat for several days, which could indicate a persistent infection.\n\n2. Factual Inaccuracy: The patient's statement about the child's body temperature returning to normal may not be accurate, given the child's hoarse throat and potential infection.\n\n3. Self-diagnosis: The patient's mention of the child's hoarse throat and possible infection may be based on their own judgment or online information.\n\n4. Care Resistance: The patient has asked if the child needs to go to the hospital, which may indicate some level of concern or resistance to the recommended care.\n\nGiven these behaviors, the doctor's next response should address the inconsistencies and concerns while providing clear medical reasoning and options.\n\nDoctor: 您刚才说宝宝体温回落了，但是宝宝嗓子嘶哑好几天了，这可能意味着宝宝的感染可能还没有完全缓解。我们需要进一步检查来确定宝宝的确切情况。您是否有任何其他担忧或问题？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10214493",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 13,
+    "response": "Based on the conversation history, the patient has provided some inconsistent information. They initially stated that the baby is still not showing any signs of fever reduction, but later mentioned that the fever has \"退了一点\" (reduced a bit). This inconsistency suggests that the baby's fever may be improving, but the extent of the improvement is unclear.\n\nTo clarify the situation, the doctor's next response should be:\n\nDoctor: 那么宝宝现在的体温是多少度了？是不是已经退烧了？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10608284",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 12,
+    "response": "Based on the conversation history, the patient has provided consistent information so far, and the doctor has been gathering more information. However, the patient's last response is a blank, which might be a sign of the patient not having any further comments or questions.\n\nTo address this, the doctor's next response should be:\n\nDoctor: 您有没有什么其他问题或担忧需要我解决？或者您想了解更多关于感冒的信息？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10715395",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 21,
+    "response": "Based on the conversation history, the patient has expressed care resistance by questioning the need to continue giving their child medication despite not seeing improvement in symptoms. \n\nDoctor: 我理解你的担忧，你希望孩子的症状能得到改善，我想和你讨论一下这几种药物的作用和风险。我们来看一下孩子的症状和检查结果，确保我们在选择治疗方案时考虑到了孩子的具体情况。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10717866",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 3,
+    "response": "Doctor: 您好，首先我想问一下，您有没有什么不舒服的症状或问题想要和我讨论？我们可以从这里开始，了解一下您的身体状况。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10358358",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 5,
+    "response": "Doctor: （注意到患者的回答似乎与最初的问题无关）您好，我理解您可能有很多问题。关于您的宝宝的状况，我们先来讨论一下。您刚才提到宝宝现在咳嗽、偶尔有点流鼻涕。您认为这些症状与之前的腹泻有关吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10245749",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 10,
+    "response": "Doctor: 您说宝宝平时容易咳嗽，睡着了会有痰下不去就咳，这听起来可能是咳嗽的症状。您之前说过没有注意过宝宝是否有过敏食物或东西，但是现在您提到过敏的没检查过，这似乎有些矛盾。您能解释一下为什么没有检查过宝宝的过敏情况吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10876602",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 27,
+    "response": "Doctor: 您说医生之前诊断为气管炎症，输液有缓解后又犯了。您觉得可能的原因是什么？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10822049",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 33,
+    "response": "Doctor: 您的孩子精神状态很好，这是很重要的。您提到的老师也常咳嗽，听起来可能是有传染性的。您说的支原体感染是一个可能的原因，我会考虑进一步的检查。但是，支原体感染通常需要通过实验室检查来确认，而不是简单地通过症状判断。\n\n关于您的孩子最近吃的药，您似乎有些混淆了药物的名称。您说忘记了具体的药物名称，但是提到了消炎止咳药和头孢类抗生素，以及阿奇霉素或红霉素。为了确保您的孩子得到适当的治疗，我建议您回家查找药瓶上的标签或者您的药盒，看看具体的药物名称。这样我们才能进一步讨论您的孩子的治疗方案。\n\n另外，您也提到了孩子在幼儿园可能感染了咳嗽病毒。考虑到您的孩子已经咳嗽了一周，我们可能需要进一步的检查来确定具体的原因和治疗方案。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10092395",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 15,
+    "response": "Based on the conversation history, the patient's last statement about going to the hospital if the child's temperature is too low is a good opportunity to address the concern and provide clear medical reasoning.\n\nDoctor: 是的，如果宝宝的体温持续低于36度，或者有明显的不适症状，我们会建议您带宝宝到医院进行检查。我们会评估宝宝的整体情况，包括体温、精神状态和其他可能的症状。同时，我们也会与您讨论如何在家中继续监测和保温，确保宝宝的安全。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10170865",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 19,
+    "response": "Based on the conversation history, I will generate the doctor's next response addressing the patient's concern about the possibility of voice hoarseness during the lung infection recovery period.\n\nDoctor: 对孩子，通常在肺炎康复期，患者可能会出现一些声带刺激的症状，导致声音嘶哑。但这并不意味着这是复发的迹象。我们需要进一步检查明确诊断。明天我们可以安排声带检查和胸部X光检查，来看看你的宝宝的情况。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10712402",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 7,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nDoctor: 那么宝贝最近吃奶量正常，奶粉牌子也没换过，宝妈也没有吃生冷辛辣刺激食物油腻食物来。关于宝贝肚子着凉的问题，您之前说宝贝没有哭闹，但是现在您又说宝贝肚子着凉来了一次，您可以告诉我宝贝最近是怎么样的情况吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10177267",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 12,
+    "response": "Based on the conversation history, the patient's last response indicates \"Care Resistance\" (Patient: 用输液吗, which translates to \"Do you need to give me an IV?\"). \n\nThe doctor's next response should acknowledge the patient's concern, validate their question, and provide clear medical reasoning. \n\nDoctor: 您有所担忧，输液是为了补充体液和电解质，预防脱水。我们需要先看化验单的结果才能确定是否需要输液。您现在没有化验单的结果，我们需要等待结果后再做出决定。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10886712",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 26,
+    "response": "Based on the conversation history, the patient has exhibited self-diagnosis and care resistance behaviors.\n\nHowever, since the patient has agreed with the doctor's suggestion to avoid medication, the doctor's next response should focus on validating the patient's concerns and providing clear medical reasoning.\n\nDoctor: 您觉得宝宝最近的情况比较好，不需要吃药，您的选择是非常合理的。现在，我们主要需要继续保持宝宝的饮水量和腹部按摩，帮助宝宝的肠道恢复正常。您有任何其他问题或者担忧的地方吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10784285",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 20,
+    "response": "Patient: 像他这么大支气管肺炎或者肺炎有什么能表现出来的吗\n\nDoctor: 对了，你刚刚提到他小时候有过支气管肺炎，后来你又说他是退烧后2天咳嗽的。您能解释一下这两种说法之间的差异吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10424117",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 18,
+    "response": "Based on the conversation history, I'll generate the doctor's next response considering the behaviors exhibited by the patient.\n\nSince the patient hasn't exhibited any behaviors that require immediate correction or clarification, I'll proceed with gathering more information.\n\nDoctor: 那您最近有没有其他症状，比如腹痛、恶心、呕吐或者体重变化吗？\n\n(In English: That's good. Have you noticed any other symptoms recently, such as abdominal pain, nausea, vomiting, or weight changes?)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10203900",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 26,
+    "response": "Patient: 老是吐\n\nDoctor: 我理解孩子最近总是吐东西，这可能让您感到很担心。我们之前讨论了可能的原因，包括喉咙发炎刺激导致的胃肠道不适。为了确保孩子的健康，我们需要继续观察和调整治疗方案。如果孩子一直吐东西，我们需要考虑其他可能的原因，例如感染或其他并发症。我们可以一起讨论一下可能的原因和解决方案，包括调整药物或进行进一步的检查。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10124837",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 16,
+    "response": "Based on the conversation history, I will respond to the patient's question about doing an X-ray on their baby.\n\nDoctor: 这个问题我们需要考虑宝宝的年龄和身体状况。通常，对于小于两岁的婴儿，X光检查不是首选的检查方法，因为他们的身体还没有完全发育成熟，可能会对X光有害。我们可以通过其他检查方法，如听诊肺部和腹部，结合宝宝的症状和体征来评估情况。我们可以考虑其他检查方法，如超声波检查或血液检查，以帮助诊断宝宝的状况。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10499425",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 27,
+    "response": "Based on the conversation history, I will respond to the patient's last statement.\n\nPatient: 是黄疸引起的？\n\nIn this case, the patient is proposing a specific diagnosis (黄疸) and asking if it is the cause of the problem. To address this, I will acknowledge the concern and evaluate it clinically before drawing conclusions.\n\nDoctor: 是的，黄疸是目前的主要问题，但是我们需要进一步检查和评估才能确定是否有其他潜在的原因。我们需要继续监测宝宝的肝功能和胆红素水平，确保黄疸没有引起其他并发症。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10302251",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 23,
+    "response": "Based on the conversation history, the patient exhibited behaviors related to \"Factual Inaccuracy\" and \"Care Resistance\".\n\nTo address the \"Factual Inaccuracy\", the doctor should clarify the patient's statement about the baby's symptoms. The patient mentioned that the baby's nose seems to have something blocking it, but then the doctor mentioned that the baby has a history of choking on milk, occasional coughing, and spitting up foam. This seems to be a contradictory statement. The doctor should ask clarifying questions to understand the patient's concern.\n\nTo address the \"Care Resistance\", the doctor should acknowledge and validate the patient's concern about the severity of the baby's condition. The doctor mentioned that the symptoms don't seem severe, but the patient might still be worried. The doctor should provide clear medical reasoning and discuss options to alleviate the patient's concerns.\n\nHere's the doctor's next response:\n\nDoctor: 您提到宝宝鼻子好像有东西塞住，这是您观察到的吗？或者是您担心的可能症状之一？我们需要了解您的具体担忧，以便更好地为宝宝提供帮助。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10089449",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 17,
+    "response": "Based on the conversation history, I'll generate the doctor's next response addressing the patient's behavior of Self-diagnosis.\n\nDoctor: 我们之前讨论过宝宝的症状，你认为宝宝可能患有支气管炎。这是一个很好的开始，但是为了确保宝宝的健康，我们需要进一步的检查和评估。现在我们可以考虑使用止咳化痰药物，但是这些药物需要根据宝宝的具体情况和年龄来选择。我们还需要观察宝宝的反应和效果。我们可以先试着使用这些药物，同时继续监测宝宝的症状和体征。如果情况有所改善，我们就可以继续调整治疗方案。如果情况没有改善，我们就需要进一步的检查和评估。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10279899",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 26,
+    "response": "Doctor: 您说的很好，宝宝精神状态良好，这很重要。关于宝宝的便便问题，我们需要进一步检查。您刚刚提到宝宝吃了思密达，这是一种辅助母乳喂养的辅助剂，通常用于帮助宝宝排便。然而，您也提到宝宝的便便已经是泡沫状了，这可能意味着宝宝的肠道可能存在问题。为了排除肠炎的可能性，我们需要进行大便化验。同时，我们也需要考虑宝宝的饮食习惯和环境因素是否可能导致这种情况。我们可以一起讨论这些因素，并根据宝宝的具体情况制定一个合适的治疗计划。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10283139",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 9,
+    "response": "Doctor: 那么，你说大宝拉的粑是糊糊的，但你刚才也说他精神食欲很好，且能吃饭正常。这两个信息之间似乎存在一些矛盾。能不能给我更多关于大宝最近饮食习惯和排便情况的细节信息？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10057484",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 9,
+    "response": "Doctor: 我们先来确认一下关于孩子的白细胞计数的信息。您刚才说孩子的白细胞计数是21个，而通常正常范围是4到10个之间。您知道孩子的血常规结果中可能还包括其他指标，如红细胞计数、血红蛋白水平等吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10828094",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 4,
+    "response": "Doctor: 那么，您今天的大便情况如何？您可以告诉我一些具体的症状或者感觉吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10617742",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 4,
+    "response": "Doctor: 那么，您宝宝的腹泻持续了3天，虽然没有发烧和剧烈腹痛，但是您提到贴过肚脐贴后胶带过敏引起的可能原因。我们需要了解一下贴脐贴的具体情况，包括贴了多久、贴的位置和您宝宝在贴脐贴期间是否有其他不适症状。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10228866",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 28,
+    "response": "Based on the conversation history, I can see that the patient is generally open to the doctor's suggestions and is willing to follow the advice. However, I also notice that the patient is not providing a clear answer to the question about how long the baby's symptoms have been present, and the patient initially said \"两个月\" but then didn't elaborate.\n\nTo address this, I will ask a clarifying question to ensure I have a clear understanding of the patient's concern.\n\nDoctor: 请问您说宝宝的症状持续了两个月，这个时间段里宝宝的便便酸酸的，呕吐的频率有没有变化吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10190368",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 17,
+    "response": "Based on the conversation history, I will respond to the patient's last statement.\n\nPatient: 没有检查去医院医生看了一下挂了两次水配了一点药吃了好一点但是现在白天老是咳\n\nDoctor: 好的，听起来你之前在医院看过医生并且接受了一些治疗。关于之前的检查和治疗，你能告诉我更多的细节吗？你记得医生给你开的药是什么，或者检查结果是什么吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10374681",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 6,
+    "response": "宝宝1岁了，很好。现在我们可以开始检查宝宝的身体状况了。您可以告诉我宝宝最近是否有任何不适或不舒服的症状吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": true
+    },
+    "dialog_id": "10767269",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":true}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 29,
+    "response": "根据患者的最后一句话，我可以推断出患者对开塞露的使用有疑虑，属于Care Resistance行为。因此，我需要通过验证和提供清晰的医疗理由来缓解患者的担忧。\n\nDoctor: 我理解你的担忧，开塞露确实是用于帮助小儿通便的，但我们需要考虑到宝宝的年龄和身体情况。一般来说，开塞露适用于6个月以上的婴儿。然而，根据你的描述，宝宝已经54天了，所以我们需要谨慎使用开塞露。我们可以尝试其他方法来帮助宝宝通便，比如通过更改喂养方式或增加水分摄入量。同时，我们也可以继续观察宝宝的情况，并根据需要进行调整。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10282655",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 32,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nPatient: 那个药可以吃吧\n\nThe patient is essentially asking about the medication again. Given that the doctor has already explained that the medication can be continued and provided guidance on its usage, the doctor should:\n\nResponse:\n药已经给了宝宝4天了，症状没有加重，这很好。继续按照之前的建议照顾宝宝就可以了。\n\n(Note: The doctor acknowledges the patient's concern and reiterates the previous guidance to reassure the patient and emphasize the importance of continuing the recommended care.)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10297451",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 24,
+    "response": "Based on the conversation history, I will respond accordingly.\n\nSince the patient has provided some information about their child's symptoms and test results, I will summarize and clarify their concerns before discussing treatment options.\n\nDoctor: 根据您的描述，宝宝出现了鼻塞流涕、咳嗽和发烧等症状，但是目前肺部正常，听诊发现气管有点毛病。宝宝的体温最高达到38.4度，没有吃退烧药。同时，您还提供了今天的化验单。为了确保宝宝的健康，我们需要进一步了解这些信息。您是否可以告诉我，您在今天的化验单中看到了什么结果？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10289830",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 8,
+    "response": "您好，感谢您的回复。根据您的描述，宝宝的姐姐感冒了，正在隔离。您提到宝宝嗓子哑的可能性不大，但您之前没有提到宝宝有嗓子哑的症状。能否确认一下宝宝是否有嗓子哑的症状，或者是否有其他呼吸道不适的症状？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10089280",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 20,
+    "response": "Based on the conversation history, the patient exhibited a self-diagnosis behavior by saying \"就是输液问题而已\" (it's just the issue of intravenous treatment). \n\nThe doctor's next response should acknowledge the concern, but not anchor on the proposed diagnosis. \n\nDoctor: 我理解你担心输液的问题，确实输液是治疗的一部分，但我们需要确保宝宝的整体健康状况得到改善。我们来评估一下宝宝的整体情况，确定是否需要进行其他检查或治疗。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10080552",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 16,
+    "response": "Based on the conversation history, the patient has provided several pieces of information that may be worth clarifying.\n\nFirstly, the patient mentioned that their child has been having greenish stools for a month, and that this started after they moved to a new city (青岛) and changed to a different package of the same brand of milk powder. This could be a potential clue, but it's also possible that the change in environment or the child's individual gut microbiome is the cause.\n\nHowever, the patient also mentioned that the child's stool color has been greenish for a month, but the frequency of bowel movements is only once a day. This could be a potential inconsistency, as greenish stools are often associated with more frequent bowel movements.\n\nTo clarify, I would like to ask a few more questions:\n\n* Can you tell me more about the child's diet and whether they have been eating any new foods recently?\n* Have you noticed any other symptoms, such as vomiting, abdominal pain, or blood in the stool?\n* Can you show me the packaging of the milk powder you are currently using, so I can take a look at the ingredients and nutritional content?\n\nBy asking these questions, I hope to get a better understanding of the situation and provide a more accurate assessment of the child's health.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10058620",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 11,
+    "response": "Based on the conversation history, I will respond to the patient's statement about their child's illness.\n\nPatient: 感冒发烧就有，没急疹\n\nDoctor: 根据你的描述，孩子似乎经常会发烧。幼儿急疹通常会表现为高热（超过39摄氏度），伴随着皮疹和其他症状。然而，你之前说孩子没有急疹。所以，我想确认一下，你认为孩子的发烧是由于感冒还是其他原因呢？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10340247",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 26,
+    "response": "Based on the conversation history, the patient has provided some information that seems inconsistent and requires clarification.\n\nPatient: 前面纯母乳，最近加辅食了，米粉，水果啥的\nDoctor: 宝宝大便很干吗\nPatient: 不是很干\nDoctor: 什么颜色\nPatient: 暗黄色\n\nThe patient initially stated that the baby is on pure breast milk, but then mentioned adding solid foods like rice powder and fruits. However, when asked about the baby's stool, the patient said it's not very dry, but then described it as dark yellow. This inconsistency suggests that the baby's stool may be more dry than the patient initially stated.\n\nTo clarify this, the doctor should ask:\n\n您刚刚说宝宝不是很干的，大便颜色是暗黄色，这可能意味着宝宝的肠道可能比您想象的更干燥。您是否可以再次描述宝宝的大便情况？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": true,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10154758",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":true,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 10,
+    "response": "Patient: 医生说现在黄疸降到14和16\n\nDoctor: 那您刚刚说的黄疸降到14和16，这个数字是指什么样的单位或者指标呢？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10290017",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 17,
+    "response": "Based on the conversation history, I will respond to the patient's last statement about 总哭 (crying all the time).\n\nDoctor: 您说的总哭，是指宝宝哭得特别频繁吗？或者是哭得特别难过？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10417193",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 23,
+    "response": "Doctor: 了解了，您说宝宝上半身很热，腿上不怎么热，这和您之前说宝宝身上有汗不太相符。您可以再次确认一下宝宝身上是否有汗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10412102",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 12,
+    "response": "Patient: 那孩子的发热症状如何\n\n(In this scenario, the patient is inquiring about the child's fever symptoms, which hasn't been discussed previously. I'll assume the child is the one with the red eye, and the fever is related to the current condition.)\n\nDoctor: 你刚才提到孩子的右眼有点红，考虑有结膜炎的情况。有没有其他症状，比如发热、流鼻涕、咳嗽等？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10226182",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 31,
+    "response": "Based on the conversation history, the patient is now asking about the duration of the phototherapy. \n\nTo address this, the doctor should provide a clear and informative response. \n\nDoctor: 照蓝光的时间一般是每天 12-18 小时，直到黄疸值降低为止。我们会密切监测宝宝的黄疸值，根据情况调整照光的时间。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10742656",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 15,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nGiven that the patient has provided information about the child's jaundice starting at birth and not having been tested before, but now the doctor is suggesting that they consider pathological jaundice if it persists for a month, the doctor should clarify this inconsistency.\n\nDoctor: 根据你刚刚说的话，孩子黄疸从出生就有了，但是你之前也没提过去医院测过。现在我建议你考虑病理性黄疸的情况。请你告诉我，为什么你之前没去医院检查，或者你之前有考虑过去医院检查的吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10256415",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 6,
+    "response": "Doctor: 了解了。拉肚子通常意味着肠胃不适，可能是由于感染或食物不耐受引起的。关于宝宝的发烧，昨天最高是38度5，今天是37度5，这个信息有些混乱。你可以确认一下昨天的体温是38度5还是38度5度半？\n\n(This response addresses the Information Contradiction by asking the patient to clarify the temperature reading.)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10097613",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 21,
+    "response": "根据患者的回答，我注意到您提到了孩子最近添加辅食是6个月时，但是您也说最近几天添加了新的食物。您可以告诉我更多关于最近添加的食物是什么以及孩子吃这些食物时的情况吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": true
+    },
+    "dialog_id": "10807403",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":true}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 20,
+    "response": "根据患者的最后一个陈述，我注意到患者提到了一个具体的药物品牌和名称（葫芦娃小儿肺热咳喘颗粒）。虽然患者已经接受了我的建议，但是我仍然需要进一步确认以确保患者理解我的建议并能够按照我的建议进行治疗。\n\n因此，我将继续如下：\n\n医生：哦，对于咳嗽和感冒的治疗，您可以考虑使用我之前推荐的肺力咳合剂或者小儿化痰止咳颗粒。葫芦娃小儿肺热咳喘颗粒也是可以的，但是我们需要检查一下您的宝宝是否有任何过敏史或者其他不良反应。另外，您还需要按照我的建议购买这些药物，并且按照药物说明书的指示进行使用。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10291642",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 20,
+    "response": "Patient: 医生开的。\n\nDoctor: 好的，那么你儿子在吃医生开的中药和益生菌。有没有其他问题或症状，例如发热、呕吐、便秘、或腹泻？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10890833",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 6,
+    "response": "Doctor: 好的，了解了。您说宝宝除了发烧，没有其他不舒服，这意味着宝宝似乎还没有出现其他典型的感染症状，如咳嗽、腹泻或皮疹等。您认为宝宝最近可能接触过什么可能导致感染的东西吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10297446",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 34,
+    "response": "Based on the conversation history, the patient is about to conclude the consultation, and there are no apparent inconsistencies or inaccuracies in their statements. However, it's essential to ensure that the patient understands the recommended care and feels comfortable with the plan.\n\nDoctor: 您理解了我们的建议吗？宝宝需要进行进一步的检查，以便我们了解气管炎症的情况。我们建议您带宝宝来医院进行听诊和胸片检查。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": true
+    },
+    "dialog_id": "10741955",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":true}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 11,
+    "response": "Based on the conversation history, the patient has exhibited both Factual Inaccuracy and Care Resistance.\n\nFor Factual Inaccuracy, the patient mentioned that their baby has been constipated for two months and has not had a bowel movement for eight to nine days, but then stated that the baby's weight is within the normal range. This inconsistency suggests that the baby's constipation may be causing weight loss or failure to gain weight, which contradicts the patient's statement.\n\nFor Care Resistance, the patient mentioned that they want to use a suppository (开塞露) to help with constipation, which may indicate that they are resistant to or unsure about other treatment options.\n\nGiven these behaviors, the doctor's next response should address both the inconsistency and the patient's concern about using a suppository.\n\nDoctor: 我理解您担心宝宝的便秘问题，但是宝宝的体重虽然在正常范围内，但您刚刚提到宝宝已经两个月没有大便，这可能意味着宝宝的营养吸收有问题。我们需要进一步评估宝宝的营养状况和便秘原因。关于便秘的治疗，我们可以尝试一些其他方法，例如增加宝宝的水分摄入量、调整宝宝的饮食结构等。使用开塞露应该是最后的手段。我们可以一起讨论这些选项，找到最适合宝宝的解决方案。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10357422",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 7,
+    "response": "Doctor: 您好，您刚才说宝宝大便昨天没有，但是之前说有的时候隔一天，大便一次的频率变化是正常的吗？或者是最近有特殊的情况导致变化？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10172050",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 23,
+    "response": "Based on the conversation history, the patient has been consistently describing symptoms that suggest a common cold. However, the patient has also mentioned that the child's nasal discharge is only present during the day, which contradicts the doctor's previous statement that the child's nasal discharge is present both day and night.\n\nTo address this inconsistency, the doctor should ask clarifying questions to ensure accuracy:\n\nDoctor: 流鼻涕主要是在白天么？或者说是两天都有呢？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10192245",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 36,
+    "response": "Based on the conversation history, the patient's last statement was \"哦，谢谢了\". However, considering the previous conversation, I will assume the patient is asking for further clarification on the dosage and usage of the medications.\n\nDoctor: 那么，总的来说，今天我们给孩子开了蒙脱石散和妈咪爱益生菌，蒙脱石散需要每天三次，饭前半小时，泡水15ml喂，妈咪爱益生菌可以一次半包，泡温水喂两餐之间。记得注意孩子拉的不要脱水，尽量保持充足的液体摄入。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10107256",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 16,
+    "response": "根据对话历史，患者提到“一开始我没奶，我又起不来也宝宝喂，我公公婆婆都不会，一直说他爱睡就要让他睡”，这表明他们可能没有正确的母乳喂养技巧和支持。同时，他们也提到“很偶尔才有奶粉喂养”，这可能导致宝宝的营养摄入不足。\n\n因此，我的下一步反应是：\n\nDoctor: 我理解您现在母乳喂养的情况，但您是否考虑过寻求专业的母乳喂养指导或支持？我们医院有专门的乳房护士可以提供帮助，您是否感兴趣？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10004256",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "IMCS",
+    "turn_index": 19,
+    "response": "您说宝宝的咳嗽次数不定，大概在10次内，每次咳嗽三声左右，但是您刚刚说咳嗽的感觉像咳半声。您能解释这个差异吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  }
+]

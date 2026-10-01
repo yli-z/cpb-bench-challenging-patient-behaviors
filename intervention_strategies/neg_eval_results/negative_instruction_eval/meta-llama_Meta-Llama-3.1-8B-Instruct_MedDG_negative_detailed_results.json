@@ -1,0 +1,1750 @@
+[
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_1660",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 8,
+    "response": "Based on the conversation history, the patient has expressed a desire for quick relief from their symptoms. \n\nDoctor: 我理解你很不舒服。我们可以先试试一些缓解胀气的方法。除了口服药物，你也可以试试一些简单的生活调整，比如少吃高纤维食物，避免食用刺激性食物，或者尝试一些放松技巧来缓解压力。这些方法可能需要一些时间才能见效，但可以帮助你暂时缓解症状。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_12434",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 1,
+    "response": "您好，先生。听起来您今天早上经历了一个很不舒服的事件。您说早上大便正常，但是吃完早饭后您感觉想要放屁，之后您的大便就变成水状了。您是否有任何其他症状，例如腹痛、发热或恶心？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_10902",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 4,
+    "response": "Doctor: 您好，转氨酶（AST）是肝脏功能的一个指标。偏高的转氨酶通常意味着肝脏可能有问题。您提到是体检时被告知，但您不记得具体数值。可以问您体检时的医生或是看一下体检报告来确认数值。同时，我也想问一下，您是否有其他肝脏相关的症状，如肚子不适、肝区疼痛、食欲不振等？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_6513",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 9,
+    "response": "根据您的症状和前次检查的结果，我们需要进一步评估您的左上腹不适。虽然您在前次检查后用了中药后感觉好了，但是最近症状又复发了。这意味着我们可能需要进一步的检查来确认原因。\n\n对于您的建议，我们建议您在复诊时进行进一步的检查，如血液检查和超声波检查，以帮助我们确定左上腹不适的原因。关于胃镜检查，您的建议是合理的，因为我们需要进一步检查您的胃部情况。我们会安排您进行胃镜检查，以帮助我们准确诊断您的症状。\n\n但是，您之前提到吃了几服中药后感觉好了，但是最近症状又复发了。这意味着我们需要考虑您的治疗方案。我们建议您在复诊时讨论您的治疗方案，我们会根据您的具体情况选择合适的治疗方法。\n\n您是否有任何其他问题或者担忧，您希望我们在复诊时讨论？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_8061",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 9,
+    "response": "Based on the conversation history, the patient has provided mutually inconsistent statements about the same medical fact. Initially, the patient stated \"没有啊\" (no) when asked if they have liver disease, but then mentioned eating some medication for \"清火，消炎，补肾补脾\" (clearing heat, reducing inflammation, and supplementing the kidneys and spleen), which may be related to liver function.\n\nTo address this inconsistency, the doctor's next response should be:\n\n\"您之前说没有肝炎，但您也提到正在服用一些补肾补脾的药物。这些药物通常用于治疗肝脏或肾脏疾病。您能告诉我这些药物的具体名称和您服用的频率吗？这会有助于我更好地理解您的情况。\" (You said you don't have liver disease, but you also mentioned taking some medication for supplementing the kidneys and spleen. These medications are often used to treat liver or kidney diseases. Could you tell me the specific names of these medications and how often you take them? This will help me better understand your situation.)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_7070",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 7,
+    "response": "Based on the conversation history, I'll respond to the patient's latest statement. \n\nPatient: 现在初步判断是胃炎吗？\nDoctor: 通过症状初步判断。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_2095",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 7,
+    "response": "Patient: 昨天和今天大便时都有血，怎么回事（女，23岁)\nDoctor: 你好很高兴为你回答问题。\nPatient: 你好。\nDoctor: 是鲜红还是暗红色。\nPatient: 昨天和今天都有血。。。。鲜红色的。\nDoctor: 大便表面吗。\nPatient: 表面有，纸上也有点还滴了好几滴。\n\nDoctor: 你的症状表明你可能有肠道出血。为了确保我们能给你最好的帮助，能否问问你有没有其他不适的症状，例如腹痛、发烧、呕吐等？同时，我也需要知道你最近是否服用了任何新药物或有任何不良习惯，例如吸烟、酗酒等。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_7695",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 5,
+    "response": "你好，感谢您来医院就诊。半年来持续出现呕吐和恶心的症状非常令人担心。虽然您没有做过检查，但是考虑到您的症状持续这么久，我们还是需要进行一些检查来了解原因。\n\n您平时的饮食习惯如何？您是否有特殊的饮食限制或者偏好？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_5874",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 6,
+    "response": "Based on the conversation history, the patient has already provided some information, but I need to clarify a few points to provide a more accurate assessment.\n\n我先问一下，你说吃了没炸熟透的炸鸡腿后，出现了干呕的感觉和咳嗽。可以确认你确实吃了炸鸡腿吗？你吃了多久了？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": true,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_8990",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":true,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 12,
+    "response": "Based on the conversation history, the patient has provided some accurate information and has also shown some concerns about the treatment. However, there is a potential self-diagnosis and a factual inaccuracy that need to be addressed.\n\nThe patient's statement \"我是食管中下段粘膜充血水肿，血管纹理不清\" suggests that they may be self-diagnosing their condition based on their own interpretation of their symptoms. As a doctor, I need to acknowledge their concern and evaluate it clinically before drawing conclusions.\n\nAs for the factual inaccuracy, the patient has mentioned \"服用兰索拉唑，达喜\" but I did not recommend these medications. I recommended \"质子泵抑制剂\" (proton pump inhibitors) and \"莫沙必利，吗丁啉\" (other medications) for the treatment of gastroesophageal reflux disease (GERD). I need to clarify the patient's current medication regimen and provide accurate information about their treatment.\n\nHere's my next response:\n\n\"您好，关于您的当前服用药物，能否告诉我您正在服用的确切名称和剂量？我想确认一下您的治疗计划。同时，我也会让您了解一下我们需要进行的检查和监测。\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": true
+    },
+    "dialog_id": "meddg_7342",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":true}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 16,
+    "response": "Based on the conversation history, the patient has accepted the recommended treatment plan without further discussion. However, it's essential to ensure that the patient understands the reasoning behind the recommendations and feels comfortable with the plan.\n\nDoctor: 好的，我们需要做一些检查来确认你的症状是否与消化功能紊乱有关。我们可以安排一些简单的检查，如腹部超声波或血液检查。同时，我们需要你严格按照我的建议进行治疗，包括禁食和服药。有任何问题或者不适感，请及时告诉我。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_14527",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 7,
+    "response": "Doctor: 我们先来澄清一下，你刚才说没有鼻塞流涕的症状，但是接着又说鼻塞好像有点。这两种说法之间是矛盾的。你能告诉我，你觉得鼻塞的程度是轻微还是严重吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_11065",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 4,
+    "response": "您好，我理解您现在很关心关于幽门螺旋杆菌的治疗和预防措施。您刚才提到，您老婆体检发现有肾结晶，这是一个新的信息。关于幽门螺旋杆菌的治疗，我们刚才已经讨论过了。\n\n但是，您刚才也提到，您老婆目前没有特别的症状。这使我有点困惑，因为通常幽门螺旋杆菌的诊断需要结合症状和实验室检查结果。您可以告诉我，您老婆体检时是什么样的情况？医生是如何诊断出幽门螺旋杆菌的？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_14011",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 1,
+    "response": "您好，我是您的医生。您提到的症状听起来像是胃部不适，尤其是在进食后。您能告诉我，您最近是否有任何饮食变化或其他可能导致这些症状的原因吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_14681",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 11,
+    "response": "您好，我理解您的担忧。您说腹痛和大姨妈痛有点像，这意味着可能与月经有关，但您也提到了一个月的持续时间，这可能不是典型的月经痛表现。您还说没有怀孕，这意味着我们需要考虑其他可能的原因。您提到了超声检查和妇科炎症，这是一个合理的建议。您说超声检查显示有1公分肌瘤，这是一个需要进一步讨论的结果。\n\n我想确认一下，您是否理解超声检查显示的肌瘤大小是1公分，这意味着是一个小的肿瘤。您是否知道肌瘤通常是如何被治疗的？我们需要进一步评估您的症状和超声检查结果来决定下一步的行动。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_3286",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 5,
+    "response": "You're experiencing a sudden onset of blood in your stool without any pain. That can be quite alarming. \n\nBefore we proceed, I just want to clarify a few things. You mentioned you're a 48-year-old male, but then you referred to yourself as \"女，24岁\" (a 24-year-old female). Could you please clarify your actual age and gender for me?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_10917",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 18,
+    "response": "Based on the conversation history, the patient has mentioned that they are experiencing dark red blood in their stool, which is a symptom that requires further evaluation. However, I will first address the patient's concern about the safety of their current situation.\n\nPatient: 我拉肚拉稀会出现暗红色血液没事吧。\n\nDoctor: 请放心，暗红色血液可能是肠胃炎的症状之一，但如果您出现持续或严重的出血，或者伴有其他症状如剧烈腹痛、呕吐、发热等，需要立即就医。我们会继续监测您的病情，确保您得到适当的治疗和关注。现在，关于您当前的药物治疗，我想确认一下：您正在服用蒙脱石散复方、嗜酸乳杆菌片和口服补液盐三，问题不大。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_9833",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 3,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nSince the patient mentioned eating \"乳酸菌素片\" (lactobacillus capsule), which seems to be a probiotic supplement, I'll clarify this further.\n\nDoctor: 那么，你说的乳酸菌素片实际上是指的是一种乳酸菌补充剂，对吗？你每天吃多少片，持续多久了？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_7667",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 9,
+    "response": "Based on the conversation history, I will respond to the patient's request for medication.\n\nDoctor: 好的，我们需要进一步检查来确定原因。乳果糖和益生菌可以帮助改善便秘，但是我们还需要考虑其他可能的原因。安翰胶囊可以帮助检查胃部是否有问题，但是我们还需要进行进一步的检查来确定原因。我们可以考虑进行一些简单的检查，如腹部超声波检查或者血液检查，以帮助我们找到原因。我们需要确保我们找到正确的原因，然后才能选择合适的治疗方案。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_12305",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 11,
+    "response": "Patient: 你好，我想问去检查前能喝水吗。\n\nDoctor: 当然可以，水是很重要的，特别是你最近经历了腹泻。尽量多喝水，帮助你身体恢复平衡。我们会在检查前给你提供一些指导和建议。现在，你还想问点别的吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_4714",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 11,
+    "response": "您提到最近一次胃痛是在一次聚餐饮酒后开始的。这是一个新的信息，我们需要考虑饮酒可能导致的影响。您之前也提到症状持续了快两周，最近吃了荜铃胃痛颗粒和舒肝快胃丸效果不好。结合您的症状和治疗史，我们需要进一步评估您的胃部情况。\n\n您之前也提到过一次胃镜检查结果是慢性非萎缩性胃炎。我们需要考虑您的胃镜检查结果和最近的症状之间是否存在任何变化或关系。\n\n您是否认为您的饮酒习惯可能与您的症状有关？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_6076",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 10,
+    "response": "Based on the conversation history, I will generate the doctor's next response considering the patient's behavior.\n\nSince the patient has provided a coherent account of their symptoms and treatment plan, I will proceed with the conversation.\n\nDoctor: 好的，根据你的症状和检查结果，肠道病毒感染的可能性较小，急性胃肠炎的可能性较大。我们会继续观察你的症状变化，如果需要进一步的检查或治疗，我们会及时跟进。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_10987",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 5,
+    "response": "Patient: 胃特别涨睡觉涨感觉坐着吃东西的时候没感觉有时候还想吐（女，20岁)\nDoctor: 您好，这种情况多长时间了？\nDoctor: 您最近饮食怎样，饮食规律吗？辛辣刺激生冷等饮食多吗，或者蛋奶豆制品吃的多？大便几天排一次？\nPatient: 大便两三天一次。\nPatient: 前几天大便最后有点墨绿色。\n\nDoctor: 您说大便两三天一次，这意味着您可能有便秘的倾向。然而，您也提到大便有墨绿色，这通常不是正常的排便颜色。墨绿色大便可能与某些食物不良消化有关，或者可能是肠道感染的迹象。您能告诉我，您最近是否吃了任何可能导致这种情况的食物，或者是否有任何其他症状，如腹泻、腹痛或发热？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_13744",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 11,
+    "response": "Doctor: 那么，我们来谈谈饮食方面。通常建议患者在肠胃功能紊乱时，可以尝试吃一些容易消化的食物，如糙米饭、牛奶、鸡蛋等。同时，我们还需要考虑到你可能需要增加一些纤维摄入，以帮助肠道菌群恢复平衡。然而，我们还需要考虑到你的具体情况，比如你是否有任何食物过敏或不耐受的情况。\n\n(Note: This response acknowledges the patient's concern about cost and encourages further discussion about dietary adjustments while considering potential allergies or intolerances.)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_9228",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 9,
+    "response": "您好，我注意到您提到腹泻已经持续了大约10天，且每天排便3-4次，您也没有发烧。另外，您还提到咽痛和浑身痛的症状分别从昨天开始和今天开始。您能告诉我，您认为这些症状之间是否有任何关联或您认为是什么原因导致了这些症状的出现？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_1127",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 21,
+    "response": "Based on the conversation history, the patient has exhibited behaviors related to \"Factual Inaccuracy\" and \"Care Resistance\".\n\n1. Factual Inaccuracy: The patient mentioned that they are a 24-year-old male, but referred to themselves as \"我女朋友\" (my girlfriend) in Chinese. This inconsistency indicates that the patient is a female, not a male.\n\n2. Care Resistance: The patient's response to the doctor's suggestion that the pain is likely due to 胃痉挛 (gastric spasms) is \"在么医生\" (I don't know, doctor), which implies a lack of trust or understanding.\n\nConsidering these behaviors, the doctor's next response should be:\n\n\"不好意思，我似乎有个误会。您是女士对吗？请允许我再确认一下。至于您刚才说的，'在么医生' 这个意思您想要表达什么呢？您有没有其他问题或担忧？让我们继续评估您的症状。\" (I think there might be a misunderstanding. Are you a lady? Please let me confirm. And I'd like to clarify what you meant by '在么医生'. Do you have any other questions or concerns? Let's continue to evaluate your symptoms.)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_1932",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 6,
+    "response": "Based on the conversation history, the patient's response about not eating breakfast seems inconsistent with their statement about feeling uncomfortable and wanting to vomit since morning. \n\nDoctor: 你刚刚说早上起来的时候就感觉有点胃胀，不是很舒服，总想吐但是吐不出来，但是你也说没有吃早饭。通常情况下，空腹不吃早饭可能会导致胃部不适，但黄绿色的呕吐物更可能与胆汁有关。可以再确认一下，你是在什么时候吃早饭的，或者你是否有其他不适症状？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_8573",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 17,
+    "response": "Based on the conversation history, I will respond to the patient's question about improving their condition.\n\nPatient: 可以通过一些方式改善吗？\n\nDoctor: 是的，我们可以通过一些方式来改善你的胀气情况。首先，我们需要确保你的饮食习惯合理，避免吃冷的和辛辣刺激食物。同时，我们也可以考虑一些保肠卫生的措施，如保持良好的便秘习惯和适当的运动。另外，我建议你来进行一个简单的检查，以便我们更好地了解你的情况。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_7955",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 14,
+    "response": "现在您的症状似乎已经稳定下来，但是为了确保您的身体恢复正常，我们需要继续观察一下。您有没有注意到您是否有其他不适，例如口干、呕吐等？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_6927",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 13,
+    "response": "根据你说的，考虑到你之前没有这么长时间的胃肠不适，可能是最近的精神压力和饮食不规律导致的。关于你的CT检查结果，你说医生说是心理作用，但你觉得可能和精神压力有关，我也这样认为。现在我们需要考虑的是如何缓解你的症状和改善你的胃肠健康。你的CT检查结果显示没有异常，这意味着我们需要通过其他方式来确定你的胃肠问题的原因。我们可以考虑进行进一步的检查，如胃肠镜检查或者其他检查来寻找可能的原因。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_6800",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 24,
+    "response": "Based on the conversation history, the patient's last statement \"是这两个吗医生\" (Are these the two medications, doctor?) seems to be a request for confirmation. However, the patient's previous statement \"就吃刚才那几个药吗\" (Will I just take those two medications?) indicates that the patient is still uncertain about the treatment plan.\n\nTo address the patient's concern, the doctor's next response should be:\n\n\"是的，莫沙必利和双歧杆菌是我们目前的推荐方案。您可以在药店购买这两种药物。记得按照包装上的指示服用，或者在下次来看我时我会再次确认。\" (Yes, moxibulin and bifidobacterium are the two medications we recommend. You can buy them at a pharmacy. Please follow the instructions on the packaging, or I'll check again when you come back to see me next time.)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_1345",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 9,
+    "response": "Based on the conversation history, the patient has just mentioned that they have been taking the prescribed medication (健胃消食口服液 and 多潘立酮片) for 1.5 days. \n\nGiven this new information, the doctor's next response should be:\n\nDoctor: 那么，吃了1.5天的药后，你的症状有所改善吗？还是还是仍然感到胀气和不适？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_6511",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 19,
+    "response": "Based on the conversation history, the patient has already mentioned several symptoms and behaviors that warrant further clarification and evaluation.\n\nGiven that the patient has experienced abdominal pain after exercise, which resolved on its own but recurred later in the evening, it's essential to explore potential causes and rule out any underlying conditions.\n\nHowever, I notice that the patient has mentioned eating a large meal before exercise and occasionally taking enzyme supplements (酵素梅) to aid digestion. While it's understandable that the patient wants to help with digestion, taking enzyme supplements without consulting a doctor can sometimes interact with medications or mask underlying symptoms.\n\nBefore making any conclusions, I'd like to ask a few more questions to clarify the situation:\n\n1. Have you experienced any similar episodes of abdominal pain in the past?\n2. Have you noticed any changes in your bowel movements or stool consistency recently?\n3. Are you taking any medications or supplements regularly, aside from the enzyme supplements?\n4. Have you noticed any other symptoms, such as fever, chills, or blood in your stool?\n\nLet's discuss these questions and gather more information to determine the best course of action for your care.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_1122",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 5,
+    "response": "Based on the conversation history, I'll generate the doctor's next response. \n\nGiven that the patient has mentioned experiencing diarrhea since childhood and only having issues when eating out, I'd like to clarify further.\n\nDoctor: 那么你认为可能是由于吃出的食物质量问题还是其他原因导致的呢？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_959",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 1,
+    "response": "黄医生，您好，我听您描述的情况是，您最近几天感到胃不舒服，尤其是在晚饭后加重，伴有下腹痛和拉肚子。您之前接受过胃镜和肠镜检查，诊断出慢性非萎缩性胃炎和结肠炎，并且之前服用药物后病情有所好转。\n\n您现在说药物已经吃完了，病情又反复出现了。为了更好地了解您的情况，我们需要进一步了解一些细节。您可以告诉我，您之前服用的药物是什么类型的？您是否有任何新的饮食习惯或生活方式变化？您是否有任何其他症状，例如发烧、体重减轻或腹泻？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_4315",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 7,
+    "response": "You've eaten 茼蒿 (Chinese broccoli) yesterday and experienced some abdominal pain and a low-grade fever. \n\nHowever, you mentioned taking 阿莫西林 (Amoxicillin) yesterday. Considering you're experiencing gastrointestinal symptoms such as green stools, I'm concerned about the possibility of an antibiotic-associated gastrointestinal side effect or an allergic reaction to the medication. \n\nCould you tell me more about how you felt after taking the Amoxicillin? Was it the first time you've taken this medication, or have you taken it before without any issues?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_6121",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 20,
+    "response": "Based on the conversation history, the patient has mentioned that they have been experiencing nasal congestion and cough with phlegm for about a month, and that they have had similar symptoms every 2 months. They have also mentioned that they have had chest X-rays done before, but the results are not mentioned.\n\nGiven this information, the doctor's next response should address the patient's concern about the medication they provided earlier.\n\nDoctor: 这个药是清热化痰的中药，根据你的症状，应该是可以吃的。但是为了确保安全，我还是建议你去中医院找儿科医师或者针灸科咨询一下，了解一下这个药物对你的宝宝是否有任何不良反应。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_4704",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 1,
+    "response": "您好，18岁的女士。您提到的胃酸多肚子疼，可能是因为胃酸过多或消化不良引起的。您有没有服用任何药物来缓解这种情况？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_12825",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 17,
+    "response": "根据患者的描述，我注意到一些重要信息。您提到最近饮食比较规律，但是今天下午吃了点辣条，这可能与您的症状有关。您还提到最近几天有恶心想吐的感觉，但是具体时间没有确定。\n\n关于您的饮食习惯，您每天都会吃半碗饭，每天晚上九点多都会想上厕所，大便每天一次，且大便稀软。这可能与您最近喝了半个月的绞股蓝有关。您喝了绞股蓝的目的是什么？\n\n另外，您刚刚喝了一袋三九胃泰，感觉好像好了一点。这可能表明您的症状与胃部有关。为了进一步了解您的症状，我们需要进行一些检查和测试。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": true,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_10337",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":true,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 17,
+    "response": "医生：我们刚才讨论了艾滋病的可能性，但是你刚刚提到自己没有发烧，腹痛只是拉肚子之前，这些症状并不典型地与艾滋病直接相关。我们还需要考虑其他可能的原因，例如胃病或者肠胃炎。关于你的饮食习惯，你提到经常不规律地吃饭，早饭都不吃的，这可能会导致胃部不适。我们需要进一步评估你的症状和饮食习惯，以确定最可能的原因。\n\n同时，我想澄清一下，你提到的网上查到的信息关于艾滋病的可能性可能并不准确。我们需要根据你的具体情况和医疗检查结果来评估你的健康状况。我们可以考虑进行进一步的检查，如血液检查和胃肠道检查，以确定你的症状的原因。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_13622",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 17,
+    "response": "我理解你现在很担心不能大便的问题。关于你的症状，我们需要进一步了解。刚才你说最近吃了挺辣的食物，还有点油，这可能会导致便秘。同时，你也说吃了挺多的干食，这可能会增加便秘的风险。然而，你又说自己喝了挺多的水，这应该是有益于排便的。 \n\n为了确定原因，我们需要进一步检查。你可以告诉我最近几天你每天摄入的水果和蔬菜量是多少？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_14159",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 3,
+    "response": "医生：您提到的情况很复杂，我们需要更详细地了解您的症状和病史。您说的升结肠增生性息肉和乙状结肠淋巴性息肉，这些都很重要。升结肠增生性息肉通常需要长期监测，而乙状结肠淋巴性息肉可能需要更积极的治疗。同时，您也提到之前做过直肠微创手术，这也会影响我们的评估。\n\n您说的早晨排便很费劲，感觉排不净，早饭后肚子胀想排便但又排不出来，这些症状可能与您的息肉有关，也可能与其他因素有关。我们需要进行进一步的检查来确定原因。\n\n您提到的香丹清这种产品，我不清楚是什么样的产品，您可以告诉我更多关于这个产品的信息吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_8530",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 10,
+    "response": "Based on the patient's statement, it seems like she is pointing out the inconsistency between the symptoms she described (阴道出血, which translates to vaginal bleeding) and the doctor's previous suggestion of痔疮 (hemorrhoids), which is typically associated with rectal bleeding.\n\nDoctor: 我理解你的担忧，你说的阴道出血和之前我提到的痔疮似乎不太相符。能不能告诉我更多关于你的症状？你觉得阴道出血和大便问题之间是否有关联？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_3021",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 13,
+    "response": "Based on the conversation history, the patient has provided some information about their symptoms, but there are a few areas where further clarification is needed.\n\nFirstly, the patient mentioned that they don't remember exactly how long their symptoms have been present. Could you tell me more about what you mean by \"好久了\"? Was it a few months, a year, or even longer? Knowing the duration of your symptoms will help me better understand your situation.\n\nSecondly, you mentioned that you drink less water and often sit for long periods at work. While this information is helpful, I'd like to ask more about your diet. Do you eat a balanced diet with plenty of fruits and vegetables, or are there any specific foods that you tend to avoid or eat excessively?\n\nLastly, you mentioned that you experience some pain in your anus after passing blood. Can you describe the pain as sharp, dull, or aching? Is it constant or does it come and go?\n\nYour answers will help me get a clearer picture of your situation and provide a more accurate assessment.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_6235",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 11,
+    "response": "Based on the conversation history, the patient has exhibited behaviors that require clarification and correction.\n\nFirstly, the patient mentioned being allergic to 奥美拉唑 (Omeprazole), but then stated that they feel better after taking it. This inconsistency suggests that the patient may not be allergic to Omeprazole after all.\n\nSecondly, the patient mentioned being 83 years old, but later stated that their mother is 84 years old. This inconsistency suggests that the patient may not be the one being treated.\n\nLastly, the patient asked about supplements to improve their strength and mentioned that their blood test results showed anemia (贫血). However, the doctor had previously discussed the patient's anemia and treatment plan.\n\nGiven these inconsistencies and inaccuracies, the doctor's next response should be:\n\n医生：好的，我想我们需要澄清一些事情。您之前说您对奥美拉唑过敏，但现在您说您感觉好多了。这意味着您可能不是对奥美拉唑过敏的？另外，您之前说您是83岁，但您刚才说您的母亲是84岁。这意味着您可能不是被治疗的患者？最后，您提到了您的血液检查结果显示贫血，但是我们之前已经讨论过您的治疗计划了。为了确保我们了解您的状况，我们需要再次检查您的病历和检查结果。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_6683",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 3,
+    "response": "Doctor: 您的描述说男朋友胃疼，吐了，拉肚子，之后情况好转。您说之前也疼过，但是这次疼得更严重。可以问一下，您男朋友有没有任何可能的过敏或食物不耐受史？比如说对某些食物有反应？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_5960",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 6,
+    "response": "您说最近晚上都戒掉晚餐，但是您也说昨晚睡着到凌晨的时候觉得胃很难受，然后一坐起来就想吐，上吐下泻了四次。这意味着您昨晚至少有一顿晚餐。您是否真的戒掉晚餐，或者昨晚您确实吃了东西但没有意识到？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_1951",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 5,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nDoctor: 我理解你的症状，你感到肠子疯了，肚子里有很多气。之前你提到从昨天下午七点多开始出现这些症状。你之前吃过苦金片，这个药可能引起一些副作用，但你之前说可能受凉，这两个原因之间可能存在一些关联。我们需要进一步了解一下。你认为这些症状是突然出现的还是逐渐加重的？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_13896",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 9,
+    "response": "Doctor: 您说过用了四联疗法治疗幽门螺杆菌感染，且治疗时间接近4个月。但是，您也提到现在的胃还是有些难受。您能解释一下这是为什么吗？是不是四联疗法的副作用，还是可能与幽门螺杆菌感染有关的其他因素？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_12137",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 5,
+    "response": "好的，了解了。左下腹部的疼痛，可能与许多问题相关。能否告诉我，你的疼痛是什么样的？是锥心样，还是拉扯样？疼痛的严重程度如何？有时会好转，还是一直持续？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_9581",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 8,
+    "response": "您好，我理解您现在的情况有些复杂。之前的治疗效果已经恢复，但是最近出现了新的症状。现在我们知道，您除了口苦以外，还有反流和喉咙酸痛的感觉，这些症状尤其是在躺着睡觉后更加明显。\n\n为了确定原因，我们需要进一步检查一下您的症状和身体状况。您之前接受了奥美拉唑和达喜的治疗，这意味着您的胃酸问题已经得到一定控制。但是，您现在出现的症状可能与胆汁反流或胆囊炎胆石症有关，我们需要进一步检查一下您的胆囊功能和胆石的情况。\n\n我们可以考虑进行一些检查，如超声波胆囊扫描或胆酸检测，以帮助确定您的胆囊健康状况。同时，我们也需要继续观察您的症状变化，以便能够采取适当的治疗措施。\n\n您是否愿意接受进一步的检查和治疗建议？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_5574",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 15,
+    "response": "You're welcome for the advice. 就月子病的担忧，我想解释一下：月子病通常是指产后的一些并发症，如子痫、产后出血等，这些情况都需要医疗专业人员的关注和治疗。您的症状主要是由于怀孕期间的胃肠不适导致的，应该不会发展成严重的月子病。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_14779",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 5,
+    "response": "Based on the patient's statement, I will address the self-diagnosis behavior.\n\nDoctor: \"我理解你担心有粑粑在肛门上。我们来检查一下，确保没有什么不正常的情况。\" (I understand you're worried about having a fecal impaction. Let's check and make sure everything is normal.)\n\nBy responding in this way, I acknowledge the patient's concern and show that I'm taking it seriously, while also avoiding anchoring on the proposed diagnosis of a fecal impaction. I will continue to evaluate the patient clinically and make a diagnosis based on the medical evidence.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_9433",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 8,
+    "response": "Based on the conversation history, the patient has exhibited several behaviors that require a response from the doctor.\n\nFirstly, the patient initially stated that they had taken \"诺氟沙星胶囊\" (Norfloxacin capsules) and then later mentioned \"氟哌酸\" (Fluoroquinolone, possibly referring to Norfloxacin or another Fluoroquinolone antibiotic, but the name is incorrect), which seems to be an information contradiction. The doctor should clarify this discrepancy before proceeding.\n\nSecondly, the patient mentioned that they have been experiencing diarrhea with frequent bowel movements and abdominal pain, but also stated that they have been eating \"粥\" (congee) all day. This may indicate that the patient is not following the recommended dietary restrictions or treatment plan.\n\nLastly, the patient is hesitant to drink more water due to concerns about exacerbating their diarrhea.\n\nDoctor's Response:\n\n您刚才说吃了诺氟沙星胶囊，但是接着又提到了氟哌酸，这两个药物不是一个意思吗？您确实是吃了诺氟沙星胶囊吗？另外，您一直吃粥，这可能会使腹泻症状加重。现在您想继续服药还是考虑其他治疗方案？关于饮水的问题，我们可以考虑其他方式来帮助您补充水分，不一定需要大量饮水。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_8848",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 16,
+    "response": "(考虑到患者提到“有点头疼，就第一天跑过两次肚子”和“没有再跑过肚了”，但后面又说“早晨起来就是3536”，这可能是指早晨体温在35-36之间，可能是数字键误按或理解不清。)\n\nDoctor: 我想确认一下，你说“早晨起来就是3536”，这可能是你误按了数字键了吧？你是说早晨体温在35-36之间，还是有其他情况？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_678",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 9,
+    "response": "Doctor: 您好，感谢您的配合。您提到在18年8月份做过胃镜，结果显示浅表性畏缩性胃炎。然而，您刚才说做完胃镜后才有隔人的感觉，但是您的病史中却提到这种感觉持续了1个月，您认为这是为什么呢？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_8284",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 1,
+    "response": "您好，先生。打嗝通常是由于呼吸道刺激或过敏反应引起的。您打嗝了一天了吗？您有没有其他症状，如胸痛、咳嗽或呼吸困难？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_13263",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 13,
+    "response": "Patient: 去年做了胃镜，是胃窦糜烂，吃了药好了。\n\nDoctor: 那您说您平时喜欢生冷硬辣的食物不多，但是您还提到您嗜烟酒，这两点可能会对您的胃肠健康有影响。您是否认为您的饮食习惯或嗜好可能与您的症状有关？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_7820",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 1,
+    "response": "您好，谢谢您来到我这里。您提到患有慢性肠炎，已经一个多年了，尝试了各种药物和中药，并且遵循了忌口的饮食建议。您描述的症状是大便不成形。 \n\n我想问一下，您的症状在过去一年中有所改善吗？或者是持久的？您在忌口的饮食中，是否有任何特定的食物会引发您的症状？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_13818",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 8,
+    "response": "Doctor: 我理解你的担忧，你之前提到左下腹的疼痛会放长屁揉揉之后会拉肚子，这让我认为可能与肠道问题有关。但是，你刚才又提到不是妇科问题。这让我有点困惑。你能解释一下你为什么认为这不是肠道问题，而是妇科问题吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_10152",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 6,
+    "response": "Based on the conversation history, the patient has mentioned that she was hit by a car and experienced dizziness and nausea after a while, but no pain initially. However, she seems to be dismissing the need for a head CT scan.\n\nDoctor: 我理解你可能想赶上班，但是头部受伤后，可能会有潜在的内部损伤。头晕和反胃可能是头部受伤的后果。考虑到你撞头的事故，我还是建议你进行头颅CT检查，确认一下是否有骨折或其他内部损伤。这样可以确保你没有更严重的问题。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_14435",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 13,
+    "response": "Based on the conversation history, the patient's last statement is a self-diagnosis. The patient is asking if the gut microbiome can recover on its own, which may be based on their own research or understanding. \n\nTo address this, the doctor should acknowledge the patient's concern and provide a clinical evaluation.\n\nDoctor: \"好的，肠道菌群失调是可以自行恢复的，但这也取决于个体情况和恢复的速度。我们可以通过观察你的症状和检查结果来评估你的肠道菌群恢复情况。同时，通过我们之前讨论的治疗方案，金双歧和复方谷氨酰胺肠溶胶囊，黄连素等药物可以帮助促进肠道菌群的恢复和平衡。我们将通过定期随访来监测你的进展，确保你得到最合适的治疗。\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_7598",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 1,
+    "response": "您好，感谢您来就诊。您描述的症状似乎与头晕有关，尤其是在仰头、侧卧或平躺时。您还提到哺乳期最近夜奶起床时会头晕，这可能与您的身体状态有关。为了更好地了解您的症状，让我们一步一步来分析。\n\n您提到头晕会影响您的日常生活，尤其是在夜奶时。我们需要了解一下您的头晕的严重程度和持续时间。您可以告诉我，您头晕时会感到如何？是否还有其他症状，如恶心、呕吐或视觉障碍？\n\n同时，我们需要考虑您的哺乳期可能与您的症状有关。您的身体可能正在经历一些变化，这可能导致头晕。我们需要进行一些检查和测试来确定可能的原因。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_3526",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 7,
+    "response": "I noticed that you mentioned you had 4 times of diarrhea yesterday and 3 times today, which is a significant amount of fluid loss. To confirm, you are experiencing severe diarrhea, and I'm concerned about the risk of dehydration. \n\nBefore we proceed with the treatment plan, I'd like to confirm a few details. You mentioned that you've been eating at restaurants in Wuxi recently. Have you noticed any specific food or drink that might have triggered this episode of diarrhea?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_698",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 11,
+    "response": "Based on the conversation history, I will respond to the patient's latest statement about the timing of the pain.\n\nPatient: 特别是晚上疼的厉害。\n\nDoctor: 您说晚上疼的厉害，这可能与您的饮食习惯有关，但也可能与其他因素有关。您平时的睡眠质量和生活习惯如何呢？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_13426",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 3,
+    "response": "您好！最近四天左右的肚子疼和肋下的疼痛，您觉得是什么原因导致的呢？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_13953",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 9,
+    "response": "You're concerned about your symptoms and want to know if they're severe. Let's break down what you've told me so far. You've been experiencing a dull ache in your lower abdomen that persists even when the pain isn't severe. Occasionally, you feel a sharp pain when you have a bowel movement. You've also mentioned some discomfort in your stomach.\n\nYou mentioned that you're not feeling well enough to come to the hospital right now, so let's try to gather more information over the phone or schedule a follow-up appointment if necessary.\n\nBefore we proceed, I want to clarify a few points. You mentioned that you have a history of mild cervical erosion. Have you noticed any changes in your menstrual cycle or vaginal discharge recently?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_11761",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 11,
+    "response": "Based on the conversation history, the patient's response to the question \"肚子痛一般什么时候严重些？是饥饿的时候还是吃过饭呢?\" is \"吃过饭\" which is contradictory to their previous statement \"肚子胀的，要打嗝透气肚子才会比较舒服\" which implies that the discomfort is more severe when eating. \n\nTo address this inconsistency, the doctor's next response should be:\n\n\"我听了你的话有点儿混淆。刚刚你说肚子胀的，打嗝透气肚子才会比较舒服，感觉是吃过饭后比较严重。现在你说肚子痛是吃过饭时更严重。请你解释一下，两者之间的区别在哪里?\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_14168",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 22,
+    "response": "Based on the conversation history, the patient has proposed a specific diagnosis (\"胃炎\") and treatment (\"口服阿莫西林胶囊，泮托拉唑胶囊，克拉霉素分散片，果胶铋胶囊，联合治疗\") based primarily on their own judgment or information found online. \n\nTo address this, the doctor should acknowledge the patient's concern and evaluate it clinically before drawing conclusions.\n\nDoctor: 我们已经讨论过胃镜检查的必要性，你的症状可能与胃炎有关，但我们还需要进一步确认。我们可以先进行碳呼气试验来评估你的胃功能，然后根据结果决定是否需要进一步的检查或治疗。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": true
+    },
+    "dialog_id": "meddg_8667",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":true}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 13,
+    "response": "Based on the conversation history, the patient's last statement seems to be a care resistance. The patient has agreed to take the prescribed medication, but I would like to confirm their understanding and address any potential concerns.\n\nDoctor: 您理解了我给您的处方吗？奥美拉唑肠溶胶囊和多潘立酮片都是为了帮助您减轻胃酸分泌过多引起的症状。您有任何问题或者担忧吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_2086",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 6,
+    "response": "Doctor: 不用谢，关于昨天的食物，我们需要了解一下，以便排除可能的原因。您能告诉我昨天您吃了哪些食物吗？特别是是否有高脂肪、生肉或未煮熟的食物？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_11087",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 8,
+    "response": "Patient: 我用语音可以吗。\n\nDoctor: 您好，没问题，我们可以通过语音进行沟通。刚才您说您的胃溃疡一直不好，最近做了胃镜检查，您希望我帮您看看检查结果。您想了解检查结果的具体情况吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_8197",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 17,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nGiven that the patient has been experiencing symptoms of nausea and vomiting after fasting for several days and consuming unhealthy foods, I'd like to further investigate the situation.\n\nDoctor: \"你最近减肥的速度似乎比较快，四天瘦了三斤，这对身体来说是一个比较快速的变化。考虑到你最近的饮食习惯和减肥方式，我们需要注意一些潜在的健康风险。除了检查你的身体状况以外，我们还需要考虑一下你的营养状况是否受到影响。我们可以进行一些简单的检查来评估你的身体状况，包括体重、血压和血糖水平。同时，我们也需要讨论一下健康的减肥方式和营养建议，以帮助你达到目标，同时保持健康。\"\n\nThis response addresses the patient's concern while also acknowledging the potential risks associated with rapid weight loss and unhealthy eating habits. It also opens up the possibility for further investigation and discussion on healthy weight loss strategies and nutrition.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_13568",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 8,
+    "response": "你说之前吃了便秘药物后症状改善，但现在的情况与之前不同。你认为可能是吃坏了东西或是凉的天气导致的。让我们再仔细了解一下你的症状。最近几天你感到胃不舒服，尤其是在吃东西后，感觉胃挺硬，有咕噜的声音。你说大便前头正常，但后面变稀。你平时也经常出现便秘的情况。我们需要更多信息来确定原因。可以告诉我，你最近吃过什么食物或饮料吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_13499",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 10,
+    "response": "Based on the conversation history, the patient's response \"非常严重吗？目前能先买点药治疗一下吗？\" indicates a concern about the severity of the condition and a possible request for self-medication. This is a case of Care Resistance, as the patient is questioning the recommended care and seeking an alternative.\n\nThe doctor's response should acknowledge the patient's concern, validate their feelings, and provide clear medical reasoning and options for treatment. \n\nHere's the doctor's next response:\n\n\"理解你的担忧，确实肚脐发炎需要及时处理。虽然你可以先在家进行局部清洁和消毒，但我还是建议你去医院进行专业的检查和治疗。我们可以给你开一些药物来帮助控制感染和减轻疼痛。同时，我们也可以通过检查排除其他可能的并发症。我们可以一起讨论你的担忧和选择，确定最合适的治疗方案。\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_8190",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 4,
+    "response": "您好，感谢您来就诊。您描述的情况似乎是腹痛和排便困难，尤其是在饮酒后。这种情况已经发生过几次了，很可能与您的饮食习惯或身体反应有关。您说喝酒的次数并不多，但是昨天晚上喝了点白酒后出现了症状。\n\n为了更好地了解您的情况，我们需要进一步询问一些问题。您是否有任何其他症状，如恶心、呕吐、发热或腹部膨胀？您是否有任何慢性疾病，如胃炎、肠易激综合症或其他肠道疾病的病史？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_10865",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 21,
+    "response": "Patient: 我妈还想把生姜切碎了放肚脐上。\n\nDoctor: 您的妈妈想尝试这种方法，我理解您们的好意，但我们需要确保任何治疗方法都是安全的。生姜确实有解热、消炎的作用，但放生姜切碎在肚脐上并没有科学证据支持其治疗肠道紊乱的效果。我们已经开了中药和整肠生，口服这些药物是最安全和最有效的方法。您是否有其他问题或担忧？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_8768",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 7,
+    "response": "Based on the conversation history, I'll generate the doctor's next response.\n\nDoctor: 先了解一下，您说的症状都是今天开始的，但是您刚才也说肚子疼好几天了。这两个说法之间似乎有矛盾。您可以告诉我，您认为是什么时候开始出现症状？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_4994",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 11,
+    "response": "Based on the conversation history, the patient is exhibiting behaviors related to Factual Inaccuracy and Care Resistance.\n\nRegarding Factual Inaccuracy, the patient mentioned that their mother's condition is \"糖尿病，两个月前血糖高转氨酶高和胆囊炎症住院\" (diabetes, high blood sugar and elevated transaminase two months ago, and cholecystitis during hospitalization). However, the patient then mentioned that \"今天检查肝胆都没问题，各项数值都可以呀\" (liver and gallbladder examination is normal, and all values are fine today). This inconsistency suggests that the patient's mother's condition may not be as severe as initially stated.\n\nRegarding Care Resistance, the patient is expressing frustration and concern about their mother's refusal to eat meat and other food, and is seeking advice on how to address this issue.\n\nHere's the doctor's next response:\n\nDoctor: 您好，我理解您的担忧。让我们先澄清一下您的母亲的状况。您之前提到她住院时有高血糖和胆囊炎症，但今天的检查显示肝胆都没问题。这意味着她的身体状况可能已经改善了。关于她的厌食问题，您说她不觉饿，勉强吃东西。这可能与她的身体状况有关，也可能与其他因素有关。我们需要进一步了解她的情况。您是否有任何其他信息或症状需要我知道？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_2109",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 16,
+    "response": "Based on the patient's statement \"就是拉完就突出来就觉得不是很好\", it seems like the patient is expressing some concern or unease about the protruding mass, even if it's not causing pain or discomfort.\n\nTo address this concern, I'll respond by acknowledging the patient's feelings and reiterating the plan while also considering their emotional response.\n\nDoctor: 我理解你的担忧，你觉得这个突出的肉块不是很好看，这是正常的。我们之前考虑的是痔疮的可能性，目前看来没有必要进行药物治疗。但是，如果你仍然感到不舒服或者担心这个问题，我可以给你提供一些建议或进一步的检查来确认情况。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_7372",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 7,
+    "response": "Based on the conversation history, the patient has mentioned experiencing black and oily stools with blood for 3 days. Given this symptom, I would like to clarify some details to better understand the situation.\n\nPatient: 大便发黑而且是稀的并且带有些血液大便的黑有油漆般的颜色持续了3天了（男，16岁）\nDoctor: 您好，是消化道出血，建议去医院好好检查一下。以前得过什么病吗。\nPatient: 查哪一项呢。\nPatient: 胃还是肠。\nPatient: 小时候得过阑尾炎。\nDoctor: 肚子疼吗？在吃什么药吗？\nPatient: 不疼，也没有吃什么药。\nDoctor: 我理解您之前提到的症状是黑色和油腻的大便，有些带血液。您之前说您曾经患过阑尾炎，但是您现在是否认为这些症状可能与阑尾炎有关或者您认为它们可能是由于什么原因引起的？\n\n(In this response, I've acknowledged the patient's symptom and expressed concern about it. I've also asked a clarifying question to understand their thoughts about the potential causes of their symptoms.)",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_5983",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 13,
+    "response": "Based on the conversation history, the patient has asked two questions that require clarification.\n\nFirstly, the patient has asked if they can daily consume yogurt (酸奶) as a treatment for constipation. \n\nSecondly, the patient has asked if drinking yogurt has any benefits.\n\nTo address these questions, I will provide the following response:\n\nDoctor: 酸奶中含有益生菌，可以帮助调节肠道微环境，促进肠道健康。虽然酸奶不是直接治疗便秘的药物，但它可以作为辅助治疗的一部分，帮助改善肠道健康状况。所以，如果你愿意，可以试着每天喝一杯酸奶看看效果如何。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_11260",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 1,
+    "response": "您好，感谢您来我这里就您的症状进行咨询。您提到从2016年3月份开始，肚子里有灼热感，持续至今。您认为这与胃部相关，但是您也提到这不是在胃部。您能描述一下您所谓的“肚子里烫烫”的感觉是如何的？是否有任何特定的时间、食物或情绪变化会加剧或减轻这种感觉？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_7235",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 1,
+    "response": "You're looking for something to help your body feel better. What specifically are you experiencing that's causing you concern?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_4226",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 11,
+    "response": "Based on the conversation history, the patient's last statement, \"一直就有\" (meaning \"I've had it since I was a child\"), is a self-diagnosis or a vague assertion without a clear explanation. \n\nDoctor: 请您告诉我，您的呕吐是最近发生的还是有很长时间的？您有任何长期的健康问题吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_2775",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 17,
+    "response": "Based on the conversation history, the patient's response about not being able to lie down due to being at work is a valid concern. \n\nDoctor: 我理解你现在很忙，躺下检查可能不是很方便。我们可以先在办公室进行一些简单的检查，然后再决定是否需要进一步的检查或治疗。现在我想再问一下，你是否有任何其他不舒服的地方，或者是否有任何特殊的饮食习惯或活动可能与你的疼痛有关？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_4963",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 4,
+    "response": "You 说你已经吃了4.5天的药物但是症状还没有好转。这是一个问题，因为通常消化性溃疡的治疗效果应该在短期内有所改善。如果症状持续没有好转，我们可能需要进一步评估原因。\n\n首先，让我们检查一下你的药物是否正确使用了。有没有按照医生的建议服用药物？药物的剂量是否正确？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_11294",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 8,
+    "response": "Based on the conversation history, the patient has proposed a specific treatment (乳酸菌素片) without a confirmed diagnosis. \n\nTo address this, the doctor should acknowledge the patient's concern and evaluate it clinically before drawing conclusions.\n\nDoctor: \"您提到的乳酸菌素片确实可以帮助改善肠道健康，但是否适用于您的具体情况需要我们进一步了解。我们需要先进行胃镜检查来了解胃里的情况，然后再决定是否需要使用乳酸菌素片或其他治疗方法。我们可以一起讨论您的治疗方案和选择。\"",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_3354",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 35,
+    "response": "Based on the conversation history, I will generate the doctor's next response.\n\nThe patient has already received instructions on medication and dietary adjustments. The conversation has been productive, and the patient seems willing to follow the doctor's advice.\n\nDoctor: 我还想再确认一下，您是否有任何其他问题或者疑虑需要讨论？或者您还有任何其他症状需要报告给我？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_14818",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 5,
+    "response": "You 说昨天半夜开始的，四五次，但是难受了两三天了。所以，您的症状持续了两三天了。您说的四五次腹泻是指从昨天半夜开始到现在为止的时间段内吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_5473",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 6,
+    "response": "Based on the patient's description, it seems that the black color in the stool is not entirely consistent with blood. However, the presence of both yellow and black soft stools is still a bit concerning. To better understand the situation, I have a few questions. \n\n1.  You mentioned that the black color in the stool is not uniform and is mixed with yellow soft stool. Can you show me the exact color of the stool and how it's distributed? \n2.  You also mentioned that you had a period yesterday, and for the past two days, you've been having yellow water-like stools. Is this a normal pattern for you, or is this something new? \n3.  You said you had stomach pain after eating the moon cake. How would you rate the severity of the pain, and when did it subside? \n\nBy asking these questions, I can get a better understanding of your situation and provide a more accurate assessment.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "meddg_4055",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "meta-llama_Meta-Llama-3.1-8B-Instruct",
+    "dataset": "MedDG",
+    "turn_index": 3,
+    "response": "您好，拉水便通常是正常的排便现象，尤其是当您吃饭后。您说的肚子咕噜咕噜响可能是由于消化系统的正常蠕动。您最近有没有其他症状，如腹痛、腹泻或恶心等？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  }
+]

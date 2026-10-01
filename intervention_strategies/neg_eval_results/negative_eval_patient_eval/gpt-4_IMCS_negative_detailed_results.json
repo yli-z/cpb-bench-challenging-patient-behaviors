@@ -1,0 +1,1845 @@
+[
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10087164",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 23,
+    "response": "You're welcome. I understand as a mother, it's hard to see your child uncomfortable. Remember to continuously offer hydration to your child. Avoid mixing medications with milk or water to prevent them from associating it with unpleasant experiences. Regularly monitoring your child's condition is also important. If symptoms persist or worsen over time, don't hesitate to seek immediate care.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": true
+    },
+    "dialog_id": "10667455",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":true}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 27,
+    "response": "看来你没有回应我的建议。为了孩子的身体恢复，我建议我们可以继续再输液两天。你同意这个治疗方案吗？还是有其他问题我可以帮助解答的？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10160237",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 19,
+    "response": "好的，如果有任何问题或状况变化，请随时告诉我。记得定期测量宝宝的体温。希望宝宝早日恢复健康。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10085820",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 22,
+    "response": "对于新生儿黄疸，一般来说并不需要额外喂水。新生儿的水分需求可以通过母乳或者配方奶完全得到满足，过多的水分可能会导致新生儿水中毒。增加水分并不能缓解黄疸情况。如果你担心宝宝的黄疸问题，请按照医生建议的去医院检查一下黄疸指数，必要时可以口服退黄药物。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10232266",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 13,
+    "response": "我了解到宝宝在医院住院期间使用了两天的呼吸机。但是我还需要知道宝宝在医院期间的大便情况如何？这对我了解宝宝的健康状况是非常重要的。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10113919",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 17,
+    "response": "您对于细菌和病毒感染的理解基本正确，抗生素确实主要用于治疗细菌感染，而对于病毒感染，有时我们会使用抗病毒药物来帮助治疗。对于您的情况，咳嗽已经持续了五天，比起开始有所改善但还是处在较为严重的状态，我建议您最好去医院查一下，可能需要做进一步的检查，例如血液检查、胸部X光等，以确定是否有肺炎的可能。记住，早期发现，早期治疗是非常重要的。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10299787",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 11,
+    "response": "了解到宝宝的情况后，我建议您尽快带宝宝去医院检查。宝宝呛奶可能是吞咽功能有问题，需要医生进行详细的检查和诊断。同时，请在喂养过程中尽量让宝宝保持半躺的姿势，避免一次性喂食过多。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10187625",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 12,
+    "response": "我明白你不想服用药物。我们可以从改变生活习惯入手，首先，你每天需要多喝水，至少8杯。水份对于我们的身体机能非常重要。其次，保持良好的饮食和锻炼习惯也对健康有益。如果有需要，我可以为你制定一个生活习惯调整方案。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10179565",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 19,
+    "response": "我了解你的担忧。从母乳转换到奶粉会对婴儿的肠道菌群产生影响，这可能是你孩子症状的部分原因。你可以尝试增加一些益生性乳酸菌奶粉来帮助他的肠道健康，而且也可以尝试更换不同的益生菌品种。请记住，有效的治疗需要一些时间，如果症状在一周之后仍然没有改善，建议你回诊让我们再次评估你的孩子的情况。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10359760",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 11,
+    "response": "了解了，宝宝白天睡眠缺乏可能是因为不舒服或者不适应。这些情况都可能影响到宝宝的睡眠。除了白天睡的少以外，还有其他的不适症状吗，例如发烧、咳嗽、流鼻涕等症状？或者饮食、排便有没有改变？这将有助于我更准确地了解宝宝的情况。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10298337",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 5,
+    "response": "你能详细描述一下这个情况吗？如：有没有出现频繁的大便或者腹痛，腹泻等情况？粘液的颜色是什么？另外请问你最近有没有改变饮食习惯或者吃了什么可能引起肠胃不适的食物？有更多的细节将有助于我做出更精确的诊断。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10333853",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 12,
+    "response": "你说的“气管还有点发严”，能不能详细描述一下？是宝宝有呼吸困难，咳嗽，还是有别的不适感？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10234383",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 11,
+    "response": "我注意到你对于用药情况提供了一些不一致的信息。你最初表示你没有使用任何药物，而发热是自然消退的，但稍后在回答关于咳嗽的问题时，你提到你已经服用了一些药物帮助减轻了咳嗽。为了确保我对你的病情和治疗历史有准确的了解，请你能解释一下这个矛盾的地方吗？你到底有没有服用什么药物呢？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10312317",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 23,
+    "response": "我明白你只想纯母乳喂养你的孩子，但是现在最主要的是需要确保孩子有充足的液体摄入，以免持续脱水。白开水可以起到这样的作用。虽然母乳也可以提供一定的液体，但是在孩子出现腹泻和呕吐的症状后，可能需要更多的水分来补充流失的液体。如果她的情况没有改善或者恶化，我建议你尽快带她去医院接受治疗。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10289180",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 6,
+    "response": "了解了，宝宝除了流涕之外，有其他的症状吗？比如有没有发热？情绪、食欲和精神状态怎么样？有看过医生吗？还有，这种情况持续了多久？回答这些问题将有助于我更全面地评估和诊断这个情况。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10710626",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 34,
+    "response": "你的理解十分到位。虽然便秘问题通常并不严重，但是如果孩子的便秘问题持续存在，或者情况没有改善，请记得及时再次寻求医疗帮助。使用开塞露或者其他药物会有一定的效果，但是如果情况没有改善，可能需要专业的医疗诊断和治疗。在孩子的膳食中加入更多的纤维质也可以帮助改善便秘的情况。我的建议是，尽可能不要把便秘的情况延续过久，以免对孩子的健康造成更大的影响。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10162006",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 22,
+    "response": "看起来宝宝可能有感冒，这也可能是导致他拉肚子和发烧的原因。退热贴可以使用，它不会加重蚕豆病的症状。对于拉肚子，需要注意的是保持宝宝的水分补充，尽量避免喂食可能刺激肠胃的食物。如果症状持续或者加重，我建议您带宝宝去看医生。进行具体病因的诊断并给予相应的治疗会更好。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10870748",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 20,
+    "response": "您之前描述了不是喷射性的吐奶，这是一个好的迹象。然而，要注意宝宝经常性的胃口和不适，以及大便的可能问题。大便次数偏多可能是消化不良的一个迹象。你提到的大便是黄色的，所以它可能是正常的，但是如果宝宝有腹泻、便秘或便便颜色变深，建议您及时就医。对于吐奶问题，我还是建议您试试空腹喂养，喂养后将宝宝竖立抱起，轻轻拍背帮助其打嗝，以减轻胃内的压力。如果吐奶仍然严重，建议您去医院找专科医生进行检查。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10351808",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 21,
+    "response": "看来宝贝可能是出现了便秘的症状。你可以考虑多给宝贝喝一些水，同时观察一下宝贝在饮食中是否需要调整。米粉比较消化，不应该引起便秘，但是如果宝贝的大便质地较硬，可以尝试为宝贝准备一些富含纤维的食物，比如糊状的蔬菜汤等。然而，如果宝贝的便秘症状持续不改，我建议你带宝贝看医生，以进一步检查。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10365834",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 17,
+    "response": "感谢您的反馈。听起来宝宝的身体正在恢复中，但请务必继续观察宝宝的情况，包括小便次数和颜色，大便的频率和质地。如果大便颜色持续绿色，有奶瓣，可能考虑为肠道疾病如乳糖不耐症等。如果宝宝的精神状态也没有明显改善，推荐您及时带宝宝复查。如果敏锐发现新的或加重的症状，请及时联系医生。同时，根据您的描述，宝宝因为病毒感染而白细胞计数较低，需要一段时间恢复，所以请确保宝宝的营养摄入量和充足的睡眠以帮助恢复。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10776009",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 5,
+    "response": "您好，盐酸西替利嗪是一种抗组胺药，主要用于缓解因过敏引起的症状，如鼻塞、流涕、打喷嚏等。在感冒引起的这些症状中，它也会有一定的缓解效果。虽然它不能治疗病毒性感冒，但它可以帮助缓解一些症状。但是，由于您当前有发烧症状，最好先咨询您的医生以确定是否适合继续服用这种药物，因为个人病情的差异可能会影响治疗方案。建议您在使用任何药物前都要询问医生或药剂师。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10864310",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 14,
+    "response": "孩子的腹泻已经持续了两天，而且今天开始发烧，这是需要密切关注的。尽管孩子只拉了一次肚子，但这可能不符合腹泻的常规定义，因为腹泻通常会导致肠道的水分丧失加速。我建议您立即给孩子做粪便常规检查，以排除感染性腹泻的可能。发烧的原因也需要明确，因为我们不能确定她的发烧是否和腹泻有关。如果腹泻和发烧持续的话，请立即带孩子去医院。尽量让孩子多饮水，以防脱水。同时观察孩子的病情是否有所变化，如腹泻次数是否增多，有无呕吐，食欲是否正常等。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10337514",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 15,
+    "response": "这就好。请密切观察宝宝的大便情况，并按照我给出的指导使用益生菌和小孩蒙脱石散。如果宝宝的症状没有改善或者变得更糟，请及时回来告诉我。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10224572",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 18,
+    "response": "您好，感谢您坦诚的分享。对于宝宝三天没有拉大便，确实可能存在便秘的问题，特别是如果宝宝动用了大力尝试排便。我支持您采取温和的方式帮助宝宝，例如顺时针按摩宝宝的肚子。然而，我必须强调，在没有专业人士在场的情况下，不建议您自行将棉签插入宝宝的肛门。这可能对婴儿的微妙和敏感的消化道造成伤害。如果宝宝的症状持续不改或者恶化，请及时带宝宝看医生或医院检查。近期内，您可以继续为宝宝喝水以帮助消化系统的运作。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10342705",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 4,
+    "response": "我理解您的嗓子有痰。但是，您能告訴我您是否還有咳嗽，流鼻涕，或者拉肚子的症狀呢？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10387981",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 29,
+    "response": "如果揉肚子没有起到很大的作用，宝宝还是很不舒服的话，建议带宝宝去看医生，以确保没有更严重的问题。同时，继续保持宝宝的水分，尽量让他吃清淡的食物，避免刺激肠胃。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10728820",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 30,
+    "response": "对的，听起来你已经非常认真地在照顾这个小家伙了。大便变绿确实可能与你的辅食和喂养习惯有关。建议你临时减少一些新添加的辅食，看看情况是否有改善。同时，按摩腹部可以帮助改善宝宝的消化。如果情况持续不改善或有其它令人担忧的症状出现，你应该带宝宝去看医生。记住，每个宝宝都是不同的，他们的消化系统可能需要不同的时间来适应新的食物。与你的健康护理提供者保持沟通，他们可以根据你的独特情况提供最好的建议。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10024588",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 26,
+    "response": "清淡的食物包括蔬菜、瘦肉、白鱼、全麦面包，等等。尽量避免食用有刺激性的食物，如葱、姜、香料等。保持饮食平衡，吃足量的蔬菜和水果，还要多喝水。继续观察孩子的症状，如果情况没有改善或者变多，请尽快再联系我。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10252334",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 2,
+    "response": "非常好，你能告诉我你最近是否感到不适吗？例如头痛，疲劳，胃痛，发热等症状？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10534376",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 21,
+    "response": "对于你孩子的情况，可以尝试给她吃一些扶脾颗粒来帮助她的消化，但是你必须找出病症的原因。她既然拉肚，拉的是水样物，还呕吐，这是消化道疾病的可能的症状。这可能是营养吸收不良或者食物不耐受等问题的表现。对于这样年幼的孩子，建议你带她去医院做详细的检查，以确定病因并给出精确的治疗方案。谨记，虽然扶脾颗粒对一些消化问题有帮助，但是它不能解决所有的问题。如果问题持续，你应该进一步寻求医生的帮助。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10177008",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 33,
+    "response": "您提到的情况下，我们需要获取更多的信息以及需要进一步的分析。这个孩子的症状可能归因于一种过敏反应，尤其是家族中存在过敏性鼻炎的历史以及孩子喜欢玩毛绒绒的玩具。 这可能导致他有过敏性咳嗽。也可能是儿童在早期的肺炎没有完全恢复，咳嗽持续发病。我建议继续追踪孩子的症状，并观察任何可能的过敏源，例如毛绒玩具，或者进行进一步的过敏测试。 在找到原因之前，建议使用糖皮质激素来帮助控制症状。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10385304",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 18,
+    "response": "了解我刚刚提供的按摩建议吗？或者有其他方面你还需要我解答的吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10208705",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 2,
+    "response": "你需要什么帮助吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10014676",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 38,
+    "response": "您已经做得很好了，继续保持。确保宝宝有足够的液体摄入，以免脱水。继续纯母乳喂养，并且妈咪爱可以继续给宝宝服用，以帮助调节肠道。在接下来的几天内，如果宝宝便便的数量没有减少或者宝宝出现其他不适的情况，例如发烧、咳嗽等，请及时就医。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10332638",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 22,
+    "response": "我看到宝宝已经发病四五天了，并且已经开始用优卡丹，小二咳喘灵颗粒和啊莫西林等药物。这些药物是否是由专业的医生开出的，还是你们在家自行给予的？给予的剂量是多少？此外，服用药物后宝宝的病情有什么改变？是好转还是恶化？请你详细描述一下。谢谢。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10824149",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 15,
+    "response": "根据您的描述，宝宝可能有支气管炎或其他呼吸道疾病，应该立即寻求医生的帮助。消炎药、止咳药可能需要在医生的指导下使用。此外，确保宝宝有足够的休息，避免接触潮湿或寒冷的空气，也有助于恢复。感谢您的咨询，祝愿宝宝早日康复。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10277985",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 16,
+    "response": "您的症状可能是肠道感染，这可能需要更专业的医疗评估和治疗。我建议你去看医生并做一个全面的身体检查，包括粪便检测,这可以帮助诊断你具体的问题。同时，对于你的病情，请确保你在医生指导下安全地用药。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10653868",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 3,
+    "response": "好的，了解了。母乳喂养是最理想的喂养方式，提供了宝宝成长所需的所有营养物质，同时也会有利于增强宝宝的免疫力。还有任何关于喂养或者宝宝健康的问题想要咨询吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10356262",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 21,
+    "response": "这一切都听起来很正常。母乳喂养的宝宝放屁多是正常的，只要孩子的活动量和睡眠没有改变，食欲也好，大便情况也正常，那应该没有太大问题。如果有任何其他症状或问题，欢迎随时告诉我。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10452550",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 35,
+    "response": "了解，吐后饮用水是保持水分和电解质平衡的良好做法。请持续观察宝宝的吐的频率和情况，并注意是否有腹痛或发烧的情况。同时，记得多给宝宝补充水分，预防脱水情况的发生。如果症状持续不改善或者加重，请及时带宝宝就医检查。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10363610",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 27,
+    "response": "我明白您的困惑和担忧。根据您描述的病情和医疗报告，我建议您首先进行一些必要的检查，比如心肌酶检查、支原体抗体检查和EB病毒抗体检查，这些都可能是引发孩子发烧的原因。如果孩子今天依旧发烧，您应该继续按照医生的建议进行注射治疗，同时要注意观察孩子的其它症状，如果有任何不适或者情况的改变，要及时告诉医生。我明白处理孩子的病情会让人感到焦虑，但是请您相信医生会寻找到最好的治疗方法，也欢迎您随时向我咨询疑问。希望孩子能快点好起来。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10101384",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 24,
+    "response": "那么，今天的化验结果显示没有血丝，这是一个好消息。但请继续密切监测宝宝的情况，并继续按照医嘱给药。如果出现任何新的或病情加重的症状，应立即联系医生。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10131890",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 14,
+    "response": "这个症状可能是因为呼吸道受到了一些刺激，比如感冒或是病毒感染等导致的。如果孩子的嗓子嘶哑持续不改善，我建议你们尽快带孩子去医院就诊，进行一些必要的检查。如果是呼吸道感染，医生会给出适当的治疗方案。在家也要注意盖好被子防止孩子受凉，多给孩子补充水分，避免让孩子尝试过辣或者过硬的食物，以免刺激喉咙。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10214493",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 13,
+    "response": "那么宝宝现在的体温是多少呢？吃了布洛芬混悬液后具体多久退了一点？吃的这个药的剂量是多少？如果可能的话，你能详细说明一下宝宝还有没有其他症状？例如疼痛、咳嗽、流鼻涕、食欲减退或者行为异常等？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10608284",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 12,
+    "response": "您没有回答我的问题。您的孩子流鼻涕或者打嚏的情况严重吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10715395",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 21,
+    "response": "了解你的担忧。首先，根据你的描述，孩子的病情可能需要更多的时间才能得到改善。继续给孩子用药是正确的，但如果症状没有明显的改善，可能需要对药物进行调整。既然你们已经试过雾化吸入，但咳嗽仍然严重，我建议你们尽快带孩子来医院进行进一步的检查和治疗。医生可能会调整他的药物或者采取其他治疗方法。同时，也要确保孩子有充足的休息，保持良好的饮食习惯以提高免疫力。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10717866",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 3,
+    "response": "好的，了解。那么您测量的体温是多少呢？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10358358",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 5,
+    "response": "您好，能请您告诉我这三种药的名称吗？这样我才能判断他们是否可以混在一起使用。另外，若有腹泻、咳嗽、流鼻涕等症状改变，也请尽快告诉我。我注意到其中有一条信息为空，如果有遗漏的重要信息，请补充告知。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10245749",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 10,
+    "response": "谢谢您的信息。我注意到您提到宝宝现在主要是喝粥，可能无法获得全面的营养。请问您还在给宝宝吃些什么食物？一个均衡的饮食对孩子的健康成长非常重要。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10876602",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 27,
+    "response": "I see. Even though the child has been treated for bronchitis, and the mycoplasma and chlamydia tests are negative, the persistence of the cough could suggest some other underlying conditions. I recommend a more detailed investigation and perhaps some additional tests. Chronic coughs in children, beyond an infectious cause like bronchitis, could be due to various reasons like asthma, gastroesophageal reflux, allergy, etc. If the cough still persists, I recommend seeing the doctor again or seeking a second opinion for a more comprehensive evaluation, including some blood tests, chest X-ray, or even CT scan if necessary. Also, watch out for other symptoms such as difficulty in breathing, wheezing, or any other changes in the child's health status.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10822049",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 33,
+    "response": "我明白你的担忧，我建议你先观察一下孩子的咳嗽症状是否有进一步加重的情况。从目前的描述来看，你的孩子的精神状况似乎相当好，这通常意味着咳嗽可能仅仅是普通的呼吸道感染，如感冒引起的。但考虑到孩子咳嗽已经有一周的时间了，我建议你积极安排带孩子去公立医院的儿科就诊，做进一步的检查和诊断，以防止条件加重。如果还继续对咳嗽进行自我治疗的话，尽量避免孩子过度用药或者随便更换药物，因为这可能会导致药物抗性或者带来副作用。最好能够咨询专业的医生，根据他们的建议来为孩子选择治疗方法。当你回到家的时候，能否告诉我你给孩子服用的是哪种消炎药呢？这样我们可以更好地分析情况并给出适当的建议。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10092395",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 15,
+    "response": "是的，如果孩子的体温持续低于36度，并持续若干小时，或者孩子出现乏力、饮食不振、哭闹不止等症状，建议及时带他去医院进行检查。同时，可以通过添加衣物、使用暖水袋等方式来提高孩子的体温。但任何情况下，首要的是要保持孩子的喝水和食物供应，保持良好的饮食，并监测他们的状态。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10170865",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 19,
+    "response": "您放心，肺炎康复期是不会导致声音嘶哑的。通常，孩子的声音嘶哑可能是由于感冒或者咳嗽过度导致的。您可以先观察一两天，如果情况没有改善，或者有其他症状出现，例如发热、咳嗽等，那么最好还是带孩子去医院进行检查。另外，维持良好的生活习惯，比如注意保暖，避免冷饮，也可以帮助孩子的喉咙恢复。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10712402",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 7,
+    "response": "您的饮食方式听起来总体上还是不错的。但是，我还有几个问题待确认：你是否吃了生冷或辣的食物？宝贝的奶粉品牌最近有没有改变？宝贝有没有肚子着凉的情况？这些都可能影响宝贝的胃口和健康。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10177267",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 12,
+    "response": "您好，没有看到您的化验单照片，目前还不能准确判断是否需要输液。您能不能把血象和相关检查结果发给我看一下呢？所给的\"血象14'66\"对我来说信息不够明确。请您详细点，我再帮您分析。同时，试试清洁鼻腔，看是否能缓解鼻塞的症状。如果鼻塞严重影响呼吸或者持续恶化，请尽快就医。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10886712",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 26,
+    "response": "我理解你的担忧，但是你可以放心。只要宝宝体重正常增加，没有其他不适症状，尽量不要过多依赖药物。如果便秘的情况持续不改善，或者宝宝有其他不适的情况出现，欢迎随时向我提出。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": true
+    },
+    "dialog_id": "10784285",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":true}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 20,
+    "response": "我建议您尽快就医。虽然继续使用当前的药物并观察症状可能会为您提供更多关于病情的信息，但是暂时不接受必要的治疗可能会使病情恶化。这可能会导致更多的健康问题，包括可能的并发症。如果您的孩子有持续的咳嗽和感染的迹象，尽早得到医疗专家的建议是非常重要的。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10424117",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 18,
+    "response": "了解了。记得进行大便的化验，这样我们才可以确定是否存在炎症的情况。如果化验结果出现白细胞增多，那我们可能需要用头孢来治疗。有任何其他疑问或者不舒服的症状，随时告诉我。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10203900",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 26,
+    "response": "了解，修改饮食习惯可能会有所帮助，如小餐多次。持续的高热和呕吐可能是病情进展的信号，此时最好别过度喂食，但要确保孩子有足够的水分摄入以防脱水。如果孩子的症状持续不改善，或者状况恶化，建议您立即带他去看医生，可能需要住院治疗。另外，热度持续两天，如果再加上其它症状如呼吸困难，或者孩子已经小于3个月大，也需要立即就医。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10124837",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 16,
+    "response": "对于婴儿来说，我们通常会在必要并且在其他方法无法确定诊断的情况下，才会考虑使用X光检查。X光检查会产生一定的辐射，尽管对于大人来说，这种辐射程度非常小，不会造成影响。但是对于婴儿来说，我们需要谨慎考虑。你的宝宝现在出现的症状不严重，建议先按照医生指导进行咳嗽和干呕的处理，如果症状没有改善，再考虑其他的诊断方案。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10499425",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 27,
+    "response": "是的，黄疸通常是某种情况下体内胆红素过多的结果，而非病因。这可能是因为胆红素产生过多，肝脏处理胆红素的能力不足，或者是胆道出现阻塞。你有特定的问题或者疑虑吗？我们可以根据宝宝目前的病情和检查结果进行进一步讨论。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10302251",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 23,
+    "response": "每日给宝宝多喝水，保持鼻腔清洁，避免鼻塞。喂奶时，可以让宝宝垂头稍微俯身，防止呛奶。定时带宝宝到外面晒晒太阳，增强宝宝身体免疫力。同时饮食要均衡，加强营养。如果宝宝情况有所恶化，或者新症状出现，一定要及时就医。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10089449",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 17,
+    "response": "不建议直接混合药物一起吃，虽然可以同时使用，但是最好间隔一段时间服用。具体情况最好是咨询一下药剂师或者医生，他们能给出专业意见。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10279899",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 26,
+    "response": "看起来宝宝可能有些不适。打喷嚏和鼻塞可能是受到了一些小感冒的影响，而泡沫便便则可能是消化问题的一种表现。您提到您给宝宝喂思密达，这是除了母乳喂养之外的补充吗？如果是增加了奶粉的喂养，也可能会影响宝宝的肠胃消化。此外，您的饮食能够影响母乳的质量，因此也可能会影响到宝宝。因此，我建议您留意自己的饮食，避免食用辛辣、油腻的食物。宝宝这个状况我建议进行大便的化验，以排除肠道炎症的可能。同时给宝宝喂一些益生菌有助于保护宝宝的肠道健康。另外，她的咬奶头可能暗示她在口腔部分有一点不适，这值得我们观察和关注。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10283139",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 9,
+    "response": "我理解你的关心。看起来宝宝的消化系统可能正在处理一些问题，尤其是分解和吸收食物。步骤一首先，确保宝宝充足的水分摄取，以防脱水。然后，我建议你尝试提供更易消化的食物，比如粥或烂饭，看看是否有改善。如果情况没有改变或者变得更糟，那么我建议你带你的宝宝去看医生进一步检查。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10057484",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 9,
+    "response": "那很好，看来孩子的身体状况在改善。不过，即使如此，你还是要继续留意孩子的健康状况，包括是否有新的症状出现，症状是否持续，以及症状是否恶化等等。同时，如果咳嗽没有改善或者变得更糟的话，最好带孩子去医院再次检查。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10828094",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 4,
+    "response": "那请你通过医院的线上系统上传图片，我会在那里查看，如果有任何问题或者不适，你都可以随时告诉我。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10617742",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 4,
+    "response": "理解宝宝现在拉肚子的症状可能带来的不便。基于您的描述，这可能是由于消化道感染，比如病毒性肠胃炎导致。我建议您观察宝宝腹泻的情况，如果明显改善或者结束，则可能是短暂的病毒性疾病。然而若腹泻持续，则需要复查并可能需要适当的药物干预。\n\n同时，关于肚脐贴的过敏反应，建议您在未来使用时，首先在小片肌肤上测试是否有过敏反应。\n\n另外，您需要密切关注宝宝hydration的情况。如果宝宝表现出口渴 极度，少量尿尿或没有尿尿，干燥或松弛的皮肤或口腔，疲倦或者烦躁，则可能有脱水情况，应去医院就诊。\n\n同时，尽可能保持给宝宝提供健康和营养均衡的饮食。在这个阶段，最重要的是防止宝宝脱水。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10228866",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 28,
+    "response": "是的，这些症状常见于一岁以内的宝宝，但如果持续出现或者情况严重，建议及时带孩子去看医生以排除潜在的健康问题。与此同时，给宝宝多喝水并且定期使用双歧杆菌益生菌产品有助于改善胃肠道功能。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10190368",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 17,
+    "response": "我明白你的疑虑。根据你提供的信息，你的孩子的咳嗽症状持续时间较长，并且药物治疗后症状并未完全消除。我建议您让孩子做一些详细的检查，如X光和血液测试，以便我们能更准确地了解孩子的病情。此外，有可能是上幼儿园的环境引起的问题，我建议您也注意观察孩子在其他环境下是否也有咳嗽的现象，以及是否可能存在某些特别的刺激因素。对病因弄清楚后，我们将能提供更精确的治疗方案。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10374681",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 6,
+    "response": "那太好了，我很高兴听说宝宝的体温正常，而且已经一岁了。那么，有什么我可以帮助你的吗？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10767269",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 29,
+    "response": "是的，开塞露是安全的，它不会被身体吸收，只是在肠道内产生作用以帮助排便。然而，如果你仍然有疑虑或担忧，建议你去访问小儿科医生，有他们进一步评估宝宝的情况并提供专业意见。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10282655",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 32,
+    "response": "您能告诉我您具体指的是哪种药吗？ 以便我能提供更准确的建议。 之前的对话中，我们谈到了合生元益生菌，妈咪爱和感冒药，我需要明确您是在提问哪种药物。 此外，与全面的药物有关的建议，我还要强调，我们需要考虑到药物是否适合宝宝服用。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10297451",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 24,
+    "response": "宝宝可能是病毒感染，通常会自行恢复。让宝宝多休息、多喝水，多吃一些富含维生素的食物可以帮助恢复。如果宝宝的症状在一周内没有好转，请再次带他来看医生。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10289830",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 8,
+    "response": "了解了。那么您的女儿感冒咳嗽有多久了？她与您的宝宝在症状出现之前有接触吗？另外，她有其他症状吗，比如发热或者呼吸困难？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10089280",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 20,
+    "response": "对于患有支气管炎的宝宝，饮食方面主要是多饮水，帮助稀释痰液，减少咳嗽的症状。再就是增加蔬菜和水果的摄入，提高免疫力。适当增加蛋白质的摄入，如鱼、鸡蛋等。避免食物过于冷热或刺激性食物，如辣、酸、煎炸等。若宝宝食欲不振，可以适当增加补气补血类食品。最后，饮食卫生很重要，避免二次感染。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10080552",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 16,
+    "response": "关于宝宝的大便情况，如果没有其他不适的症状，比如腹泻、呕吐、发热等，并且宝宝的精神状况良好，食欲也正常，通常不需要特殊治疗。绿色的大便可能是由于胆汁未完全消化，大便过快通过肠道所致。这种情况通常不严重，并且随着消化系统的成熟，可能会自然改善。\n\n至于搬家和换奶粉包装是否会影响宝宝，我认为这两者可能不会直接导致绿色大便。但是，如果你观察到宝宝出现其它不适的症状，或者大便的状况没有改善，我建议你尽快咨询医生，需要进一步检查以确定宝宝的具体情况。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10058620",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 11,
+    "response": "了解，孩子目前的症状可能是药物或者其他原因引起的反应，不过需要进行进一步观察。有时候布洛芬可能会引起胃肠道反应，如拉稀等。如果孩子的情况没有好转，或者出现其它症状，例如，疼痛，呕吐，高烧等，应立即就医。同时，也要继续密切关注孩子是否出现过敏症状，如皮肤疹子等。还有，除了布洛芬，是否还给孩子用了其他药物呢？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10340247",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 26,
+    "response": "谢谢您的耐心回答。根据您的描述，宝宝可能是轻微便秘，母乳喂养的宝宝有可能会有便秘的情况。您可以尝试更加定时的喂养，让宝宝养成良好的排便习惯，也可以试试看给宝宝一些高纤维的食物，苹果泥是个很好选择。请关注宝宝的大便情况，如果便秘状况没有改善或者出现其它症状，比如发热、消瘦、或者病态等，请及时就医。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10154758",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 10,
+    "response": "那很好，孩子的黄疸和血糖都保持在正常范围，B超和胸片也没有异常。请继续监控孩子的状况，并及时上报任何改变。由于血液疾病病情复杂，很高兴看到孩子的病情有所改善。要保持积极的心态，孩子会慢慢康复的。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10290017",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 17,
+    "response": "看来宝宝可能存在呼吸道问题，并且可能疼痛不适导致总哭。你提到宝宝“吃吃就不吃了”，这可能表明宝宝吃奶时觉得不适。你能详细描述一下宝宝的其他症状吗？例如宝宝的呕吐情况？宝宝的便便如何？外观颜色正常吗？粘稠度如何？你还提到了腹泻，频率怎么样？这些细节信息可以帮助我更准确的识别和评估宝宝的情况。同时，鉴于呼吸困难，我建议尽快带宝宝到医院接受进一步的检查和治疗。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10417193",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 23,
+    "response": "从你的描述来看，孩子可能是因为肠胃不适导致的单次呕吐和发热。处于安全考虑，建议你带孩子去医院做一下检查，尤其是如果孩子继续发热或者呕吐不止的话。如果去医院的路程较远，你也可以先找附近的药店购买一个体温计，用来监控孩子的体温。同时，记得保持孩子的水分，以防脱水。最后，如果孩子有任何情况Exacerbations，例如发热持续，体温上升，或者出现其它任何不适的情况，你应该立即带他去医院。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10412102",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 12,
+    "response": "不客气。如果孩子的眼睛红肿状况没有改善或者有所加重，请及时就医。希望孩子能早日恢复健康。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10226182",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 31,
+    "response": "宝宝如果黄疸值还是持续升高，可能确实需要继续进行照蓝光治疗。照蓝光的时间取决于黄疸的严重程度和治疗的反应情况，一般需要医生来具体判断和指导。重要的是按医生的建议进行，以确保宝宝的健康。同时，还应该注意观察宝宝的总体情况和黄疸是否有所改善，任何异常都应立刻告诉医生。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10742656",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 15,
+    "response": "我理解你的情况。虽然你的宝宝精神状态和食欲都很好，但是如果他出生后一直有黄疸现象，这是需要引起重视的。尽管你提到黄疸症状不严重，也有可能存在被忽视的问题，因为这可能是病理性黄疸的一种表现， 孩子的健康是最重要的，所以建议你尽快带宝宝到医院做详细的检查，了解宝宝的黄疸症状是否会影响到他的健康。并且，希望您能在方便的时候发一张孩子的照片，我可以对皮肤颜色进行初步的评估。别担心，有任何问题，我们可以随时沟通。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10256415",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 6,
+    "response": "这些症状可能是针对某种感染的反应，也可能是其他健康问题。我会建议你马上带宝宝去看医生以确保他没有脱水的危险。 脱水对宝宝来说可能非常严重。另外，也请确保宝宝有充足的水分摄入，与此同时，你可以观察一下宝宝的其他症状，如食欲消退，疲劳，或者呕吐等。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10097613",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 21,
+    "response": "了解了。你目前的药物应该不会影响到孩子。关于你的白细胞下降问题，你需要密切关注。如果感到身体不适或者症状持续，建议尽快再去医院进一步检查。至于孩子的大便问题，这可能是最近饮食上有所改变，或者是消化系统稍有反应。如果孩子的精神状态良好，没有其他异常症状，一般情况下不用过于担心。不过，建议持续关注孩子的状况，如果问题持续或孩子出现其它不适，应及时就诊。对于鹌鹑蛋黄，如果孩子以前吃过没有问题，那应该没有太大问题。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10807403",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 20,
+    "response": "葫芦娃小儿肺热咳喘颗粒适用于咳嗽，但应注意它更适用于肺热型咳嗽，如咳嗽有痰，痰黄稠的情况。与小儿化痰止咳颗粒一起使用应该是可以的，但是由于每位宝宝的体质和条件都不同，我建议您最好还是先咨询一下您的家庭医生或者药师，看看他们是否支持这种联合使用的药物治疗方案。同时注意观察病情变化，如果咳嗽没有缓解或者有任何不适，请及时就医。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10291642",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 20,
+    "response": "你的儿子正在吃的这种中药能告诉我是什么名字吗？因为我需要知道这个药品的具体信息以便更好地了解现在的情况。另外，你说的益生菌是由医生推荐的还是你自己买的？因为有些益生菌的种类可能不适合你的孩子现在的情况。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10890833",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 6,
+    "response": "虽然宝宝没有其他的症状，但是持续的高热需要我们重视，因为这可能表示宝宝的身体正在抵抗某种感染。我建议您尽快带宝宝去医院检查，找出发热的原因。与此同时，请确保宝宝有足够的液体摄入以防止脱水，并让宝宝多休息。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10297446",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 34,
+    "response": "我听到了你的问题，但是我不能為您推荐药物剂量。请直接向您的医生咨询这个问题，他将根据宝宝的体重和年龄以及具体病情来给出合适的剂量。另外，由于宝宝曾经有过支气管炎的病史，我建议您定期带宝宝进行体检，及时了解宝宝的身体健康状况。如果还有其他问题，请随时和我联系。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10741955",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 11,
+    "response": "听你的描述，宝宝的便秘问题需要及时解决。虽然他的体重是正常的，但是长期的便秘可能会对他的健康带来影响。我建议你可以尝试更改宝宝的饮食习惯，增加一些高纤维的食物，如豆类、全麦面包、新鲜蔬果等。另外，保持规律的喂养时间，慢慢训练宝宝的排便规律也是很重要的。如果便秘情况没有明显改善或者有其他异常症状出现，如不适、痛苦等，建议你尽快带宝宝去儿科医生那里进一步检查。至于你提到的使用开塞露，这是处方药物，子宝贝的便秘问题确实严重的情况下可以考虑使用，但必须在医生的指导下使用。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10357422",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 7,
+    "response": "谢谢你的回复。婴儿的排便习惯有时会因为饮食等各种因素而变化。你们使用的奶粉是什么牌子的？近期有没有更换过奶粉或者其他可能影响消化的食物？",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10172050",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 23,
+    "response": "流鼻涕的时间会根据不同的原因而变化。如果是由于普通感冒引起的，一般一周左右就会好转。如果是由于过敏或鼻窦炎引起的，可能需要更长的时间才能见效，甚至需要特定的治疗。最好尽快找出引起流鼻涕的原因，以便正确处理。如果鼻涕量长时间不减少，或者出现其他症状，如发热，持续咳嗽等症状，那么就需要立即就医。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10192245",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 36,
+    "response": "不客气，一定要按照药物说明进行操作。如果你有其他问题，或者孩子病情有任何变化，请及时联系我。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10107256",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 16,
+    "response": "您好，新生儿的黄疸通常不是由于茵陈黄引起的。黄疸主要是由于胆红素过高引起的，这是新生儿体内被打破的红细胞释放的一种物质。至于喂养问题，正确的母乳喂养方式对新生儿的健康非常重要。如果胸喂存在问题，可能会使黄疸有所加重。所以我们需要确保宝宝是否在正确地进行母乳喂养。如果您不确定，可以寻求专业的哺乳咨询师的帮助。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "10004256",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4",
+    "dataset": "IMCS",
+    "turn_index": 19,
+    "response": "了解，谢谢您的回复。从您的描述来看，孩子的情况并没有明显改善，还有咳嗽，喉咙痰多，大便偏稀等症状。我建议您带孩子复诊，由医生进行更准确的评估并可能需要调整治疗方案。同时，观察孩子的饮食和精神状态，如果有任何其他异常表现，也需要立即就医。",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  }
+]

@@ -1,0 +1,730 @@
+{
+  "overall_failure_rate": "1.31%",
+  "total_samples": 8304,
+  "failure_count": 109,
+  "success_count": 8195,
+  "by_model": {
+    "Qwen_Qwen3-32B": {
+      "failure_rate": "1.16%",
+      "total_samples": 692,
+      "failure_count": 8,
+      "success_count": 684,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 1,
+          "successes": 274,
+          "failure_rate": "0.36%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 0,
+          "successes": 64,
+          "failure_rate": "0.00%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 7,
+          "successes": 85,
+          "failure_rate": "7.61%"
+        }
+      },
+      "by_dataset": {
+        "ACI": {
+          "total": 28,
+          "failures": 2,
+          "successes": 26,
+          "failure_rate": "7.14%"
+        },
+        "IMCS": {
+          "total": 286,
+          "failures": 3,
+          "successes": 283,
+          "failure_rate": "1.05%"
+        },
+        "MedDG": {
+          "total": 309,
+          "failures": 3,
+          "successes": 306,
+          "failure_rate": "0.97%"
+        },
+        "MediTOD": {
+          "total": 69,
+          "failures": 0,
+          "successes": 69,
+          "failure_rate": "0.00%"
+        }
+      }
+    },
+    "Qwen_Qwen3-32B_thinking": {
+      "failure_rate": "1.16%",
+      "total_samples": 692,
+      "failure_count": 8,
+      "success_count": 684,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 0,
+          "successes": 275,
+          "failure_rate": "0.00%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 1,
+          "successes": 63,
+          "failure_rate": "1.56%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 7,
+          "successes": 85,
+          "failure_rate": "7.61%"
+        }
+      },
+      "by_dataset": {
+        "MediTOD": {
+          "total": 69,
+          "failures": 1,
+          "successes": 68,
+          "failure_rate": "1.45%"
+        },
+        "MedDG": {
+          "total": 309,
+          "failures": 2,
+          "successes": 307,
+          "failure_rate": "0.65%"
+        },
+        "IMCS": {
+          "total": 286,
+          "failures": 3,
+          "successes": 283,
+          "failure_rate": "1.05%"
+        },
+        "ACI": {
+          "total": 28,
+          "failures": 2,
+          "successes": 26,
+          "failure_rate": "7.14%"
+        }
+      }
+    },
+    "claude-sonnet-4-5-20250929": {
+      "failure_rate": "1.16%",
+      "total_samples": 692,
+      "failure_count": 8,
+      "success_count": 684,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 2,
+          "successes": 273,
+          "failure_rate": "0.73%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 0,
+          "successes": 64,
+          "failure_rate": "0.00%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 6,
+          "successes": 86,
+          "failure_rate": "6.52%"
+        }
+      },
+      "by_dataset": {
+        "IMCS": {
+          "total": 286,
+          "failures": 2,
+          "successes": 284,
+          "failure_rate": "0.70%"
+        },
+        "MediTOD": {
+          "total": 69,
+          "failures": 0,
+          "successes": 69,
+          "failure_rate": "0.00%"
+        },
+        "ACI": {
+          "total": 28,
+          "failures": 1,
+          "successes": 27,
+          "failure_rate": "3.57%"
+        },
+        "MedDG": {
+          "total": 309,
+          "failures": 5,
+          "successes": 304,
+          "failure_rate": "1.62%"
+        }
+      }
+    },
+    "deepseek-chat": {
+      "failure_rate": "1.01%",
+      "total_samples": 692,
+      "failure_count": 7,
+      "success_count": 685,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 0,
+          "successes": 275,
+          "failure_rate": "0.00%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 0,
+          "successes": 64,
+          "failure_rate": "0.00%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 7,
+          "successes": 85,
+          "failure_rate": "7.61%"
+        }
+      },
+      "by_dataset": {
+        "ACI": {
+          "total": 28,
+          "failures": 0,
+          "successes": 28,
+          "failure_rate": "0.00%"
+        },
+        "MedDG": {
+          "total": 309,
+          "failures": 3,
+          "successes": 306,
+          "failure_rate": "0.97%"
+        },
+        "IMCS": {
+          "total": 286,
+          "failures": 3,
+          "successes": 283,
+          "failure_rate": "1.05%"
+        },
+        "MediTOD": {
+          "total": 69,
+          "failures": 1,
+          "successes": 68,
+          "failure_rate": "1.45%"
+        }
+      }
+    },
+    "deepseek-reasoner": {
+      "failure_rate": "0.72%",
+      "total_samples": 692,
+      "failure_count": 5,
+      "success_count": 687,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 0,
+          "successes": 275,
+          "failure_rate": "0.00%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 0,
+          "successes": 64,
+          "failure_rate": "0.00%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 5,
+          "successes": 87,
+          "failure_rate": "5.43%"
+        }
+      },
+      "by_dataset": {
+        "IMCS": {
+          "total": 286,
+          "failures": 2,
+          "successes": 284,
+          "failure_rate": "0.70%"
+        },
+        "MedDG": {
+          "total": 309,
+          "failures": 3,
+          "successes": 306,
+          "failure_rate": "0.97%"
+        },
+        "ACI": {
+          "total": 28,
+          "failures": 0,
+          "successes": 28,
+          "failure_rate": "0.00%"
+        },
+        "MediTOD": {
+          "total": 69,
+          "failures": 0,
+          "successes": 69,
+          "failure_rate": "0.00%"
+        }
+      }
+    },
+    "gemini-2.5-flash": {
+      "failure_rate": "0.87%",
+      "total_samples": 692,
+      "failure_count": 6,
+      "success_count": 686,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 4,
+          "successes": 271,
+          "failure_rate": "1.45%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 0,
+          "successes": 64,
+          "failure_rate": "0.00%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 2,
+          "successes": 90,
+          "failure_rate": "2.17%"
+        }
+      },
+      "by_dataset": {
+        "MediTOD": {
+          "total": 69,
+          "failures": 0,
+          "successes": 69,
+          "failure_rate": "0.00%"
+        },
+        "IMCS": {
+          "total": 286,
+          "failures": 2,
+          "successes": 284,
+          "failure_rate": "0.70%"
+        },
+        "MedDG": {
+          "total": 309,
+          "failures": 3,
+          "successes": 306,
+          "failure_rate": "0.97%"
+        },
+        "ACI": {
+          "total": 28,
+          "failures": 1,
+          "successes": 27,
+          "failure_rate": "3.57%"
+        }
+      }
+    },
+    "gpt-4": {
+      "failure_rate": "1.16%",
+      "total_samples": 692,
+      "failure_count": 8,
+      "success_count": 684,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 1,
+          "successes": 274,
+          "failure_rate": "0.36%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 0,
+          "successes": 64,
+          "failure_rate": "0.00%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 7,
+          "successes": 85,
+          "failure_rate": "7.61%"
+        }
+      },
+      "by_dataset": {
+        "IMCS": {
+          "total": 286,
+          "failures": 1,
+          "successes": 285,
+          "failure_rate": "0.35%"
+        },
+        "MedDG": {
+          "total": 309,
+          "failures": 5,
+          "successes": 304,
+          "failure_rate": "1.62%"
+        },
+        "ACI": {
+          "total": 28,
+          "failures": 1,
+          "successes": 27,
+          "failure_rate": "3.57%"
+        },
+        "MediTOD": {
+          "total": 69,
+          "failures": 1,
+          "successes": 68,
+          "failure_rate": "1.45%"
+        }
+      }
+    },
+    "gpt-4o-mini": {
+      "failure_rate": "1.16%",
+      "total_samples": 692,
+      "failure_count": 8,
+      "success_count": 684,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 0,
+          "successes": 275,
+          "failure_rate": "0.00%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 1,
+          "successes": 63,
+          "failure_rate": "1.56%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 7,
+          "successes": 85,
+          "failure_rate": "7.61%"
+        }
+      },
+      "by_dataset": {
+        "IMCS": {
+          "total": 286,
+          "failures": 1,
+          "successes": 285,
+          "failure_rate": "0.35%"
+        },
+        "MedDG": {
+          "total": 309,
+          "failures": 5,
+          "successes": 304,
+          "failure_rate": "1.62%"
+        },
+        "MediTOD": {
+          "total": 69,
+          "failures": 2,
+          "successes": 67,
+          "failure_rate": "2.90%"
+        },
+        "ACI": {
+          "total": 28,
+          "failures": 0,
+          "successes": 28,
+          "failure_rate": "0.00%"
+        }
+      }
+    },
+    "gpt-4o": {
+      "failure_rate": "1.01%",
+      "total_samples": 692,
+      "failure_count": 7,
+      "success_count": 685,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 0,
+          "successes": 275,
+          "failure_rate": "0.00%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 1,
+          "successes": 63,
+          "failure_rate": "1.56%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 6,
+          "successes": 86,
+          "failure_rate": "6.52%"
+        }
+      },
+      "by_dataset": {
+        "ACI": {
+          "total": 28,
+          "failures": 0,
+          "successes": 28,
+          "failure_rate": "0.00%"
+        },
+        "IMCS": {
+          "total": 286,
+          "failures": 3,
+          "successes": 283,
+          "failure_rate": "1.05%"
+        },
+        "MediTOD": {
+          "total": 69,
+          "failures": 1,
+          "successes": 68,
+          "failure_rate": "1.45%"
+        },
+        "MedDG": {
+          "total": 309,
+          "failures": 3,
+          "successes": 306,
+          "failure_rate": "0.97%"
+        }
+      }
+    },
+    "gpt-5": {
+      "failure_rate": "1.59%",
+      "total_samples": 692,
+      "failure_count": 11,
+      "success_count": 681,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 0,
+          "successes": 275,
+          "failure_rate": "0.00%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 1,
+          "successes": 63,
+          "failure_rate": "1.56%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 10,
+          "successes": 82,
+          "failure_rate": "10.87%"
+        }
+      },
+      "by_dataset": {
+        "IMCS": {
+          "total": 286,
+          "failures": 3,
+          "successes": 283,
+          "failure_rate": "1.05%"
+        },
+        "ACI": {
+          "total": 28,
+          "failures": 0,
+          "successes": 28,
+          "failure_rate": "0.00%"
+        },
+        "MediTOD": {
+          "total": 69,
+          "failures": 1,
+          "successes": 68,
+          "failure_rate": "1.45%"
+        },
+        "MedDG": {
+          "total": 309,
+          "failures": 7,
+          "successes": 302,
+          "failure_rate": "2.27%"
+        }
+      }
+    },
+    "meta-llama_Llama-3.3-70B-Instruct": {
+      "failure_rate": "1.16%",
+      "total_samples": 692,
+      "failure_count": 8,
+      "success_count": 684,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 0,
+          "successes": 261,
+          "failure_rate": "0.00%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 1,
+          "successes": 274,
+          "failure_rate": "0.36%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 3,
+          "successes": 61,
+          "failure_rate": "4.69%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 4,
+          "successes": 88,
+          "failure_rate": "4.35%"
+        }
+      },
+      "by_dataset": {
+        "MedDG": {
+          "total": 309,
+          "failures": 4,
+          "successes": 305,
+          "failure_rate": "1.29%"
+        },
+        "MediTOD": {
+          "total": 69,
+          "failures": 1,
+          "successes": 68,
+          "failure_rate": "1.45%"
+        },
+        "ACI": {
+          "total": 28,
+          "failures": 0,
+          "successes": 28,
+          "failure_rate": "0.00%"
+        },
+        "IMCS": {
+          "total": 286,
+          "failures": 3,
+          "successes": 283,
+          "failure_rate": "1.05%"
+        }
+      }
+    },
+    "meta-llama_Meta-Llama-3.1-8B-Instruct": {
+      "failure_rate": "3.61%",
+      "total_samples": 692,
+      "failure_count": 25,
+      "success_count": 667,
+      "by_behavior_category": {
+        "Care Resistance": {
+          "total": 261,
+          "failures": 1,
+          "successes": 260,
+          "failure_rate": "0.38%"
+        },
+        "Self-diagnosis": {
+          "total": 275,
+          "failures": 0,
+          "successes": 275,
+          "failure_rate": "0.00%"
+        },
+        "Factual Inaccuracy": {
+          "total": 64,
+          "failures": 8,
+          "successes": 56,
+          "failure_rate": "12.50%"
+        },
+        "Information Contradiction": {
+          "total": 92,
+          "failures": 16,
+          "successes": 76,
+          "failure_rate": "17.39%"
+        }
+      },
+      "by_dataset": {
+        "MedDG": {
+          "total": 309,
+          "failures": 13,
+          "successes": 296,
+          "failure_rate": "4.21%"
+        },
+        "ACI": {
+          "total": 28,
+          "failures": 2,
+          "successes": 26,
+          "failure_rate": "7.14%"
+        },
+        "IMCS": {
+          "total": 286,
+          "failures": 8,
+          "successes": 278,
+          "failure_rate": "2.80%"
+        },
+        "MediTOD": {
+          "total": 69,
+          "failures": 2,
+          "successes": 67,
+          "failure_rate": "2.90%"
+        }
+      }
+    }
+  },
+  "by_behavior_category": {
+    "Care Resistance": {
+      "total": 3132,
+      "failures": 1,
+      "successes": 3131,
+      "failure_rate": "0.03%"
+    },
+    "Self-diagnosis": {
+      "total": 3300,
+      "failures": 9,
+      "successes": 3291,
+      "failure_rate": "0.27%"
+    },
+    "Factual Inaccuracy": {
+      "total": 768,
+      "failures": 15,
+      "successes": 753,
+      "failure_rate": "1.95%"
+    },
+    "Information Contradiction": {
+      "total": 1104,
+      "failures": 84,
+      "successes": 1020,
+      "failure_rate": "7.61%"
+    }
+  }
+}

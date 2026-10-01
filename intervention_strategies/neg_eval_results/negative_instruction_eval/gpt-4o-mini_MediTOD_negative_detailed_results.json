@@ -1,0 +1,1807 @@
+[
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "1006",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 74,
+    "response": "Given your symptoms, it’s important to rule out COVID-19. The COVID test will help us understand the cause of your cough and determine the best course of action. In the meantime, I recommend that you drink plenty of fluids and get adequate rest to help support your immune system. If your cough worsens, or if you start experiencing other concerning symptoms like difficulty breathing, fever, or chest pain, please seek medical attention immediately. Do you have any concerns about the testing process or the isolation advice?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "413",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 4,
+    "response": "I appreciate you clarifying that. You mentioned earlier that it's been “three to four days.” Are you certain it’s been four full days, or could it be less than that? Understanding the exact timeline can help us determine the best approach to his symptoms.  Also, has he had any other symptoms like fever, trouble sleeping, or any nasal congestion?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "432",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 94,
+    "response": "Thank you for sharing that information with me. Based on what you’ve described, it sounds like you’re experiencing some significant throat soreness and fever that may be consistent with an infection. However, you mentioned that your brother had similar symptoms a couple of weeks ago and received antibiotics. If he was diagnosed with a bacterial infection, it’s possible that you could have a similar condition. \n\nJust to clarify, since you mentioned both soreness and that some whitish material is coming up from your throat, can you describe better what that material looks like? It's important for me to assess whether that could indicate anything specific, such as a bacterial infection or tonsillitis. \n\nOnce we're clear on that, we can discuss the next steps, including whether a throat swab or further investigation is necessary.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "236",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 48,
+    "response": "It sounds like you've been experiencing quite a bit of discomfort with your sore throat and the additional symptoms you've described. I just want to clarify something regarding your previous cold. You mentioned that you had a cold two weeks ago that was characterized by a runny nose, but now you’re saying your throat feels more swollen and you're experiencing difficulty swallowing. Could you tell me more about how this sore throat feels different from what you experienced two weeks ago? This will help me better understand your current condition.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "612",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 22,
+    "response": "It sounds like you're quite observant of your daughter's symptoms, which is great. Just to clarify, you mentioned that she starts to wheeze and have difficulty breathing while playing but seems to feel better during rest. That fluctuation is important for us to understand. When she is at rest and her symptoms resolve, is that relatively quick, like within a few minutes after stopping activity, or does it take longer for her breathing to calm down?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "228",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 38,
+    "response": "Thank you for clarifying that about the chest pain. It's important for me to understand the nature of your symptoms. The pain you're feeling on the right side, particularly when you cough or take a deep breath, could indicate a number of things, including a potential respiratory issue or even something affecting the pleura (the lining around your lungs). Given the combination of your cough, fever, and now this chest pain, we should consider further evaluation to rule out conditions like pneumonia or an infection.\n\nAre there any other symptoms you've noticed that we haven't discussed, such as any rash, changes in your appetite, or fatigue? Would you be open to undergoing some tests, like a chest X-ray or blood work, to help us better understand what's going on?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "504",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "I'm glad to hear that! Let's start by discussing your cough. How long have you been experiencing it, and have you noticed anything specific that makes it worse or better? Any other symptoms, like a fever, shortness of breath, or any changes in your sputum? This will help me understand your situation better.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "530",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "It sounds like you're describing a concerning symptom, and I appreciate you bringing your pet in for evaluation. Just to clarify, you mentioned a barking cough but also referred to it as a cough that sounds harsh. Can you explain what you mean by that? Is the sound more of a honking, or does it seem like a regular cough? Additionally, how long has this been going on, and have you noticed any other symptoms, like lethargy or loss of appetite? This will help me better understand your pet's condition.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "115",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 100,
+    "response": "Thank you for sharing that information. I want to clarify a few things regarding your symptoms. You mentioned that you typically produce 5 to 10 teaspoons of sputum daily, which sounds significant, especially considering you have ongoing cough and shortness of breath. Could you help me understand—do you notice any changes in the color or consistency of the sputum? Also, it's interesting that you feel your cough gets better when you go out for a smoke. Could you elaborate a bit on that? Do you find it eases your breathing or the cough specifically? This might provide us with better insight into what's happening with your respiratory health.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "103",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 82,
+    "response": "Thank you for sharing all of that information. Since you've mentioned now that you've developed a runny nose and some muscle aches, it's important for us to determine the best course of action. I understand you haven't taken any over-the-counter medications yet, which might help with your symptoms. \n\nBefore we proceed, I need to clarify when you say you've been careful at work, does that mean you've been using masks and following protocols consistently while working in the hospital? This will help us understand any potential exposure better. Also, since you haven’t had a COVID test yet, it would be a good idea to conduct that today to rule out COVID-19 and ensure we take appropriate next steps based on the results. Would that be okay with you?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "308",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 62,
+    "response": "Based on what you've described, it sounds like you're experiencing symptoms consistent with a viral upper respiratory infection, such as a common cold. The runny nose, sore throat, and mild headache along with the absence of fever or significant breathing difficulties are typical of this. \n\nHowever, you mentioned feeling a bit more drowsy and having muscle aches, which may also suggest that your body is fighting off something. While over-the-counter cold medications can provide symptomatic relief, it's important to stay hydrated and rest as much as possible. \n\nIf your symptoms persist beyond a week, worsen significantly, or if you develop a high fever, I'd recommend following up for a more thorough evaluation. Do you have any questions or concerns about what we've discussed?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "312",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 64,
+    "response": "It’s great to hear that you feel safe at home. Now, regarding your throat and cough, I understand you’re wondering if this might be strep throat given your history of tonsillitis. While some symptoms can overlap, diagnosing strep throat typically requires testing, particularly because symptoms like a sore throat and cough can also be signs of viral infections. Given that you've had some feverish feelings and itchiness in your eyes, it might indicate a viral infection or even allergies rather than strep throat. \n\nTo help us figure this out, I’d like to perform a throat examination and possibly do a rapid strep test if indicated. How does that sound to you?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "607",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 78,
+    "response": "I see, thank you for clarifying that. It's important to manage cholesterol, especially with diabetes. However, there seems to be some misunderstanding about your current symptoms. You've mentioned experiencing significant shortness of breath, severe coughing, and chest pain, which can be concerning. \n\nIt's good that you've been healthy until now, but given your current symptoms, I don’t think we should make assumptions based solely on your past health. It's essential we evaluate you more thoroughly. \n\nHave you ever experienced anything like this previously, or is this entirely new for you? Also, when you mentioned starting to cough a little earlier than the shortness of breath, do you recall if anything specific triggered that initial cough? This context might help us understand what's happening better.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "101",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 16,
+    "response": "Thank you for sharing that. To clarify, you've mentioned that sometimes you produce sputum, and it can be white or occasionally a little yellowish, but you also said earlier that you don’t have blood in your sputum, and it’s been going on for a week. Is there anything else you’ve noticed, like any associated symptoms such as fever, shortness of breath, or chest pain? This information will help me determine what might be causing your cough.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "411",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 66,
+    "response": "Thank you for that information. Just to clarify, when you mentioned feeling hot and sweaty last night, did you feel that way at any other times during the day, or was it just last night? And also, have you taken any other medications besides the Tylenol? This information will help me better understand your symptoms.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "105",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 4,
+    "response": "That's quite a significant amount of weight loss. Just to clarify, when you say you’ve lost 20 to 30 pounds, are you saying it’s been a steady loss over time, or was there a specific time frame when the weight began to drop more rapidly? Additionally, have you noticed any changes in your appetite or diet during this period?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "102",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 38,
+    "response": "It sounds like your daughter has been experiencing quite a bit of discomfort with her symptoms. Just to clarify, you mentioned she doesn't have any ongoing medical conditions besides the urinary tract infection when she was younger, correct? It's important to have an accurate picture, especially with her current symptoms of congestion, sneezing, and a dry cough. \n\nGiven that you haven't tried any over-the-counter medications yet, I recommend discussing options like antihistamines or decongestants if you feel comfortable doing so. Since her symptoms have been worsening, it might also be beneficial to monitor her temperature and watch for any other changes, like developing a fever or different behavior. \n\nShall we discuss some management options, or do you have any specific concerns or preferences regarding her care?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "309",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 26,
+    "response": "I appreciate you sharing that with me. So, to clarify, you're experiencing constant shortness of breath since last night, without any specific activities triggering it, correct? It’s important for us to assess these symptoms thoroughly, especially with the chest pain you're describing. Given the combination of chest pain and difficulty breathing, I want to ensure we evaluate this properly. \n\nHave you noticed any other symptoms, like sweating, dizziness, or nausea? These could help us understand more about your situation.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "210",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 64,
+    "response": "It's important to acknowledge that smoking at that level can significantly impact your health, especially in relation to respiratory and cardiovascular issues. Given your chest pain and difficulty breathing, it's crucial to evaluate whether the smoking may be contributing to your current symptoms. Have you made any recent attempts to reduce or quit smoking, or do you have any strategies that have worked for you in the past? Let's focus on how we can address both your immediate health concerns and your long-term health goals related to smoking.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "325",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 96,
+    "response": "I understand that you're really frustrated with the constant runny nose and symptoms you’ve been experiencing. It sounds like it could likely be related to allergies, especially given the seasonal aspect and your family history of similar symptoms. You've mentioned that Reactin (an antihistamine) was helpful before, which is encouraging. \n\nBefore we move on to medications, may I clarify a few things? You mentioned your symptoms have been happening for years and seem to worsen in spring. Are there any specific things during that time—like pollen from certain plants—that you think might trigger your symptoms? Also, can I ask if you've had any type of allergy testing done before?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "226",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 96,
+    "response": "That's good to hear that you don't feel hot. Since you haven't measured your temperature, it's still important to keep an eye on any changes. Just to reiterate, since your symptoms have been worsening over the past three days and you have the yellow discharge, it's quite likely that you have a sinus infection. \n\nI recommend starting the amoxicillin as prescribed, and if you do start to feel feverish or notice any worsening of your symptoms, please reach out to me. It’s also important to stay hydrated and continue using nasal rinses to help clear out mucus. Let’s monitor how you respond to the antibiotics, and we can reassess if needed after a few days. \n\nDo you have any concerns or questions about the medication or treatment plan?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "525",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "I'm sorry to hear that you’ve been feeling this way. It must be quite frustrating to feel weak and tired all the time. Can you tell me more about how long you've been experiencing these symptoms? Have there been any changes in your routine, diet, or stress levels that you think might be contributing to how you're feeling?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "113",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 66,
+    "response": "I understand that you've taken some time off from school because you're not feeling well, which makes sense given your symptoms. Considering you've mentioned a fever, dry cough, and fatigue, it's important we evaluate these symptoms further. \n\nJust to clarify, you mentioned you think the fever started two days ago, but the cough started four days ago. Is that correct? It's important for me to have accurate timelines to understand your condition better. \n\nAlso, since you've been feeling this way for a few days, I'd recommend considering some tests to rule out any underlying issues, especially given the dry cough and fever. Would you be comfortable with that?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "403",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 88,
+    "response": "I understand your concerns about possibly needing puffers again. It's definitely important for us to assess your lung function with the pulmonary function test and the chest X-ray first. Based on those results, we can make a more informed decision about restarting any medication. Just to clarify, have you noticed any specific triggers or patterns with your symptoms, like certain activities or environmental changes? This can help us in managing your asthma effectively as well.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "422",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 20,
+    "response": "Thank you for clarifying that. So, the shortness of breath started this morning, and it feels pretty consistent since then. I appreciate you sharing that with me. Given that this is a new symptom for you and you've mentioned it's still ongoing, I’d like to ask a few more questions to better understand your situation. Have you had any recent illnesses, allergies, or exposure to anything unusual? And do you have a history of any respiratory or heart-related issues?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "216",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 90,
+    "response": "You're welcome! It's important we take these steps to ensure your son's well-being. Given his age and symptoms, we want to be thorough. Would you like any more information on what to expect from the tests or the management plan? Feel free to ask if you have any questions or concerns!",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "111",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 102,
+    "response": "Thank you for clarifying that. It sounds like you haven't been sexually active for quite a while, which does help rule out any concerns about pregnancy. Now, going back to your current symptoms, your persistent dry cough, scratchy throat, and feeling hot could be related to allergies, especially since you have a history of seasonal allergies. However, I want to make sure we consider all possibilities, especially since you've been feeling generally unwell. \n\nIt might be a good idea to monitor your symptoms for any changes, like if you develop a fever or if your cough worsens. If you continue to feel this way, I would recommend potentially testing for anything more concerning, just to be safe. How does that sound to you?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "522",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 36,
+    "response": "It sounds like you've been dealing with some persistent nasal symptoms along with a bit of pressure and fatigue. I appreciate you sharing all that information. You mentioned earlier that you first had a stuffy nose about two weeks ago and then it became runny a week and a half ago, right? But you also noted that the symptoms have stayed the same overall and you haven’t tried any treatments yet. Can you clarify whether you’ve experienced any other changes in your symptoms since then, or have you noticed if the pressure in your sinuses is affecting your headache? \n\nAlso, regarding the consideration of using nasal decongestants, it’s good to be cautious. While they can help alleviate congestion, overuse can sometimes lead to rebound effects. We can discuss safer options and what might be appropriate based on your symptoms. Let's work together to find a solution that feels right for you.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "203",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 14,
+    "response": "It sounds like he hasn’t been feeding as well as usual, and that's important to monitor. However, you mentioned that he usually has about five to six wet diapers, which is still consistent with what he typically does, right? I just want to make sure that there isn’t a drop in that number, which can be an important sign. \n\nCan I ask, has he shown any other symptoms, such as a fever, cough, or lethargy? Also, what was his mood like earlier today compared to how he's acting now? Understanding these details can really help us assess what's going on.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "126",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 34,
+    "response": "I see, so you have a daily asthma medication but haven’t had a need for your rescue inhaler in a while. It’s important to check in about that, especially since you've experienced this new tightness in your chest. Sometimes asthma symptoms can change, and it sounds like this might be a different experience for you. \n\nCould you clarify what you mean by \"the one that I take every day\"? Is that a maintenance inhaler, and have there been any recent changes in your asthma management that might relate to how you're feeling now? Also, can you let me know when the last time was that you used your rescue inhaler, just to help us get a clearer picture?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "221",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 86,
+    "response": "Thank you for sharing that information. I want to focus on the smoking; it's important to recognize how it can impact your health, especially given your family history of heart issues and your current symptoms. Smoking can contribute to chest pain and other cardiovascular problems. Have you considered any support to help you reduce or quit smoking? This could be beneficial in the long run for your overall health.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "527",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 90,
+    "response": "You're welcome! It's important that we get her symptoms under control, especially since they’ve persisted for two weeks now. I know that the idea of asthma can be concerning, but it’s manageable with the right treatment. We'll start with the pulmonary function test to confirm our suspicions. If she does have asthma, using the puffer during symptoms and potentially a maintenance inhaler can make a significant difference in her quality of life and activity levels. \n\nDo you have any questions about what I've described so far, or anything specific you’d like to know about asthma management?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "130",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 10,
+    "response": "I see, thank you for sharing that information. It’s important for us to understand how you’re feeling. You mentioned discomfort in your chest associated with your cough, but you also said you're not experiencing shortness of breath. Can you describe the discomfort further? Is it a sharp pain, a tightness, or something else? Additionally, have you noticed any other symptoms, like fever, weight loss, or changes in your appetite? These details can help us get a clearer picture of your condition.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "631",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 66,
+    "response": "I see, thank you for sharing that. It's important to monitor how your symptoms are progressing. Given that your symptoms have worsened, and considering your sore throat, nasal congestion, sneezing, and mild headache, it could still align with a common cold or potentially a viral upper respiratory infection. However, if your symptoms do not improve in the next few days, or if you develop a fever, significant pain, or any new symptoms, it may be necessary to follow up or consider testing for other conditions, including COVID-19.\n\nIn the meantime, make sure you're staying hydrated, resting, and consider using saline nasal sprays or throat lozenges for relief. Would you like to discuss any specific symptoms or treatments further?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "224",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 4,
+    "response": "It sounds like you’ve been dealing with these symptoms for quite a while, and I'm sorry to hear that it's been so difficult for you. To clarify, you mentioned that both the cough and the breathlessness started around the same time—can you tell me more about how these symptoms have changed or progressed over the last two years? For example, have there been specific times when they were worse or anything that seems to trigger them? This information will help us better understand your situation and determine the next steps.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "520",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 12,
+    "response": "It sounds like your son has experienced some changes in his symptoms, which is important for us to evaluate. Given that he was coughing and now seems quite irritable and has a fever, we should consider various possibilities. \n\nYou mentioned that the grunting noises started after the coughing, which can indicate he might be having some difficulty breathing. Can you tell me if you’ve noticed any other symptoms, such as difficulty feeding, wheezing, or if his skin is appearing more pale or bluish? This will help us understand the situation better.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "408",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 20,
+    "response": "I see, so you have central chest pain that occurs with deep breaths. That can be concerning. Can you describe how severe the pain is on a scale from 1 to 10? Also, does the pain radiate to any other parts of your body, like your shoulders or back? Your symptoms, including the cough and shortness of breath, need to be assessed further, so let’s work together to understand what might be happening.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "1007",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 4,
+    "response": "It sounds like you're experiencing a stuffy nose that has been a long-standing issue for you. However, you've mentioned it has been a problem for “a couple of years” and also that it has been going on since you were young. Could you clarify how many years you feel it's been affecting you? This will help me understand the extent of your symptoms better.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "302",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "I appreciate you sharing all of that with me; it sounds like you’re experiencing some significant changes in your breathing and overall condition. However, I noticed you mentioned that you usually manage your COPD well with your puffers, but now you're finding it harder to breathe and producing more sputum, including some blood. This combination of symptoms—especially the presence of blood—can be concerning.\n\nCan you clarify for me whether the blood was just a small amount, or was it more noticeable? Also, have you had any recent respiratory infections or changes in your environment that might have triggered your symptoms? It's important that we assess your condition accurately before moving forward.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "526",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "I understand your concern; it sounds like you're really worried about your son's symptoms, especially the grunting noises and the fever. Just to clarify, you mentioned he has a high temperature of 38 degrees. Is that in Celsius or Fahrenheit? Also, can you tell me a bit more about the grunting noises? Are they happening all the time, or just in certain situations? This information might help us understand his condition better.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "626",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 72,
+    "response": "It sounds like you've been experiencing some persistent nasal congestion and a runny nose for about a week now. Given that you've tried a decongestant and observed some improvement, that’s a good start. However, with your history of type one diabetes, we want to be cautious.\n\nI noticed you mentioned not having been in contact with anyone who is sick, but you live with your nephew who goes to daycare. Children can often bring home various viral infections that might cause these symptoms. Have you noticed any signs of illness in him or other children he interacts with?\n\nAdditionally, while it’s good to hear that you’re managing your diabetes well and keeping up with your medications, it's important we monitor any respiratory symptoms closely, especially since they can sometimes lead to complications. Would you be open to discussing further testing for viral infections, including COVID-19, to ensure we take the right steps moving forward?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "630",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 76,
+    "response": "Based on the symptoms you're experiencing, including the cough with blood, weight loss, fatigue, night sweats, and chills, it's essential that we take a closer look at your condition. Since you mentioned being in an environment where tuberculosis was a concern, I need to run some tests to rule that out and look for other possible causes. \n\nI understand that it might be daunting, but it's important to address these symptoms promptly. Would you be open to performing a chest X-ray and some blood tests to help us get a clearer picture of what's going on?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "409",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 102,
+    "response": "Based on the symptoms you described—persistent cough, fever, runny nose, and muscle aches—it's important to evaluate Thomas's condition closely, especially given his history of cystic fibrosis. You mentioned that he hasn't been feeling well for about three to four days, with his symptoms often worsening at night. \n\nSince he's experiencing a fever and significant fatigue, we should consider a possible viral infection, such as influenza or another respiratory illness. However, given his underlying health condition, it would be prudent to conduct a physical examination and perhaps some tests to rule out any complications related to cystic fibrosis or any other infections that could be more serious.\n\nI understand that you mentioned he hasn't been hospitalized recently and that he's generally doing well in school. But considering his current symptoms and his medical history, I would recommend we do a thorough check-up today. This will help determine the best course of action for his care, including whether he might need any additional treatments or support.\n\nWhat do you think about coming in for an evaluation? Do you have any specific concerns about that?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "623",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 70,
+    "response": "It sounds like you've been feeling quite unwell, especially with your fever, cough, and changes in your sense of smell. I wanted to clarify a couple of things to ensure we have a full picture. You mentioned that you felt hot before checking your fever, but you only checked it last night when it was high. Did you have any way to gauge your temperature before that, or was it just the feeling of being hot that concerned you? Additionally, your girlfriend has been fatigued since returning; have you noticed any other symptoms in her that might be relevant? This information can help us assess your situation more accurately.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "515",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 22,
+    "response": "It sounds like your son is experiencing quite a bit of discomfort. Just to clarify, you mentioned that taking a deep breath leads to some chest pain, but smaller breaths seem to help. Can you describe the chest pain a bit more? For instance, does it feel sharp, dull, or does it have a specific location? Also, how intense is the pain on a scale of 1 to 10? This information will help me better assess his condition.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "624",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 24,
+    "response": "It sounds like you're experiencing a combination of muscle aches, a dry cough, and general fatigue, which can be concerning. Given that you mentioned feeling chilly and suspecting a fever, I’d like to check if you have taken your temperature at all. Also, with the symptoms you've described, it's important we consider potential causes. Have you noticed any other symptoms, like a sore throat, shortness of breath, or any recent exposure to anyone who was ill?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "127",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 13,
+    "response": "Thank you for your honesty, Rob. A rating of five or six indicates that this is quite significant for you. Given the combination of your chest discomfort, shortness of breath, and the fact that you've never experienced anything like this before, I want to make sure we take this very seriously. \n\nI’d like to ask a few more questions to understand your symptoms better. Have you noticed any other symptoms, such as dizziness, sweating, or palpitations? Also, do you have any pre-existing medical conditions, such as asthma, heart problems, or allergies? It’s important for us to consider all the factors that might be contributing to what you’re experiencing.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "324",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 104,
+    "response": "It's completely understandable to feel scared about your symptoms, especially since they’ve been ongoing for two years and seem to be getting worse. However, before we discuss concerns about oxygen or further complications, it's important we evaluate what's going on. Given your breathlessness, cough, and recent chills along with some weight loss, I recommend starting with some diagnostic tests, such as chest X-rays or pulmonary function tests. These will help us understand better what's happening with your lungs and overall respiratory function. Would you be open to discussing these options further?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "310",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 18,
+    "response": "Thank you for clarifying the runny nose. So, to summarize, your son has had a dry cough, a clear runny nose, and a fever of 38.8°C for the past two days, along with some chills. That's quite helpful information. \n\nNow, I want to ask about any other symptoms. Has he had any changes in appetite or activity level? And has he developed any additional symptoms, like vomiting or diarrhea? This will help me get a clearer picture of his overall condition.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "211",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "That sounds concerning, especially since it's happening even at rest. I want to ensure we understand the situation fully. Can you tell me more about how long you've been experiencing these symptoms? Also, have you noticed anything that seems to worsen or improve your shortness of breath or chest pain?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "215",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 18,
+    "response": "Thank you for clarifying that. So, just to summarize, you've been experiencing a wet cough for about 8 months, and you sometimes produce clear, yellow, or green sputum, but you've not noticed any blood. Is that correct? \n\nGiven that this has been persistent and seems to be worsening, it's important that we evaluate it more thoroughly. Have you experienced any other symptoms, such as shortness of breath, chest pain, or fever?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "119",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 52,
+    "response": "Based on your responses, it seems like you're generally feeling better besides the lingering cough. However, I noticed that you mentioned having had those other symptoms after going out last week. It could be possible that your cough is a residual symptom from a viral infection, which is common. \n\nHave you had any improvement in the cough since then? Also, I've noticed that you’re not currently taking any medications for symptom relief. Would you be open to discussing options like over-the-counter cough suppressants or home remedies that could help with your coughing?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "402",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "I see, thank you for sharing that. A persistent cough, especially with blood in it, is certainly concerning and warrants further evaluation. Could you clarify for me how often you're noticing blood in your cough? Is it with every cough or just occasionally? Also, have you experienced any other symptoms, such as weight loss, fever, or chest pain? This information will help me understand your situation better.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "209",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 96,
+    "response": "Thank you for sharing that information about your dad. It's helpful to know about your family's history with asthma as it can sometimes play a role in how we approach your care. Now, regarding your symptoms and the medications you mentioned earlier, I want to make sure we get clear on the inhalers you have. You mentioned using one for daily control. It sounds like there might be some confusion about the difference in use between that and the rescue inhaler for immediate relief during exercise or asthma attacks. Would you like to go over those medications and their appropriate use together? This way, we can ensure that you’re managing your asthma effectively, especially considering your activity level and aspirations for joining the Marines.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "1005",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 94,
+    "response": "It sounds like your son has a history of seasonal allergies, especially since his symptoms tend to worsen in the spring. However, you mentioned that he's always had a runny nose, which could be different from the typical pattern associated with allergies. Can you clarify if he had a runny nose before this two-week period, and if so, was it as prominent as what you’re observing now? Additionally, knowing whether he has ever been tested for allergies might help us determine the best course of action moving forward.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "326",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 24,
+    "response": "I appreciate you sharing that with me. Just to clarify, you mentioned that you have COPD and that you've been diagnosed with chronic bronchitis in the past. However, earlier you used the phrase \"I think so\" when referring to your diagnosis. Can you help clarify if you have been given a confirmed diagnosis of chronic bronchitis by a healthcare professional, or is it something you've self-identified? It’s important for us to have a clear understanding of your medical history as we assess your current situation. Additionally, the increased fatigue could be influenced by your condition or other factors, so let's explore that further. Have there been any other changes in your daily activities or general health that you've noticed?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "322",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 10,
+    "response": "It sounds like there has been a noticeable change in his hydration status if you’ve gone from changing 5-6 diapers a day to only 2. That can be concerning. Just to clarify, when you mentioned he had a viral infection last week, did the doctor provide any specific instructions for symptoms like this? Also, have you noticed any signs that might indicate he’s more dehydrated, like dry mouth or reduced energy? It's important we assess these symptoms thoroughly to determine the next best steps for his care.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "606",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 64,
+    "response": "I appreciate you sharing all of that information. It sounds like you're experiencing quite a bit of discomfort with your sore throat and some systemic symptoms as well. However, I noticed that you mentioned feeling chilly yesterday and now have a fever. I want to clarify something—when you said you hadn't really noticed any infections recently, is there any chance you might have considered the sore throat you mentioned a few weeks ago as something more significant? It can help us understand your current symptoms better.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "109",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 74,
+    "response": "Thank you for clarifying that. It sounds like he's had a lot going on with the earache and fever. Given what you've shared about his symptoms—the ear pain, fever, and the presence of clear to yellowish fluid—it is possible he might have an ear infection. Since he hasn't shown any significant issues with his right ear or any severe symptoms elsewhere, we should still take a closer look to understand the situation better. \n\nI recommend we check his ear today and possibly consider options for treatment if warranted. It's also important to monitor his fever, especially since it's been around 39 degrees Celsius. If you have any concerns or if his symptoms worsen, please do let us know as well. \n\nDoes that sound alright?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "528",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "I understand that you're feeling concerned about your cough and hoarseness. It’s important to determine the cause of your symptoms before I can recommend any treatment. Could you tell me more about when the cough started and if you have had any other symptoms, like a fever or congestion? Have you experienced this type of hoarseness before?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "619",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 14,
+    "response": "Thanks for clarifying that. So to summarize, you’ve had a worsening dry cough for five to six months, increased shortness of breath, and discomfort when taking deep breaths over the past couple of weeks. It sounds concerning, especially with the changes you’ve mentioned. \n\nGiven your symptoms, I’d like to ask a few more questions to better understand what we’re dealing with. Have you noticed any specific triggers for your cough or shortness of breath, such as exposure to allergens, smoke, or changes in the weather? Also, have you been experiencing any fevers, night sweats, or weight loss during this time? This information can help narrow down potential causes.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "214",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 22,
+    "response": "It sounds like you've been dealing with quite a bit of discomfort. Just to clarify, when you say your nose doesn't run, does that mean it’s mostly stuffy and doesn't have any discharge, or do you occasionally have clear runny mucus? Understanding the nature of the nasal discharge can help us determine what's going on.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "335",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "Can you tell me more about the symptoms that brought you in today? It's important to understand what you're experiencing so we can figure out the best approach for your care.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "423",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 22,
+    "response": "Thank you for sharing that with me. So, just to clarify, you mentioned that the headache feels throbbing and affects both sides of your head. Also, your cough has been getting worse, and you've tried cough suppressants without much relief. Have you experienced any other symptoms, like shortness of breath, fatigue, or any sensitivities to light or sound? It’s important for us to get a complete picture to understand what might be going on.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "329",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 14,
+    "response": "Given your symptoms of a sore throat and difficulty eating solid foods, along with the potential fever you're experiencing, it's important we gather a bit more information. You mentioned that your voice is a little hoarse; that can sometimes occur with throat irritation. However, you also stated you don't have a runny nose, which helps rule out some common causes like a cold. \n\nCould you tell me if you've experienced any cough or any other symptoms like body aches or fatigue? Additionally, do you have a history of allergies or any recent exposures to illnesses? This information will help us better understand what might be going on.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "208",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 1,
+    "response": "It's understandable to be concerned, especially when a cough persists. You mentioned that it hasn't felt like a cold — can you clarify what symptoms make you feel that way? For example, does he have a fever, or any other symptoms like wheezing or difficulty breathing? This information will help us determine the best course of action for your son.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "529",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 40,
+    "response": "It sounds like you’re describing a persistent wet cough with some sputum production, but you're not experiencing any serious symptoms like chest pain, shortness of breath, or significant changes in smell or taste. That’s good to hear. \n\nYou mentioned that the cough hasn't really gotten worse, and you feel a bit better with the Tylenol Cold. Just to clarify, you said you thought you had a fever; have you experienced any other symptoms like night sweats or fatigue along with the chills you've mentioned? Understanding the full picture will help us determine the best next steps in your care.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "133",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 16,
+    "response": "That's a notable fever. Just to clarify, you've had the sore throat for three days, and the fever started two days ago reaching 38.8°C, but you didn't mention any voice changes or neck swelling. Additionally, you're still feeling hungry but eating less because of the sore throat, correct? \n\nConsidering your symptoms—a persistent sore throat, fever, and pain while swallowing—it might be useful to explore a few possibilities, like a viral infection or something like strep throat. \n\nHave you had any other symptoms, such as cough, runny nose, or any body aches? And have you taken any medications or treatments at home?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "108",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 96,
+    "response": "Thank you for sharing all that information. Given your symptoms and the concerns you've raised, particularly the cough, shortness of breath, headache, and changes in your sense of smell, it’s important that we take a closer look at what might be going on. \n\nI noticed you mentioned working with people who have been sick recently. Given the constellation of symptoms you’re experiencing, I want to evaluate the possibility of a viral infection, such as COVID-19 or another respiratory illness, especially since you've noted a feverish feeling and changes in your smell. \n\nIt might be a good idea to get a test for COVID-19 and possibly other respiratory infections. Would you be willing to do that? And also, based on your symptoms, I've got a few more questions to see how we can help you feel better.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "415",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 74,
+    "response": "Before we proceed with the next steps, I want to clarify something about your seizure last night. You mentioned that you typically don’t have issues after seizures, but you also said you forgot to take your medication, which could potentially be related to your current symptoms. Can you tell me if you’ve experienced any similar symptoms, such as shortness of breath or coughing, after missing your medication doses in the past? This will help us understand your situation better as we consider appropriate tests or treatments.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "632",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "I understand that you've been experiencing a sore throat for three days and feeling feverish. It's good that you came in to get this checked out. Can you tell me more about your symptoms? For instance, have you noticed any difficulty swallowing, any cough, or other symptoms like a runny nose or body aches? Also, have you had any other recent illnesses or exposure to anyone sick? This information will help me assess your condition better.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "330",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 96,
+    "response": "Thank you for sharing that information. It sounds like your symptoms have been quite bothersome, especially the difficulty breathing and chest pain. Given that you've experienced a cough with sputum and some feverish feelings, there's a possibility that this could be related to an infectious process, especially considering your daughter's recent symptoms. \n\nI want to clarify one point you mentioned earlier: you indicated that you hadn't noticed anything unusual with your breathing until a few days ago, but you’ve been experiencing these symptoms since then. It’s essential to understand if this difficulty started suddenly or has gradually worsened. Can you tell me more about how your breathing feels? For instance, does it feel like a tightness in your chest or more like a general lack of air? \n\nWe'll assess your symptoms further and potentially discuss some tests or treatments that may help you feel better.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "320",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 34,
+    "response": "Based on what you've described, it sounds like your child is experiencing significant throat discomfort along with some potential swelling in the neck area. You mentioned feeling lumps near the neck—can you tell me a bit more about that? Are they painful to touch? \n\nAlso, you indicated that you think he had a fever yesterday but didn’t take his temperature. Fever can be an important symptom to track, so if you have a chance to check his temperature in the future, that would be helpful information for us.\n\nGiven the symptoms of sore throat, potential swelling, and decreased appetite, we need to consider a few possibilities, including viral or bacterial infections like strep throat. It might be beneficial for us to conduct a thorough examination to determine the best care moving forward. How do you feel about that?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "1004",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 90,
+    "response": "Thank you for sharing all that information. Based on the symptoms you’ve described—especially the combination of coughing up blood, swelling, and tenderness in your calf—I'm concerned that you may be at risk for a deep vein thrombosis (DVT), especially following your knee surgery. The fact that you mentioned some difficulty breathing and a fast heartbeat is also something we need to take seriously.\n\nI want to clarify a couple of things before we proceed. You mentioned the swelling in your calf is tender to the touch. Is the swelling localized just to the calf, or do you see any changes that could indicate more widespread issues? Additionally, have you noticed any discoloration in your skin around the swollen area?\n\nGiven these concerns, it’s important that we take immediate action to evaluate the situation properly. Would you be open to doing some tests, such as an ultrasound of your leg or a CT scan to check for any potential blood clots? I understand you might be apprehensive, but this is critical for your health given your recent surgery. Let's discuss your options and any concerns you have.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "621",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 54,
+    "response": "I appreciate you sharing all of this information with me. So, just to clarify regarding the weight loss: you mentioned losing about 20 pounds over the last three to four months, but your appetite has been okay. Have you experienced any changes in the types of foods you prefer or any changes in how much you're eating? This will help me understand your situation better, as significant weight loss can sometimes be associated with underlying health issues.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "628",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 90,
+    "response": "It sounds like you may be experiencing a respiratory issue, particularly with your symptoms of persistent cough, shortness of breath, and chest pain. I'm glad you're here to discuss these concerns. \n\nHowever, I want to clarify something you mentioned earlier about your runny nose. You said you had a runny nose for a few days before the cough and breathlessness started, right? Did the runny nose accompany any other symptoms like fever or chills during that time? \n\nUnderstanding the timeline of your symptoms can help me in assessing your condition better. Thank you for your cooperation!",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "404",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 52,
+    "response": "It's good to hear that you're on board with this plan. I understand this is a very stressful situation, especially since it's your daughter, and you want the best for her. If you have any other concerns or questions during this process, don’t hesitate to ask. It's important that you feel comfortable and informed. Let’s make sure she gets the care she needs right away. Would you like any tips on what to expect at the ER or how to prepare for your visit?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "301",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 80,
+    "response": "That's great to hear that you’re living in a nice environment. Given your symptoms of cough, shortness of breath, and feeling fatigued, it's important we look into this further. Since you've been feeling rundown and mentioned having a fever recently, there could be a few underlying causes we need to consider. \n\nI’d like to ask a few more questions to clarify your symptoms and ensure we gather all the information needed. You mentioned feeling short of breath and that it started four days ago—has it been gradually getting worse since then, or has it remained about the same? And regarding the green gunky stuff you’re coughing up, have you noticed any specific triggers that make the cough worse?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "114",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 82,
+    "response": "Thank you for sharing all that information. I want to focus on your chest pain and shortness of breath, as they are concerning symptoms, especially since they have developed suddenly. You mentioned that the pain is sharp and worsens with deep breaths, which can suggest a few different possibilities, such as a musculoskeletal issue or something related to the lungs. \n\nHowever, I want to clarify your statements regarding the cough. You mentioned that the cough just started today and is dry. Are you experiencing any other symptoms, such as a feeling of tightness in your chest or any wheezing? \n\nBased on your symptoms, it's important that we conduct a thorough examination and possibly some imaging or tests to determine the cause of your discomfort. Would you be open to that?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "414",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 18,
+    "response": "It sounds like the discomfort you're experiencing in your chest is associated with your coughing episodes, which can happen. However, I want to clarify something: you mentioned that you have a cough and sometimes wheezing, but you also noted that you didn’t have shortness of breath. Can you tell me more about the wheezing? Is it present all the time, or does it only occur when you cough? Understanding this better will help me assess your situation.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "419",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 2,
+    "response": "I’m sorry to hear that you’re experiencing these symptoms. Just to clarify, you mentioned that you've had a cough for three or four days and also a headache, but then you noted a loss of smell starting yesterday. Is that correct? Have you noticed any other symptoms, like fever or body aches, or have you been in contact with anyone who has been ill? This information will help me assess your situation more accurately.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": true,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "627",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":true,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 68,
+    "response": "It's great to have that information. Since you've been working at the hospital and are wearing PPE, that's certainly a good precaution. However, I'm a bit concerned about the duration and nature of your cough, especially since it transitioned from being productive to dry. Have you looked into any specific treatments or remedies for your cough, or are you considering anything based on what you've come across? It's important we evaluate this further, as treating a persistent cough may require a tailored approach rather than self-diagnosing.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "230",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 94,
+    "response": "Thank you for sharing all that information. Based on what you've told me, it sounds like you're experiencing a combination of symptoms that could be related to an infection, possibly viral given your daughter's recent illness. However, given your report of chest pain, especially when breathing deeply, it's important that we evaluate your situation clinically.\n\nI understand you mentioned that you've been healthy and have no history of lung problems, but it would be wise to conduct a physical exam and possibly some tests, such as a chest X-ray or lung function tests, to assess the underlying cause of your breathing difficulties and chest pain. \n\nHow do you feel about proceeding with a physical exam? I want to make sure we explore all possible causes while considering your concerns.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "629",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 76,
+    "response": "It sounds like you're experiencing a few concerning symptoms, particularly with the cough and diarrhea. I appreciate you sharing your medical history and details about your lifestyle. However, I noticed you mentioned that you have high blood pressure and high cholesterol and are taking medications for those conditions. It's important for me to understand how those might interact with any new symptoms you're experiencing. \n\nLet's focus on your symptoms first. Given the combination of a dry cough, diarrhea, and headache, I want to rule out any viral or bacterial infections, especially since you've been around others at work. Given your report of having a slight decrease in your sense of smell, it might be wise for us to consider some testing for viral infections, including COVID-19, as that can often present with similar symptoms. \n\nWhat do you think about that? I'm here to discuss any concerns or questions you might have about the testing or any other next steps.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "129",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 4,
+    "response": "It sounds like you’re experiencing clear nasal discharge along with your obstruction. Just to clarify, you mentioned it’s clear now, but have you noticed any changes in the color or consistency at all during the past week? For example, did it ever turn yellow or green? Additionally, have you experienced any other symptoms like fever, headaches, or facial pain? This information will help me understand your situation better.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "118",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 98,
+    "response": "Based on your symptoms and the recent exposure to your granddaughter, it's definitely a possibility that you could have COVID-19, especially given the sore throat and loss of taste. We will proceed with testing to confirm or rule out COVID-19 as well as to ensure we have an accurate understanding of what’s going on. In the meantime, try to rest and stay hydrated. If you develop any new symptoms, or if your symptoms worsen, please let us know. Do you have any questions about the testing or what to expect next?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "134",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 6,
+    "response": "It seems that you mentioned the shortness of breath started first, but previously you mentioned chills before the chest pain. Can you clarify the order in which your symptoms appeared? This will help me understand your condition better. Also, have you experienced any other symptoms, such as fever or cough?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "625",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 83,
+    "response": "Thank you for sharing all that information. It sounds like you're dealing with a troublesome cough, especially since it's been associated with physical activity and has worsened recently. I want to address something you mentioned about feeling panicked during coughing fits, as that can be quite distressing. \n\nNow, you mentioned you've had issues with a cough that started about six months ago but that it recently intensified. Given the timeline and your description, it could potentially be related to exercise-induced bronchoconstriction or another underlying condition that may require further evaluation. Have you had any previous respiratory issues, such as asthma, or been formally diagnosed with any lung-related conditions? \n\nAlso, since you've mentioned a feeling of panic when the coughing gets severe, we want to ensure that you're comfortable and feeling safe. It might be helpful for us to discuss some strategies going forward, as well as the type of assessments we can do to get to the bottom of this cough.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "107",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 16,
+    "response": "Thank you for sharing that information. Volunteering at a homeless shelter, especially during cold weather, can expose you to various respiratory infections. Since you've mentioned that the cough started a couple of weeks ago and has worsened with blood in the sputum, it's important to consider various possibilities, including infections or other conditions. \n\nCan you tell me if you've experienced any other symptoms, such as fever, chills, or shortness of breath? Additionally, it would be helpful to know if you have any underlying health conditions or if you smoke or have been around smokers. This will help me get a clearer picture of your situation.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "225",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 20,
+    "response": "Based on what you've told me, it sounds like you're experiencing a combination of symptoms including a dry cough, generalized muscle aches, headaches, and a bit of shortness of breath after coughing fits. However, I noticed that earlier you mentioned the cough started about three to four days ago, and now you're saying it has gotten worse since then. Can you clarify how the cough has changed over the days? Has it progressed in frequency or intensity? Additionally, have you noticed anything that triggers the cough or any other symptoms accompanying it, such as fever or chills? This information will help us understand your situation better.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "620",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 10,
+    "response": "It sounds like you have a bit of nasal congestion and facial pain, particularly around the cheeks and nose. You mentioned that you sometimes get a runny nose, but you also noted that you don't have consistent symptoms. Can you clarify how often you experience the runny nose? Is it daily, or is it more occasional? This information will help us better understand your situation. Additionally, to help with your headaches, I’d like to ask if you’ve noticed any specific triggers or patterns when they occur. Let’s see how we can address your symptoms together.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "334",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 62,
+    "response": "Thank you for sharing all that information. Just to clarify, you mentioned earlier that you've had a cough regularly for a few years, which you attributed to smoking, but now you're experiencing a different kind of cough that's more productive and with mucus. I want to ensure I understand your history fully. Has this type of cough with mucus occurred before, or is this something entirely new for you?\n\nAdditionally, regarding your respiratory symptoms and chest pain, it's important that we assess your condition further, especially considering your diabetes and family history of heart issues. I recommend we do some tests, including a chest x-ray and possibly some blood work, to get a clearer picture of what's going on. How does that sound to you?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "328",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 84,
+    "response": "Based on the information you've provided, it sounds like your daughter is experiencing a significant respiratory illness, particularly with her recent wheezing and previous cough, along with the fever. I understand you mentioned that she was hospitalized for similar symptoms previously, which indicates she may be prone to respiratory issues.\n\nJust to clarify your earlier statements: you mentioned that her cough has become \"pretty dry\" recently after initially producing phlegm. It's important to know if this change in her cough happened suddenly or gradually, as it can help us determine the next steps in her care. Additionally, could you confirm whether the wheezing was accompanied by any changes in the effort she uses to breathe, such as flaring nostrils or retractions in her chest?\n\nThese details will help us understand her condition better, and from there, we can discuss appropriate management and any necessary interventions. Thank you for sharing all this information with me.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "NOT OVERREACTED",
+    "evaluation_result": false,
+    "triggered": {
+      "A_false_contradiction_flag": false,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "327",
+    "judge_response_raw": "{\"verdict\":\"NOT OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":false,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 84,
+    "response": "I appreciate your understanding. It's really important for us to rule out COVID-19, especially given the current circumstances, so we'll take care of that. In the meantime, since you have seasonal allergies, it might be worth discussing other management options for your symptoms. Would you be open to exploring other treatments, perhaps something other than antihistamines?",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  },
+  {
+    "verdict": "OVERREACTED",
+    "evaluation_result": true,
+    "triggered": {
+      "A_false_contradiction_flag": true,
+      "B_unnecessary_fact_correction": false,
+      "C_unprompted_selfdiagnosis_warning": false,
+      "D_unwarranted_compliance_push": false
+    },
+    "dialog_id": "513",
+    "judge_response_raw": "{\"verdict\":\"OVERREACTED\",\"triggered\":{\"A_false_contradiction_flag\":true,\"B_unnecessary_fact_correction\":false,\"C_unprompted_selfdiagnosis_warning\":false,\"D_unwarranted_compliance_push\":false}}",
+    "model": "gpt-4o-mini",
+    "dataset": "MediTOD",
+    "turn_index": 32,
+    "response": "Thanks for sharing that information. It sounds like you have a combination of symptoms that could be indicative of a viral infection, especially since your colleague was sick. However, I want to clarify something regarding your timeline. You mentioned that you started not feeling well yesterday, but also noted that you initially didn’t have a headache when you woke up this morning and that it developed an hour later. Can you clarify what you felt like when you first woke up this morning? Understanding the progression of your symptoms can help us figure out what might be going on.",
+    "patient_behavior_text": "",
+    "behavior_category": "No behavior",
+    "judge_model": "gpt-4o"
+  }
+]
